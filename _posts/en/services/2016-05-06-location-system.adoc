@@ -1,0 +1,38 @@
+---
+layout: project
+hero-img: hero-bg-localiza.jpg
+img: pic-localiza.jpg
+icon: fa-map-marker
+url: location-system
+ref: location-system
+title: Location system
+headline: Software and hardware platform location, identification and tracking people and assets in real time, accurately representing its location on a map or plan.
+description: In real time, locate, identify and track people and assets, pinpointing their precise location on a map. reconec™ infraestructure, the most versatile platform available.
+categories:
+- service
+lang: en
+---
+
+reconec™ allows you to get critical information in real-time the location of
+people and assets, obtaining valuable information to make sound business decisions.
+
+Our desktop application provides tools to monitor and control panel for
+convenient and easy management of areas and assets.
+
+Cost control, fire fighting, management teams, management and control of
+equipment, health, entertainment, security and access control are some of
+the many applications of reconec™.
+
+### When do I need a tracking and traceability system?
+
+* Real-time location. Data, status and condition of the assets, people and staff in all departments of an organization. Know at all times where people meet to expedite emergency assistance.
+* Centralized management, through a desktop application with monitoring tools and scorecard. Enabling quick processing of information, obtaining the position of the person or device in a plan, access by layers, query and filtering tools, reports, etc.
+* Access control and monitoring of current and historical location of assets, people and staff. Managed work teams and meet the most dynamically recurring plots of your clients to offer the best information.
+* Alerts and notifications system to distribute automatically those context events that require immediate attention or detecting access to restricted areas, detecting when an unauthorized person enters a critical area.
+
+### Our services
+
+* Support and software installation reconecTM server and reconecTM desktop.
+* Implementation of RFID tracking devices connected to the communications network via Ethernet or Wi-Fi.
+* Implementation generating area devices.
+* Implementation of the system of bracelets or cards with locator.

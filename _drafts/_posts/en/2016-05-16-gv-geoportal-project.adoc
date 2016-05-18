@@ -1,0 +1,19 @@
+---
+layout: default
+modal-id: gv-geoportal-project
+hero-img: hero-gv-geoportal.jpg
+img: pic-gv-geoportal.jpg
+icon: fa-
+title: gvGeoportal
+subtitle:
+headline:
+description:
+url: gv-geoportal-project
+ref: gv-geoportal-project
+category:
+    - en
+    - project
+lang: en
+tags:
+- GIS
+---

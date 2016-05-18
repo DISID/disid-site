@@ -1,0 +1,41 @@
+---
+layout: project
+hero-img: hero-bg-localiza.jpg
+img: pic-localiza.jpg
+icon: fa-map-marker
+url: sistema-localizacion
+ref: location-system
+title: Sistemas de localización
+headline: Plataforma software y hardware de localización, identificación y trazabilidad de personas y activos en tiempo real, representando su ubicación con precisión sobre plano o sobre mapa.
+description: Localización, identificación y trazabilidad de personas y activos en tiempo real, sobre plano o sobre mapa. Infraestructura reconec™, la plataforma más versátil.
+categories:
+- service
+lang: es
+---
+
+reconec™ te permite obtener en tiempo real datos cruciales sobre la ubicación
+de personas y activos, obteniendo una valiosa información para tomar decisiones
+empresariales acertadas.
+
+Nuestra aplicación de escritorio dispone de herramientas de monitorización y
+cuadro de mandos para una gestión cómoda y sencilla de zonas y activos.
+
+Control de costes, extinción de incendios, gestión de equipos de trabajo,
+gestión y control de equipamiento, sanidad, zonas de ocio, seguridad y control
+de acceso, son algunas de las múltiples aplicaciones de reconec™.
+
+
+### ¿Cuándo necesito un sistema de localización y trazabilidad?
+
+* Localización en tiempo real. Datos, estado y condición de los activos, personas y plantilla en todos los departamentos de una organización. Conoce en todo momento dónde se encuentran las personas para agilizar la ayuda en situaciones de emergencia.
+* Gestión centralizada a través de una aplicación de escritorio con herramientas de monitorización y cuadro de mandos. Permite un tratamiento ágil de la información, como obtener la posición de la persona o dispositivo sobre plano, acceso por capas, herramientas de consulta y filtrado, informes, etc.
+* Control de acceso y seguimiento de la ubicación actual e histórica de activos, personas y plantilla. Gestiona los equipos de trabajo dinámicamente y conoce los trazados más recurrentes de tus clientes para ofrecerles la información más adecuada.
+* Sistema de alertas y notificaciones para distribuir automáticamente aquellos eventos del contexto que requieren atención inmediata o detección de accesos a zonas restringidas, detectando cuando una persona no autorizada entra en un área crítica.
+
+### Nuestros servicios
+
+* Asistencia e instalación del software reconecTM servidor y reconecTM desktop.
+* Implantación de los dispositivos RFID conectados a la red de comunicaciones por Ethernet o Wifi.
+* Implantación de los dispositivos generadores de zona.
+* Implantación del sistema de pulseras o tarjetas con localizador.
+

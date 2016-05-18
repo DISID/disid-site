@@ -1,0 +1,26 @@
+---
+layout: default
+modal-id: proyecto-gvsig-educa
+hero-img: hero-gvsig-educa.jpg
+img: pic-gvsig-educa.jpg
+icon: fa-
+title: gvSIG Educa
+subtitle:
+headline:
+description:
+url: proyecto-gvsig-educa
+ref: gvsig-educa-project
+category:
+    - en
+    - project
+lang: es
+tags:
+- GIS
+---
+
+
+gvSIG Educa es una personalización del Sistema de Información Geográfica libre gvSIG Desktop, adaptado como herramienta para la educación de materias con componente geográfica. gvSIG Educa sirver de herramienta a educadores para facilitar a los alumnos el análisis y la comprensión del territorio.
+
+gvSIG Batoví es la distribución que da origen a gvSIG Educa. Esta distribución está impulsada por el Ministerio de Transporte y Obras Públicas (MTOP) de la República Oriental del Uruguay y desarrollada por DISID dentro de la Asociación gvSIG. Está enfocada al uso de un Sistema de Información Geográfica en entornos educativos con destino al PlanCeibal (Uruguay).
+
+Puedes encontrar más información sobre el proyecto gvSIG Educa  en el sitio web de gvSIG

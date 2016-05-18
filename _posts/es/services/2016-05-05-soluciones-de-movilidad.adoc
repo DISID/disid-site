@@ -1,0 +1,45 @@
+---
+layout: project
+hero-img: hero-bg-mobility.jpg
+img: pic-mobility2.jpg
+icon: fa-mobile
+url: soluciones-movilidad
+ref: mobility-solutions
+title: Soluciones de movilidad
+headline: Acceso a la información centralizada de tu empresa con nuestras soluciones de movilidad desde dispositivos móviles como smartphones o tablets.
+description: Gestiona la información de tu empresa desde cualquier lugar a través de dispositivos móviles. Desarrollo de aplicaciones con HTML5, JS y APIS de Android o iOS.
+categories:
+- service
+lang: es
+---
+
+Facilita al personal de tu organización sus acciones en movilidad, tanto para
+comerciales, control de calidad, producción... Podrás consultar la información
+de la empresa desde cualquier lugar. Además permite la recogida de información
+in situ, mejorando los tiempos de respuesta y eliminando la necesidad de uso del papel.
+
+Nuestra recogida de datos permite incluir la información de los distintos
+sensores que incorporan de forma creciente los dispositivos móviles, como
+son el GPS, fotografías, vídeos, luz, presión...
+
+Con una evaluación de las necesidades del cliente y las características de
+los proyectos, teniendo en cuenta tanto la gestión de usuarios y el acceso
+a la información de la empresa como la sincronización de datos.
+
+### ¿Cuándo necesito una solución de movilidad?
+
+* Acceso a datos de la empresa en movilidad. Personal de tu empresa que necesita acceder a la información en tiempo real durante sus desplazamientos.
+* Recogida de información fuera de las instalaciones. Poder recoger datos directamente desde cualquier lugar y que sean incluidos automáticamente en la información central de la empresa.
+* Localización. Poder posicionar y localizar la información y el personal en tiempo real.
+* Fotografías y vídeos. Captura fotografías o vídeos para incorporarlos a los datos de la organización.
+* Datos de sensores. Leer automáticamente la información de los dispositivos móviles, como temperatura, luz, presión, etc.
+
+### Nuestros servicios
+
+* Análisis de requisitos, funcional, arquitectura y diseño de software.
+* Propuesta de la mejor opción tecnológica: aplicación web o nativa.
+* Análisis de la información recogida.
+* Gestión y control de proyectos.
+* Formación y soporte.
+* Mantenimiento evolutivo y calidad del software.
+

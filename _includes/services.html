@@ -1,0 +1,67 @@
+<!-- Services Section -->
+
+<section class="freebies" id="solutions">
+
+    <div class="container-fluid">
+
+    {% assign collection=site.posts | where:"lang", page.lang %}
+
+
+			<div class="row">
+			{% for post in collection %}
+			<!-- for post in collection limit: 2 -->
+
+			  {% if post.categories contains 'service' %}
+
+			   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+			   <div class="col-md-6 no-padding">
+	          <article class="item {% if thecycle == 'odd' %}wp5{% else %}wp6{% endif %}">
+	            <figure class="has-overlay">
+	              <figcaption class="overlay">
+	                <div class="freebie-content">
+	                  <span class="date">{{ post.description }}</span>
+	                  <h2>{{ post.title }}</h2>
+	                  <div class="{{ post.url }}">
+	                    <a href="{{ post.url }}" class="btn secondary">{{site.t[page.lang].learn-more}}</a>
+	                  </div>
+	                </div>
+	              </figcaption>
+	              <img src="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/services/{{ post.img }}" alt="{{ post.title }}">
+	            </figure>
+	          </article>
+	      </div>
+			  {% endif %}
+
+	   {% endfor %}
+	   </div>
+
+	   <div class="row">
+
+	   {% for post in collection limit: 2 offset: 2 %}
+
+	      {% if post.categories contains 'service' %}
+	       <div class="col-md-6 no-padding">
+	          <article class="item {% if thecycle == 'odd' %}wp7{% else %}wp8{% endif %}">
+	            <figure class="has-overlay">
+	              <figcaption class="overlay">
+	                <div class="freebie-content">
+	                  <span class="date">{{ post.description }}</span>
+	                  <h2>{{ post.title }}</h2>
+	                  <div class="group">
+	                    <a href="{{ post.url }}" class="btn secondary">{{site.t[page.lang].learn-more}}</a>
+	                  </div>
+	                </div>
+	              </figcaption>
+	              <img src="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/services/{{ post.img }}" alt="{{ post.title }}">
+	            </figure>
+	          </article>
+	      </div>
+	      {% endif %}
+
+	   {% endfor %}
+	   </div>
+
+
+    </div>
+  </section>
+  <!-- END SECTION: Services -->

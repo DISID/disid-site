@@ -1,0 +1,41 @@
+---
+layout: project
+hero-img: hero-bg-java.jpg
+img: pic-java.jpg
+title: Experts in Java
+headline: Software factory. Tell us what you need and we offer the best solution.
+description: Mobile and web applications development customized to business specific needs.
+icon: fa-cogs
+typed: true
+url: java-development
+ref: java-development
+categories:
+- service
+lang: en
+---
+
+We create mobile applications for both Android and iPhone, web intranet or extranet
+applications, desktop applications and new services or components to an existing architecture.
+
+We develop new applications such as adaptation and updating of legacy solutions.
+Applications that fit perfectly functioning and processes of each organization.
+
+We have a methodology for software development encompassing analysis, planning
+and management, design, development and testing to ensure the quality of the applications.
+
+### When do you need a custom development?
+
+* Specific needs.Developed as an option to consider when the market any product meets the requirements of the company.
+
+* Migrating applications and systems. The technology is outdated and limits us to create new features that do provide new systems and tools.
+
+* Interaction applications. We have a closed system that does not allow integration with third party applications.
+
+### Our services
+
+* Functional analysis, software architecture and design.
+* Management and control of projects.
+* Development of software solutions.
+* Training and support.
+* Evolutionary maintenance.
+* Quality software.

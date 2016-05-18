@@ -1,0 +1,84 @@
+
+<!-- Navigation -->
+
+  <div class="container-fluid navbar-fixed-top">
+    <div class="row">
+      <div class="header-nav-wrapper">
+        <div class="logo">
+          <a class="navbar-brand page-scroll" href="#page-top">
+           <img src="{{ site.url | prepend: site.baseurl }}/img/{{ site.logo }}" class="img-responsive">
+          </a>
+
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="primary-nav-wrapper">
+          <nav>
+            <ul class="primary-nav">
+              <li class="hidden"><a href="#page-top"></a></li>
+              {% for link in site.links[page.lang] %}
+                    <li>{% if link.external %}
+                      <a href="{{ link.url }}">{{ link.title }}</a>
+                      {% else %}
+                      <a class="page-scroll" href="{{ link[1].url }}">{{ link[1].title }}</a>
+                      {% endif %}
+                    </li>
+                   {% endfor %}
+
+            </ul>
+          </nav>
+          <div class="secondary-nav-wrapper">
+            <ul class="secondary-nav">
+               <!-- language variables -->
+                    <!-- for home -->
+                    {% if page.layout == 'default' %}
+                        {% if page.lang == "en" %}
+                          <li class="lang subscribe"><a href="{{ site.url }}{{ page.url }}" class="{{ page.lang }}">EN</a></li>
+                          <li class="lang subscribe"><a href="{{ site.url }}/es/index.html">ES</a></li>
+                        {% endif %}
+                        {% if page.lang == "es" %}
+                          <li class="lang subscribe"><a href="{{ site.url }}{{ page.url  | replace: '/es/','/en/' | replace: 'en/index.html','index.html' }}">EN</a></li>
+                          <li class="lang subscribe"><a href="{{ site.url }}{{ page.url }}" class="{{ page.lang }}">ES</a></li>
+                        {% endif %}
+                    {% endif %}
+
+                    <!-- for all posts -->
+                    {% if page.layout == 'project' %}
+	                    <ul>
+											{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+											{% for post in posts %}
+											  <li class="lang subscribe">
+											    <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
+											  </li>
+											{% endfor %}
+
+											{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+											{% for page in pages %}
+											  <li class="lang subscribe">
+											    <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+											  </li>
+											{% endfor %}
+											</ul>
+										{% endif %}
+
+              <!-- TODO: seach funcionality -->
+              <!-- <li class="search"><a href="#search" class="show-search"><i class="fa fa-search"></i></a></li> -->
+            </ul>
+          </div>
+            <!-- TODO: seach funcionality -->
+          <!-- <div class="search-wrapper">
+            <ul class="search">
+              <li>
+                <input type="text" id="search-input" placeholder="Start typing then hit enter to search">
+              </li>
+              <li>
+                <a href="#" class="hide-search"><i class="fa fa-close"></i></a>
+              </li>
+            </ul>
+          </div> -->
+        </div>
+        <div class="navicon">
+          <a class="nav-toggle" href="#"><span></span></a>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,207 @@
+# Site settings
+#url: http://disid.com
+url: http://disid.bitbucket.org/_site/
+#url: http://localhost:4000
+#baseurl:
+email: info@disid.com
+#google_analytics: UA-73596417-1 #Google analytics code in the format XX-nnnnnnnn-n
+ASSET_PATH: /assets
+logo: logo-disid-white.png
+
+# Color settings (hex-codes without the leading hash-tag)
+# primary_rgb: "59,139,186" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
+color:
+  primary: 366180
+  secondary: 414A52
+  secondary-dark: 002436
+  light: 7AE2DE
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/disid_corp
+  - title: facebook
+    url: https://www.facebook.com/DISIDCorp/
+#  - title: stack-overflow
+#    url: http://stackoverflow.com/questions/tagged/jekyll
+#  - title: bitbucket
+#    url: http://bitbucket.org/jekyll
+  - title: github
+    url: https://github.com/DISID
+  - title: linkedin
+    url: https://www.linkedin.com/company/disid
+
+
+# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+address:
+  - lines:
+    - C/ San Vicente Mártir, 84 - 5A Valencia
+    - CP 46002, Spain
+email: info@disid.com
+tel: (+34) 963 516 309
+
+# Clients information. Shown on Home and About pages.
+clients:
+  - name: Asociación gvSIG
+    img: asociacion-gvsig.png
+    url: http://www.gvsig.com
+    title: Asociación gvSIG website
+  - name: DISID
+    img: disid.png
+    url: http://www.disid.com
+    title: DISID Corporation website
+  - name: Diputación de Valencia
+    img: logo-dival.png
+    url: http://www.dival.es/
+    title: Diputación de Valencia website
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+permalink: /:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+highlighter: rouge
+paginate:    2
+paginate_path: "blog/page:num"
+
+# jekyll configuration
+
+gems:
+  - jekyll-asciidoc
+
+asciidoc: asciidoctor
+asciidoc_ext: asciidoc,adoc,ad
+
+asciidoctor:
+  attributes:
+    - idseparator=_
+    - icons=font-awesome
+    - hardbreaks!
+    - source-highlighter=pygments
+    - pygments-css=style
+
+
+#
+#Multilanguage
+#
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      lang: en
+  -
+    scope:
+      path: /es
+    values:
+      lang: es
+t:
+  en:
+    title: "DISID, Be software"
+    description: "We are a software engineering company specialized in Java technology."
+    intro-lead-in: "Be Software"
+    intro-heading: "We are your best choice"
+    learn-more: Learn more
+    close: Close
+    suscribe: Subscribe to stay in the loop
+    contact: Drop us a line
+    services:
+#      section-heading: "Our solutions"
+#      section-subheading: "Solutions to and from any device."
+    projects:
+      section-heading: "Last Projects"
+      description: "Find out which technologies move us and what R&D projects motivate us.
+      Always on open source, we fix, improve and share our work into the core of the open platforms we use: Liferay, gvNIX, Spring, Spring Roo and gvSIG.
+      An active and continued collaboration."
+  es:
+    title: "DISID, Be Software"
+    description: "We are a software engineering company specialized in Java technology."
+    intro-lead-in: "Be Software"
+    intro-heading: "Nosotros somos tu mejor elección"
+    learn-more: Saber más
+    close: Cerrar
+    suscribe: Suscríbete para mantenerte informado de nuestras noticias
+    contact: Queremos escucharte
+    services:
+#      section-heading: "Nuestras soluciones"
+#      section-subheading: "Soluciones desde y para cualquier dispositivo."
+    projects:
+      section-heading: "Nuestros Proyectos"
+      description: "Entérate de primera mano sobre qué tecnologías nos movemos y qué proyectos nos motivan.
+      Siempre sobre código abierto, desarrollamos mejoras e implementaciones sobre nuestras plataformas de desarrollo Liferay, gvNIX, Spring Roo y gvSIG.
+      Una participación activa y continuada."
+
+
+# To include variable in liquid: {{ site.t[page.lang].labs.section-heading }}
+# You can add translations group
+
+# Links to include in top navigation
+# For external links add external: true/false
+links:
+  en:
+    solutions:
+      title: Solutions
+      url: "#solutions"
+    projects:
+      title: Projects
+      url: "#projects"
+    blog:
+      title: Blog
+      url: "http://blog.disid.com/"
+      external: true
+    contact:
+      title: Contact
+      url: "#contact"
+  es:
+    solutions:
+      title: Soluciones
+      url: "#solutions"
+    projects:
+      title: Projectos
+      url: "#projects"
+    blog:
+      title: Blog
+      url: "http://blog.disid.com/es/index.html"
+      external: true
+    contact:
+      title: Contacto
+      url: "#contact"
+
+linksextra:
+  en:
+#    jobs:
+#      title: Jobs
+#      url: "/jobs"
+    notice:
+      title: Legal notice
+      url: "/legal-notice"
+    terms:
+      title: Terms of use
+      url: "/terms-of-use"
+    cookies:
+      title: Cookies
+      url: "/cookies"
+    privacy:
+      title: Privacy policy
+      url: "/privacy-policy"
+  es:
+#    jobs:
+#      title: Empleo
+#      url: "/jobs"
+    notice:
+      title: Aviso legal
+      url: "/legal-notice"
+    terms:
+      title: Condiciones de uso
+      url: "/terms-of-use"
+    cookies:
+      title: Cookies
+      url: "/cookies"
+    privacy:
+      title: Política de privacidad
+      url: "/privacy-policy"
+
+
+include: [".htaccess"]
+exclude: ["slides","vendor", "lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]

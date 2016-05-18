@@ -1,0 +1,37 @@
+---
+layout: default
+modal-id: proyecto-reconec
+hero-img: hero-reconec.jpg
+img: pic-reconec.jpg
+icon: fa-
+title: reconec
+subtitle: Solución de localización y trazabilidad de personas y activos en tiempo real
+headline:
+description:
+url: sistemas-de-localizacion
+ref: reconec-project
+category:
+    - es
+    - project
+lang: es
+tags:
+- Localización
+---
+
+Una solución para reconocimiento, localización y trazabilidad de personas y activos en tiempo real.
+Además ofrece la información adecuada a cada usuario en función de su localización
+y de las características del entorno en el que se encuentra, representando la
+ubicación de la persona sobre plano, en un interfaz gráfico basado en gvSIG 2.0.
+
+Está formada por el software e infraestructura necesaria para integrar tecnologías
+de localización en tiempo real (RFID), sistemas de gestión de recursos corporativos (ERP)
+y sistemas de información geográfica (gvSIG) para presentar información unificada que
+combina datos geoespaciales con datos de la organización en la que se despliega la solución.
+
+El IMPIVA y el Ministerio de Industria invierten en nuestra plataforma
+de integración de sensores en tiempo real, reconec.
+
+
+
+
+

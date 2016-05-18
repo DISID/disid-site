@@ -1,0 +1,32 @@
+---
+layout: default
+modal-id: reconec-project
+hero-img: hero-reconec.jpg
+img: pic-reconec.jpg
+icon: fa-globe
+title: reconec
+subtitle: Location and tracking of people and asssets in real time software solution
+headline:
+description:
+url: location-system
+ref: reconec-project
+category:
+    - en
+    - project
+lang: en
+tags:
+- Location
+---
+
+A solution for recognition, localization and tracking of persons in real time.
+It also provides adequate information to each user based on their location and
+the characteristics of the environment in which it is located, representing the
+location of the individual plan on a graphic interface based on gvSIG 2.0.
+
+It consists of software and infrastructure necessary to integrate technologies
+of real-time location (RFID), enterprise resource management (ERP) and geographic
+information systems (gvSIG) to present unified information combining geospatial
+data with data from the organization in which the solution is deployed.
+
+The IMPIVA and the Ministry of Industry, Energy and Tourism, Government of Spain
+and invest in our platform integration of sensors in real-time reconnecting.

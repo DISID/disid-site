@@ -1,0 +1,13 @@
+<section id="developedby">
+<div id="cwrap">
+    <div class="container">
+            {% for client in site.clients %}
+                <div class="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1">
+                   <a href="{{client.url}}" target="_blank" title="{{client.title}}">
+                    <img src="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/clients/{{ client.img }}" class="img-responsive">
+                   </a>
+                </div>
+            {% endfor %}
+    </div><!--/container -->
+</div><!--/cwrap -->
+</section>

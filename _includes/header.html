@@ -1,0 +1,38 @@
+<!-- Header -->
+{% assign collection=site.posts | where:"lang", page.lang %}
+<header class="hero">
+    <div class="carousel js-flickity">
+    {% for post in collection %}
+      {% if post.categories contains 'service' limit:include.limit %}
+      <div class="carousel-cell" style="background-image: url({{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/services/{{ post.hero-img }});">
+        <div class="hero-bg">
+          <div class="container">
+
+			            <div class="row">
+			              <div class="col-md-12 text-center">
+			                <h1 class="{% if post.typed %}typed{% else %}wp1{% endif %}">{{ post.title }}</h1>
+			                {% if post.typed %}<span class="typed-cursor">|</span>{% endif %}<br>
+			              </div>
+			            </div>
+			            <div class="row">
+			              <div class="col-md-8 col-md-offset-2 hero-intro-text wp3">
+			                <p>{{ post.headline }}</p>
+			                 <a href="#solutions" class="btn primary wp2">{{site.t[page.lang].learn-more}}</a>
+			              </div>
+			            </div>
+
+          </div>
+        </div>
+      </div>
+     {% endif %}
+    {% endfor %}
+
+    </div>
+    <div class='mouse-container'>
+      <a href="#intro">
+        <div class='mouse'>
+          <span class='scroll-down'></span>
+        </div>
+      </a>
+    </div>
+  </header>

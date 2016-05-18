@@ -1,0 +1,20 @@
+---
+layout: project
+hero-img: hero-bg-02.jpg
+img: pic02.jpg
+icon: fa-laptop
+ancla: portales
+title: Portales corporativos
+description: Gestión y publicación de múltiples sitios web uniendo contenidos corporativos con procesos de negocio. Creados con Liferay, la plataforma líder.
+categories:
+- service
+lang: es
+---
+
+Portales corporativos. Procesos de negocio con información corporativa en Internet.
+
+Soluciones web para gestionar y publicar de forma sencilla grandes cantidades de información, generando valor añadido para ciudadanos, clientes, proveedores y/o empleados.
+
+Todas las herramientas de gestión y visualización de la información son accesibles desde cualquier navegador web, un único punto de acceso a toda la información y aplicaciones de la compañía con estrictos controles de seguridad para que un usuario sólo tenga acceso sólo a aquellos datos a los que tiene permiso.
+
+Diseñamos sistemas intuitivos que facilitan al usuario la gestión de las diversas tareas que tiene que realizar. La localización de la información adecuada es clave para tomar la decisión correcta en cada momento.

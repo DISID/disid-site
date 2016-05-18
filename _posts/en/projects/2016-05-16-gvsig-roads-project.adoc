@@ -1,0 +1,29 @@
+---
+layout: default
+modal-id: proyecto-gvsig-roads
+hero-img: hero-gvsigroads.jpg
+img: pic-gvsig-roads.jpg
+icon: fa-globe
+title: gvSIG Roads
+subtitle: Open and interoperable solution for the management of roads
+headline:
+description:
+url: geographic-info-systems-and-geomatic
+ref: gvsig-roads-roject
+category:
+    - en
+    - project
+lang: en
+tags:
+- GIS
+---
+gvSIG Roads is an open and interoperable solution for the management of roads,
+open standards-based software, with a comprehensive management system for the maintenance,
+preservation and inventory of roads, with integrated map data and the power of Spatial Data infrastructures.
+
+gvSIG Roads consists of a powerful application for web management;
+a desktop GIS for cartographic editing and update; geoportal for managing,
+editing and viewing geospatial data roads and mobile software for fieldwork activities.
+
+DISID taught online seminars to introduce the functionalities and workflow of
+the free solution for road management http://wwww.gvsigroads.com[gvSIG Roads].

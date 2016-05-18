@@ -1,0 +1,43 @@
+---
+layout: default
+modal-id: proyecto-gvsig
+hero-img: hero-bg-gvsig.jpg
+img: pic-gvsig.jpg
+icon: fa-globe
+title: gvSIG
+subtitle: Geographic information management
+headline:
+description:
+url: geographic-info-systems-and-geomatic
+ref: gvsig-project
+category:
+    - en
+    - project
+lang: en
+tags:
+- GIS
+---
+
+DISID solutions are based on gvSIG Desktop 2.0, open source application designed
+to provide a solution to all needs related to geographic information management.
+
+gvSIG is known for being easy to use and adaptable to the needs of any user of GIS,
+being able to access the most common formats, both vector and raster.
+
+It has a large number of tools for working with geographic data
+(query, mapping, geoprocessing, networks, etc) Which make it an ideal
+tool for users working with territorial component.
+
+
+The gvSIG Association trust us as architects of gvSIG 2.0 one of
+the leading open source GIS world.
+
+We are very pleased to collaborate and be partakers of geomatics projects
+with gvSIG Association. With a common goal for the sustainability of the
+project and the development of opensource software.
+
+We work continuously and forward in implementing business solutions for both
+as private companies and public administrations with gvSIG opensource software tool.
+
+Widely known and successful experience in the development in gvSIG,
+we taught different seminars and workshops about gvSIG applications.

@@ -1,0 +1,20 @@
+---
+layout: project
+hero-img: hero-bg-01.jpg
+img: pic02.jpg
+icon: fa-laptop
+ancla: portales
+title: Enterprise portals
+description: Easy management and publishing of enterprise websites who integrate enterprise contents with business process data. Made with Liferay, the leading enterprise portal plaform.
+categories:
+- service
+lang: en
+---
+
+Corporate portals. Business processes with corporate information on the Internet.
+
+Web solutions to manage and easily publish large amounts of information, generating added value for citizens, customers, suppliers and / or employees.
+
+All management tools and information visualization are accessible from any web browser, a single point of access to all information and applications company with stringent security controls for a user only has access to only those data that have permission.
+
+Intuitive design systems that provide users with the management of the various tasks to be performed. Locating the right information is key to making the right decision at all times.

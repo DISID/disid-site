@@ -1,0 +1,21 @@
+---
+layout: project
+hero-img: hero-bg-01.jpg
+img: pic03.jpg
+icon: fa-cogs
+ancla: factoria-software
+title: Sofware factory
+typed: true
+description: Mobile and web applications development customized to business specific needs. We use the best Java RAD framework, gvNIX.
+categories:
+- service
+lang: en
+---
+
+Software Factory.Tell us what you need and we offer the best solution.
+
+We create mobile applications for both Android and iPhone, web intranet or extranet applications, desktop applications and new services or components to an existing architecture.
+
+We develop new applications such as adaptation and updating of legacy solutions . Applications that fit perfectly functioning and processes of each organization.
+
+We have a methodology for software development encompassing analysis, planning and management, design, development and testing to ensure the quality of the applications.

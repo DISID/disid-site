@@ -1,0 +1,42 @@
+---
+layout: default
+modal-id: gvnix-project
+hero-img: hero-gvnix.jpg
+img: pic-gvnix.jpg
+icon: fa-
+title: gvNIX
+subtitle: Agile development of Java applications
+headline: gvNIX is an open source tool for rapid application development (RAD) with which you can create Java web applications in minutes.
+
+description:
+url: java-development
+ref: gvnix-project
+category:
+    - en
+    - project
+lang: en
+tags:
+- Java
+---
+
+gvNIX is an open source tool for agile Java development (RAD) applications that
+allows developing applications in just a few minutes.
+
+It is a distribution of Spring Roo that provides the set of Spring Roo tools plus
+a suite of features that increase development productivity and improve the user experience
+by integrating frameworks like jQuery, Bootstrap 3, Leaflet, DataTables, Dandelion DataTables, among other.
+
+A development environment which includes support to create applications
+with geographic component Geo, allowing a fast development of geoportals
+for visualization and data management.
+
+gvNIX consolidates as standard for Java development of the DGTI of the Generalitat Valenciana.
+
+We are committed to implant gvNIX both government and the private sector. We are currently in the lead in developing gvNIX.
+
+Widely known and successful experience in the development in open source projects,
+we taught different seminars on the use of gvNIX environment development.
+
+More information and downloads at http://www.gvnix.org[gvNIX]
+
+

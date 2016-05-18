@@ -1,0 +1,26 @@
+---
+layout: default
+modal-id: gvsig-educa-project
+hero-img: hero-gvsig-educa.jpg
+img: pic-gvsig-educa.jpg
+icon: fa-
+title: gvSIG Educa
+subtitle:
+headline:
+
+description:
+url: gvsig-educa-project
+ref: gvsig-educa-project
+category:
+    - en
+    - project
+lang: en
+tags:
+- GIS
+---
+
+gvSIG Educa is a customization of GIS gvSIG Desktop Free adapted as a tool for education subjects with geographic component. gvSIG Educa is a tool for educators to provide students with the analysis and understanding of the territory.
+
+gvSIG Batoví is the distribution that gives rise to gvSIG Educa. This distribution is supported by the Ministry of Transport and Public Works (MTOP) of the Oriental Republic of Uruguay and developed by DiSiD within the gvSIG Association. It focuses on the use of GIS in educational settings bound to PlanCeibal (Uruguay).
+
+You can found more information about the project gvSIG Educa  at gvSIG

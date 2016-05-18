@@ -1,0 +1,54 @@
+---
+layout: project
+hero-img: hero-bg-java.jpg
+img: pic-java.jpg
+title: Expertos en Java
+headline: Factoria de software. Dinos que necesitas y nosotros te ofrecemos la mejor solución.
+description: Desarrollo de aplicaciones a medida que se adaptan a las necesidades de cada negocio.
+icon: fa-cogs
+typed: true
+url: desarrollo-java
+ref: java-development
+categories:
+* service
+lang: es
+---
+
+Creamos aplicaciones móviles tanto para Android como iPhone, aplicaciones web para intranet o extranet,
+aplicaciones de escritorio y nuevos servicios o componentes para una arquitectura ya existente.
+
+Desarrollamos tanto aplicaciones nuevas como la adaptación y actualización de soluciones heredadas.
+Aplicaciones que se ajustan perfectamente al funcionamiento y procesos de cada organización.
+
+Contamos con una metodología para el desarrollo de software que abarca el análisis,
+planificación y gestión, diseño, desarrollo y pruebas para asegurar la calidad de las aplicaciones.
+
+### ¿Cuándo necesito un desarrollo a medida?
+
+* Necesidades específicas. Un desarrollo a medida es una opción a considerar cuando ningún producto del mercado se adecúa a los requisitos de la empresa.
+* Migración de aplicaciones y sistemas. La tecnología está desfasada y nos limita la creación de nuevas funcionalidades que sí aportan los nuevos sistemas y herramientas.
+* Interacción de aplicaciones. Disponemos de un sistema cerrado que no permite integraciones con aplicaciones de terceros.
+
+### Nuestros servicios
+
+* Oficina Técnica en Java
+
+* Migraciones de Oracle Developer a Java
+
+* Desarrollo de motores de migración de tecnologías obsoletas a Java
+
+* Implantación de Frameworks y herramientas de desarrollo y adaptación de los mismos a los flujos de trabajo del cliente.
+
+* Auditorias de proyectos Java.
+
+* Estudios y consultoria del estado del ecosistema del cliente y propuestas de organización , renovación o actualización de sus sistemas de información y plataforma tecnológica.
+
+* Formación experta en Java y Spring.
+
+* Somos mantenedores de Spring Roo a nivel internacional.
+
+* Reingeniería de proyectos
+
+* Selección de Personal especializado en Java.
+
+* Servicios de arquitectura Java.

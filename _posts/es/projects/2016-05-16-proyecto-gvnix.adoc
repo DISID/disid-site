@@ -1,0 +1,48 @@
+---
+layout: default
+modal-id: proyecto-gvnix
+hero-img: hero-gvnix.jpg
+img: pic-gvnix.jpg
+icon: fa-
+title: gvNIX
+subtitle: Desarrollo ágil de aplicaciones Java
+headline: Herramienta de código abierto multiplataforma para el desarrollo rápido de aplicaciones (RAD) con la que se puede crear aplicaciones web Java en apenas minutos.
+
+description:
+url: desarrollo-java
+ref: gvnix-project
+category:
+    - es
+    - project
+lang: es
+tags:
+- Java
+---
+
+gvNIX es una herramienta de código abierto para el desarrollo ágil de aplicaciones
+Java (RAD) que permite construir aplicaciones en tan solo unos minutos.
+
+Es una distribución de Spring Roo que proporciona el conjunto de
+herramientas de Spring Roo, más un conjunto de funciones que aumentan
+la productividad de desarrollo y mejoran la experiencia del usuario mediante
+la integración de frameworks como jQuery, Bootstrap 3, Leaflet, Datatables, Dandelion Datatables, entre otras.
+
+Un entorno de trabajo que cuenta con soporte para aplicaciones
+con componente geográfica Geo, permitiendo un desarrollo rápido de geoportales para la visualización y gestión de datos.
+
+gvNIX se ha consolidado como estándar para desarrollo Java de la DGTI de la Generalitat Valenciana.
+
+Apostamos por gvNIX para su implantación tanto para las administraciones
+públicas como para el sector privado.
+Actualmente nos encontramos a la cabeza en el desarrollo de gvNIX.
+
+Como líder del proyecto, DISID ofrece seminarios sobre gvNIX y
+desarrollo web Java a diferentes centros educativos de la Comunidad Valenciana.
+
+Más información en http://www.gvnix.org[gvNIX]
+
+
+
+
+
+

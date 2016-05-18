@@ -1,0 +1,31 @@
+---
+layout: default
+modal-id: spring-roo-project
+hero-img: hero-spring-roo.jpg
+img: pic-spring-roo.jpg
+icon: fa-
+title: Spring Roo
+subtitle: A next-generation rapid application development tool for Java developers
+headline:
+description:
+url: java-development
+ref: spring-roo-project
+category:
+    - en
+    - project
+lang: en
+tags:
+- Java
+---
+
+Spring Roo was created to make design time code generation approaches to RAD excel: be easy to use,
+generate editable code, and produce high-quality, high-performance,
+and portable enterprise applications written in 100% Java.
+
+Code generation, as an approach to RAD, is proven method to encapsulate best
+practices and reduce hand-written, boilerplate code.
+
+DISID takes over the leadership of the open source framework http://projects.spring.io/spring-roo/[Spring Roo].
+After the partnership agreement with Pivotal, DISID constitutes
+the main Spanish developer company of this agile development framework for Java.
+

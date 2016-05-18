@@ -1,0 +1,28 @@
+---
+layout: default
+modal-id: geotic-project
+hero-img: hero-geotic.jpg
+img: pic-geotic.jpg
+icon: fa-
+title: GeoTIC
+subtitle: Solution for ICT resources management
+headline:
+description:
+url: geographic-info-systems-and-geomatic
+ref: geotic-project
+category:
+    - en
+    - project
+lang: en
+tags:
+- Geo
+---
+
+This solution derives from a project realized for the Generalitat Valenciana,
+which relied on DISID to implement GeoTIC solution, geoportal of ICT resources
+of the Generalitat Valenciana into the territory, including telecommunications
+resources, personal computing and systems.
+
+A solution for ICT resources management, a complete application that includes
+geographic component and which adds to the list of products developed with http://www.gvnix.org[gvNIX],,
+an open source tool for rapid application development with which you can create Java web applications in minutes.

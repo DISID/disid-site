@@ -1,0 +1,50 @@
+---
+layout: project
+hero-img: hero-bg-mobility2.jpg
+img: pic-mobility.jpg
+icon: fa-mobile
+url: mobility-solutions
+ref: mobility-solutions
+title: Mobility solutions
+headline: Access to your business centralized information with our mobility solutions from mobile devices such as smartphones or tablets
+description: Manage the company information from any place through the use of mobile devices. Apps development with HTML5, JavaScript and native APIs Android or iOS.
+categories:
+- service
+lang: en
+---
+
+Makes it easier for your staff shares their actions in mobility for both
+commercial, quality control, production... You can view the company information
+from anywhere. It also allows the collection of information in situ, improving
+response time and eliminating the need for paper usage.
+
+Our data collection can include information from different sensors increasingly
+incorporating mobile devices, such as GPS, photography, video, light, pressure...
+
+With an assessment of customer needs and the characteristics of projects,
+taking into account both user management and access to company information
+and data synchronization.
+
+### When do I need a mobility solution?
+
+* Access to data in mobility. If company staff who need to access company information in real-time on the road.
+* Collecting information offsite. To collect data directly from anywhere and are automatically included in the central business information.
+* Location. To position and to locate information and staff in real time.
+* Pictures and videos.. Capture photos or videos to incorporate the data of the organization.
+* Sensor data. Automatically read information from the mobile devices, such as temperature, light, pressure, etc.
+
+### Our services
+
+* Requirements and functional analysis, software architecture and design.
+
+* Proposal of the best technology option: web or native application.
+
+* Analysis of the location information collected.
+
+* Management and control of projects.
+
+* Development of mobility software solutions.
+
+* Training and support.
+
+* Evolutionary maintenance and quality software.

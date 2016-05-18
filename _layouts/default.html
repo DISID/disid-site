@@ -1,0 +1,40 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="{{ page.lang }}">
+<!--<![endif]-->
+
+<html lang="{{ page.lang }}">
+
+  {% include head.html %}
+
+
+  <body id="page-top" class="index">
+
+	  <div class="preloader">
+	    <img src="{{ site.url | prepend: site.baseurl }}/img/loader.gif" alt="Preloader image">
+	  </div>
+
+    {% include nav.html %}
+    {% include header.html %}
+    {% include intro-disid.html %}
+    {% include services.html limit=4 %}
+    {% include projects.html limit=8 %}
+
+{% comment %}
+    {% include clients.html %}
+{% endcomment %}
+
+    {% include contact.html %}
+    {% include suscribe.html %}
+
+    {% include modals.html %}
+
+    {% include footer.html %}
+    {% include js.html %}
+
+
+  </body>
+</html>

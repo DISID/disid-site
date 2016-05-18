@@ -1,0 +1,45 @@
+---
+layout: project
+hero-img: hero-bg-gis.jpg
+img: pic-gis.jpg
+icon: fa-globe
+title: Geographic information Systems & Geomatic
+headline: We provide the infrastructure and functionality needed for managing geospatial data components. Managing your company information located on a map.
+headline2: Data management with geospatial component
+description: Capture, store, manipulate, analyze and present spatial information to facilitate decision making. Include the best tool, gvSIG Desktop 2.0.
+url: geographic-information-sytems
+ref: geographic-information-sytems
+categories:
+- service
+lang: en
+---
+
+
+We adjust the services at different levels to create a spatial data infrastructure
+(SDI) that ranges from access to the database and map servers,
+through catalog servers until the publication of maps in web portals.
+
+Your solution with support geographic data server, desktop, web and mobile.
+We facilitate their management, editing and analysis with custom applications
+tailored to the needs of each project to build the right solution.
+
+### Why do I need a geographic information system?
+
+* Management and visualization of geographic data, mark the position on a map of relevant information.
+* Conversion of geographic data, can be in the form of image, sensor data, geometric shapes or data in general.
+A solution for the capture, storage, that allows you to manipulate and analyze the data.
+
+* Integration of new features, customize and improve your geographic information
+software to the needs of users with new extensions and features, allowing
+continuous improvement of the application as well as the development of solutions.
+
+* Reporting and map displays. Creates, manages and displays the information of people,
+environmental resources, path or road design, among others.
+
+### Our services
+
+* Geospatial information analysis and cartographic production processes.
+
+* Configuration, customization and development of different services geospatial data management.
+
+* Development of new features, extensions and improved software tools.

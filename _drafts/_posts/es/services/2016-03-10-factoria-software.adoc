@@ -1,0 +1,20 @@
+---
+layout: project
+hero-img: hero-bg-03.jpg
+img: pic03.jpg
+icon: fa-cogs
+ancla: factoria-software
+title: Factoria software
+description: Desarrollo de aplicaciones a medida que se adaptan a las necesidades de cada negocio. Utilizamos el mejor entorno de desarrollo rápido Java, gvNIX.
+categories:
+- service
+lang: es
+---
+
+Factoria de software. Dinos que necesitas y nosotros te ofrecemos la mejor solución.
+
+Creamos aplicaciones móviles tanto para Android como iPhone, aplicaciones web para intranet o extranet, aplicaciones de escritorio y nuevos servicios o componentes para una arquitectura ya existente.
+
+Desarrollamos tanto aplicaciones nuevas como la adaptación y actualización de soluciones heredadas. Aplicaciones que se ajustan perfectamente al funcionamiento y procesos de cada organización.
+
+Contamos con una metodología para el desarrollo de software que abarca el análisis, planificación y gestión, diseño, desarrollo y pruebas para asegurar la calidad de las aplicaciones.

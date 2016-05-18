@@ -1,0 +1,93 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ page.title }} - {{ site.t[page.lang].title }}{% else %}{{ site.t[page.lang].title }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.t[page.lang].description }}">
+	  <meta name="keywords" content="software, Java,desarrollo, Valencia, GIS, GEO, Spring, Spring Roo, gvNIX, gvSIG" />
+	  <meta name="author" content="DISID Corporation" />
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <!-- language -->
+    {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+		{% for post in posts %}
+		  <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />
+		{% endfor %}
+		{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+		{% for page in pages %}
+		  <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />
+		{% endfor %}
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+     <!-- CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,300italic,400italic,500,500italic,600,600italic,700,700italic' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet'>
+
+    <!-- layout with our CSS -->
+    <link rel="stylesheet" href="{{"/style.css" |prepend: site.baseurl | prepend: site.url }}">
+
+     <!-- CSS -->
+    <link rel="stylesheet" href="{{"/css/bootstrap.min.css" | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="{{"/css/normalize.min.css" | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="{{"/css/animate.min.css" | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="{{"/css/flickity.min.css" | prepend: site.baseurl | prepend: site.url }}">
+
+    <link rel="stylesheet" href="{{"/css/styles.css" |prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="{{"/css/disid.css" | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+
+
+    <!-- blog DISID fonts -->
+    <!--
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=latin,latin-ext' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600&amp;subset=latin,latin-ext' rel='stylesheet'>
+    -->
+
+    <!-- Recursos en la carpeta JS - TODO --->
+    <!--  <script src="{{ "/js/jquery-1.11.0.js" | prepend: site.baseurl }}"></script> -->
+
+    <!-- jQuery, needed for toc.js, CookieCuttr,... -->
+    <!-- JS CDNs -->
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+	  <!-- jQuery local fallback -->
+	  <script>
+	  window.jQuery || document.write('<script src="js/min/jquery-1.11.2.min.js"><\/script>')
+	  </script>
+
+    <!-- Jekyll-Asciidoc Quickstart -->
+    <script src="{{ site.url }}/assets/js/vendor/modernizr.js"></script>
+    <script src="{{ site.url }}/assets/js/toc.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>

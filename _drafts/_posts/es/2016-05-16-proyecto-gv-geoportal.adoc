@@ -1,0 +1,24 @@
+---
+layout: default
+modal-id: proyecto-gv-geoportal
+hero-img: hero-gv-geoportal.jpg
+img: pic-gv-geoportal.jpg
+icon: fa-
+title: gvGeoportal
+subtitle:
+headline:
+description:
+url: proyecto-gv-geoportal
+ref: gv-geoportal-project
+category:
+    - en
+    - project
+lang: es
+tags:
+- GEO
+---
+
+Aplicación para la generación y gestión de Geoportales Corporativos de la Generalitat Valenciana.
+
+
+
