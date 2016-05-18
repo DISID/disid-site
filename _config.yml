@@ -104,6 +104,7 @@ t:
     learn-more: Learn more
     close: Close
     suscribe: Subscribe to stay in the loop
+    suscribe-button: Subscribe me!
     contact: Drop us a line
     services:
 #      section-heading: "Our solutions"
@@ -121,6 +122,7 @@ t:
     learn-more: Saber más
     close: Cerrar
     suscribe: Suscríbete para mantenerte informado de nuestras noticias
+    suscribe-button: ¡Apúntame!
     contact: Queremos escucharte
     services:
 #      section-heading: "Nuestras soluciones"
