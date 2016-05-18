@@ -172,21 +172,7 @@
         
           <xhtml:link rel="alternate" hreflang="en" href="/java-development" />
         
-        <lastmod>2016-05-15T00:00:00+00:00</lastmod>
-        <changefreq>weekly</changefreq>
-      </url>
-    
-  
-    
-      <url>
-        <loc>/intro</loc>
-        
-        
-          <xhtml:link rel="alternate" hreflang="en" href="/intro" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/intro" />
-        
-          <xhtml:link rel="alternate" hreflang="en" href="/desarrollo-java" />
+          <xhtml:link rel="alternate" hreflang="es" href="/desarrollo-java" />
         
         <lastmod>2016-05-15T00:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
@@ -202,7 +188,19 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/intro" />
         
-          <xhtml:link rel="alternate" hreflang="en" href="/desarrollo-java" />
+        <lastmod>2016-05-15T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/intro</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/intro" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/intro" />
         
         <lastmod>2016-05-15T00:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
@@ -214,11 +212,9 @@
         <loc>/desarrollo-java</loc>
         
         
-          <xhtml:link rel="alternate" hreflang="en" href="/intro" />
+          <xhtml:link rel="alternate" hreflang="en" href="/java-development" />
         
-          <xhtml:link rel="alternate" hreflang="es" href="/intro" />
-        
-          <xhtml:link rel="alternate" hreflang="en" href="/desarrollo-java" />
+          <xhtml:link rel="alternate" hreflang="es" href="/desarrollo-java" />
         
         <lastmod>2016-05-15T00:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
