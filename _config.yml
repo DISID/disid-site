@@ -141,31 +141,31 @@ links:
   en:
     solutions:
       title: Solutions
-      url: "www.disid.com#solutions"
+      url: "http://www.disid.com#solutions"
     projects:
       title: Projects
-      url: "www.disid.com#projects"
+      url: "http://www.disid.com#projects"
     blog:
       title: Blog
       url: "http://blog.disid.com/"
       external: true
     contact:
       title: Contact
-      url: "www.disid.com#contact"
+      url: "http://www.disid.com#contact"
   es:
     solutions:
       title: Soluciones
-      url: "www.disid.com#solutions"
+      url: "http://www.disid.com#solutions"
     projects:
       title: Projectos
-      url: "www.disid.com#projects"
+      url: "http://www.disid.com#projects"
     blog:
       title: Blog
       url: "http://blog.disid.com/es/index.html"
       external: true
     contact:
       title: Contacto
-      url: "www.disid.com#contact"
+      url: "http://www.disid.com#contact"
 
 linksextra:
   en:
