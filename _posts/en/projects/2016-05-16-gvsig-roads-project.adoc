@@ -8,10 +8,9 @@ title: gvSIG Roads
 subtitle: Open and interoperable solution for the management of roads
 headline:
 description:
-url: geographic-info-systems-and-geomatic
+link: geographic-info-systems-and-geomatic
 ref: gvsig-roads-roject
 category:
-    - en
     - project
 lang: en
 tags:

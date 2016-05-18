@@ -6,13 +6,11 @@ img: pic-gvnix.jpg
 icon: fa-
 title: gvNIX
 subtitle: Desarrollo ágil de aplicaciones Java
-headline: Herramienta de código abierto multiplataforma para el desarrollo rápido de aplicaciones (RAD) con la que se puede crear aplicaciones web Java en apenas minutos.
-
+headline:
 description:
-url: desarrollo-java
+link: desarrollo-java
 ref: gvnix-project
 category:
-    - es
     - project
 lang: es
 tags:

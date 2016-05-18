@@ -8,10 +8,9 @@ title: reconec
 subtitle: Location and tracking of people and asssets in real time software solution
 headline:
 description:
-url: location-system
+link: location-system
 ref: reconec-project
 category:
-    - en
     - project
 lang: en
 tags:

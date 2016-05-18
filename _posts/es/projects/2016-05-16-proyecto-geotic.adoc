@@ -8,10 +8,9 @@ title: GeoTIC
 subtitle: Solución para la gestión de recursos TIC
 headline:
 description:
-url: sistemas-de-info-geografica-y-geomatica
+link: sistemas-de-info-geografica-y-geomatica
 ref: geotic-project
 category:
-    - es
     - project
 lang: es
 tags:

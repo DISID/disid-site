@@ -6,13 +6,11 @@ img: pic-gvnix.jpg
 icon: fa-
 title: gvNIX
 subtitle: Agile development of Java applications
-headline: gvNIX is an open source tool for rapid application development (RAD) with which you can create Java web applications in minutes.
-
+headline:
 description:
-url: java-development
+link: java-development
 ref: gvnix-project
 category:
-    - en
     - project
 lang: en
 tags:

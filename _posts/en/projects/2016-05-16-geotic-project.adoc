@@ -8,10 +8,9 @@ title: GeoTIC
 subtitle: Solution for ICT resources management
 headline:
 description:
-url: geographic-info-systems-and-geomatic
+link: geographic-info-systems-and-geomatic
 ref: geotic-project
 category:
-    - en
     - project
 lang: en
 tags:

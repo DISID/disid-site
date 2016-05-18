@@ -8,10 +8,9 @@ title: gvSIG Roads
 subtitle: Aplicación de gestión integral de la conservación de carreteras
 headline:
 description:
-url: sistemas-de-info-geografica-y-geomatica
+link: sistemas-de-info-geografica-y-geomatica
 ref: gvsig-roads-project
 category:
-    - es
     - project
 lang: es
 tags:

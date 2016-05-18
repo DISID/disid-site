@@ -8,10 +8,9 @@ title: Spring Roo
 subtitle: A next-generation rapid application development tool for Java developers
 headline:
 description:
-url: java-development
+link: java-development
 ref: spring-roo-project
 category:
-    - en
     - project
 lang: en
 tags:

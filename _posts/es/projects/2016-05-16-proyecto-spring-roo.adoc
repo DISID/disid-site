@@ -8,10 +8,9 @@ title: Spring Roo
 subtitle: Herramienta de desarrollo rápido de aplicaciones para los desarrolladores de Java
 headline:
 description:
-url: desarrollo-java
+link: desarrollo-java
 ref: spring-roo-project
 category:
-    - es
     - project
 lang: es
 tags:

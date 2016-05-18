@@ -8,10 +8,9 @@ title: gvSIG
 subtitle: Geographic information management
 headline:
 description:
-url: geographic-info-systems-and-geomatic
+link: geographic-info-systems-and-geomatic
 ref: gvsig-project
 category:
-    - en
     - project
 lang: en
 tags:

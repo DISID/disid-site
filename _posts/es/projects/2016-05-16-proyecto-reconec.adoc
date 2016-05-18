@@ -8,10 +8,9 @@ title: reconec
 subtitle: Solución de localización y trazabilidad de personas y activos en tiempo real
 headline:
 description:
-url: sistemas-de-localizacion
+link: sistemas-de-localizacion
 ref: reconec-project
 category:
-    - es
     - project
 lang: es
 tags:
