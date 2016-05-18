@@ -10,7 +10,7 @@ typed: true
 url: desarrollo-java
 ref: java-development
 categories:
-* service
+- service
 lang: es
 ---
 
