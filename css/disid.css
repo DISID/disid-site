@@ -231,6 +231,7 @@ padding: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px; tran
 -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
 
 .subscribe-form input[type=submit]:hover { background: rgba(113,213,210,1); border: solid 1px rgba(113,213,210,1); color: #fff; }
+.subscribe-form .response{ color: white;}
 
 /* ==========================================================================
 Buttons
