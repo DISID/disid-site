@@ -1,7 +1,8 @@
 ---
 layout: page
+img: hero.jpg
 title: Política de cookies
-permalink: es/cookies-policy/
+permalink: /politica-de-cookies/
 category:
     - es
 lang: es

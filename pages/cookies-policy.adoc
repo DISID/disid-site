@@ -1,7 +1,8 @@
 ---
 layout: page
+img: hero.jpg
 title: Cookies Policy
-permalink: en/cookies-policy/
+permalink: /cookies-policy/
 category:
     - en
 lang: en

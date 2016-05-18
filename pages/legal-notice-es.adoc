@@ -1,14 +1,15 @@
 ---
 layout: page
+img: hero.jpg
 title: Aviso Legal
 description: Condiciones de uso de la información contenida en este portal
-permalink: es/legal-notice/
+permalink: /aviso-legal/
 category:
     - es
 lang: es
 ---
 
-## Condiciones de uso de la información contenida en este portal
+# Condiciones de uso de la información contenida en este portal
 
 El uso de la información contenida en este portal implica la aceptación de las siguientes condiciones de uso:
 

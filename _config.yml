@@ -182,7 +182,7 @@ linksextra:
       url: "/terms-of-use"
     cookies:
       title: Cookies
-      url: "/cookies"
+      url: "/cookies-policy"
     privacy:
       title: Privacy policy
       url: "/privacy-policy"
@@ -192,13 +192,13 @@ linksextra:
 #      url: "/jobs"
     notice:
       title: Aviso legal
-      url: "/legal-notice"
+      url: "/aviso-legal"
     terms:
       title: Condiciones de uso
       url: "/terms-of-use"
     cookies:
       title: Cookies
-      url: "/cookies"
+      url: "/politica-de-cookies"
     privacy:
       title: Política de privacidad
       url: "/privacy-policy"

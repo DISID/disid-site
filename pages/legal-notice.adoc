@@ -1,14 +1,15 @@
 ---
 layout: page
+img: hero.jpg
 title: Legal Notice
 description: Conditions of use of the information contained in this website
-permalink: en/legal-notice/
+permalink: /legal-notice/
 category:
     - en
 lang: en
 ---
 
-## Conditions of use of the information contained in this website
+# Conditions of use of the information contained in this website
 
 Use of the information contained in this website constitutes acceptance of the following terms of use:
 
