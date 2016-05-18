@@ -1,7 +1,6 @@
 # Site settings
-url: http://www.disid.com
-#url: http://disid.github.io/disid-site
-#url: http://localhost:4000
+#url: http://www.disid.com
+url: http://localhost:4000
 #baseurl:
 email: info@disid.com
 #google_analytics: UA-73596417-1 #Google analytics code in the format XX-nnnnnnnn-n
@@ -142,31 +141,31 @@ links:
   en:
     solutions:
       title: Solutions
-      url: "#solutions"
+      url: "www.disid.com#solutions"
     projects:
       title: Projects
-      url: "#projects"
+      url: "www.disid.com#projects"
     blog:
       title: Blog
       url: "http://blog.disid.com/"
       external: true
     contact:
       title: Contact
-      url: "#contact"
+      url: "www.disid.com#contact"
   es:
     solutions:
       title: Soluciones
-      url: "#solutions"
+      url: "www.disid.com#solutions"
     projects:
       title: Projectos
-      url: "#projects"
+      url: "www.disid.com#projects"
     blog:
       title: Blog
       url: "http://blog.disid.com/es/index.html"
       external: true
     contact:
       title: Contacto
-      url: "#contact"
+      url: "www.disid.com#contact"
 
 linksextra:
   en:
