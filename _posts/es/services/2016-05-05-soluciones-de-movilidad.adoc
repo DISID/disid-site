@@ -1,7 +1,7 @@
 ---
 layout: project
 hero-img: hero-bg-mobility.jpg
-img: pic-mobility2.jpg
+img: pic-mobility.jpg
 icon: fa-mobile
 url: soluciones-movilidad
 ref: mobility-solutions
