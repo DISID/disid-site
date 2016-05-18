@@ -50,6 +50,15 @@ Preloader
   background-position: 9999px 9999px;
 }
 
+/* ==========================================================================
+Header
+========================================================================== */
+
+footer .footer-nav ul.footer-secondary-nav li small{
+  font-size: 80%;
+  margin: 1em 0;
+  display: block;
+}
 
 
 /* ==========================================================================
@@ -506,9 +515,5 @@ Portfolio Modal
     transform: rotate(90deg);
 }
 
-div.modal-img{
-/*   height: 100px;
-  overflow: hidden; */
-}
 
 
