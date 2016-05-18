@@ -21,17 +21,13 @@ social:
     url: http://twitter.com/disid_corp
   - title: facebook
     url: https://www.facebook.com/DISIDCorp/
-#  - title: stack-overflow
-#    url: http://stackoverflow.com/questions/tagged/jekyll
-#  - title: bitbucket
-#    url: http://bitbucket.org/jekyll
   - title: github
     url: https://github.com/DISID
   - title: linkedin
     url: https://www.linkedin.com/company/disid
 
 
-# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+# Postal address (add as many lines as necessary). Shown in footer on Contact section.
 address:
   - lines:
     - C/ San Vicente Mártir, 84 - 5A Valencia
@@ -39,20 +35,74 @@ address:
 email: info@disid.com
 tel: (+34) 963 516 309
 
-# Clients information. Shown on Home and About pages.
+# Clients information. Shown on Home.
 clients:
-  - name: Asociación gvSIG
-    img: asociacion-gvsig.png
-    url: http://www.gvsig.com
-    title: Asociación gvSIG website
-  - name: DISID
-    img: disid.png
-    url: http://www.disid.com
-    title: DISID Corporation website
   - name: Diputación de Valencia
     img: logo-dival.png
     url: http://www.dival.es/
     title: Diputación de Valencia website
+
+# Technologies information. Shown on Home page.
+technologies:
+  - name: Java
+    img: java.png
+    title: Java
+  - name: Spring
+    img: spring.png
+    title: Spring
+    url: https://spring.io/
+  - name: Spring Roo
+    img: springroo.png
+    title: Spring Roo
+    url: https://projects.spring.io/spring-roo/
+  - name: gvSIG
+    img: gvsig.png
+    url: http://www.gvsig.com
+    title: Asociación gvSIG website
+  - name: Bootstrap
+    img: bootstrap.png
+    url: http://www.getbootstrap.com
+    title: Bootstrap
+  - name: "HTML&JS&CSS"
+    img: html-js-css.png
+    url:
+    title: "HTML&JS&CSS"
+  - name: JQuery
+    img: jquery.png
+    url:
+    title: "JQuery"
+  - name: Thymeleaf
+    img: thymeleaf.png
+    url:
+    title: Thymeleaf
+  - name: Maven
+    img: maven.png
+    url:
+    title: Maven
+  - name: Hibernate
+    img: hibernate.png
+    url:
+    title: Hibernate
+  - name: Liquibase
+    img: liquibase.png
+    url:
+    title: Liquibase
+  - name: JUnit
+    img: junit.png
+    url:
+    title: JUnit
+  - name: Leaflet
+    img: leaflet.png
+    url:
+    title: Leaflet
+  - name: PostgreSQL
+    img: postgresql.png
+    url:
+    title: PostgreSQL
+  - name: Docker
+    img: docker.png
+    url:
+    title: Docker
 
 # Build settings
 markdown: kramdown
@@ -107,6 +157,9 @@ t:
     suscribe: Subscribe to stay in the loop
     suscribe-button: Subscribe me!
     contact: Drop us a line
+    technologies:
+      section-heading: "Our Know-how"
+      description: We like to provide technological solutions focused on what really matters to the business and developed on a daily basis. Select the most appropriate technology and tools for the development of each solution. Our base in Java, Spring and always working in a collaborative and evolving the OpenSource, we can offer a solution tailored to what you really need.
     services:
 #      section-heading: "Our solutions"
 #      section-subheading: "Solutions to and from any device."
@@ -126,6 +179,9 @@ t:
     suscribe: Suscríbete para mantenerte informado de nuestras noticias
     suscribe-button: ¡Apúntame!
     contact: Queremos escucharte
+    technologies:
+      section-heading: "Nuestro soporte para el desarrollo"
+      description: Nos gusta facilitar soluciones tecnológicas centradas en lo realmente importante para el negocio y desarrolladas en la base del día a día. Seleccionamos la tecnología y herramientas más apropiadas para el desarrollo de cada solución. Nuestra base en Java, Spring y siempre trabajando en un entorno colaborativo y en constante evolución del OpenSource, nos permite ofrecerte una solución ajustada a lo que realmente necesitas.
     services:
 #      section-heading: "Nuestras soluciones"
 #      section-subheading: "Soluciones desde y para cualquier dispositivo."
@@ -149,6 +205,9 @@ links:
     projects:
       title: Projects
       url: "http://www.disid.com#projects"
+    technologies:
+      title: Technologies
+      url: "http://www.disid.com#technologies"
     blog:
       title: Blog
       url: "http://blog.disid.com/"
@@ -163,6 +222,9 @@ links:
     projects:
       title: Projectos
       url: "http://www.disid.com#projects"
+    technologies:
+      title: Tecnologías
+      url: "http://www.disid.com#technologies"
     blog:
       title: Blog
       url: "http://blog.disid.com/es/index.html"

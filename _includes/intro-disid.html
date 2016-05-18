@@ -1,13 +1,13 @@
 <section id="intro">
    <div class="container section-intro text-center has-padding">
-        <h2 class="wp wp-1 animated fadeInUp">{{ site.t[page.lang].intro-lead-in }}</h2>
-        <p class="lead wp wp-2 animated fadeInUp">{{ site.t[page.lang].intro-heading }}</p>
+        <h2 class="wp wp-1 animated fadeInUp wp5">{{ site.t[page.lang].intro-lead-in }}</h2>
+        <p class="lead wp wp-2 animated fadeInUp wp6">{{ site.t[page.lang].intro-heading }}</p>
 
         {% assign collection=site.posts | where:"lang", page.lang %}
 
         {% for post in collection %}
 	        {% if post.categories contains 'intro' %}
-	        <div class="col-md-8 col-md-offset-2">{{ post.content }}</div>
+	        <div class="col-md-8 col-md-offset-2 wp8">{{ post.content }}</div>
 	        {% endif %}
         {% endfor %}
 
