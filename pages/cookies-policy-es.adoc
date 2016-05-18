@@ -3,6 +3,7 @@ layout: page
 img: hero.jpg
 title: Política de cookies
 permalink: /politica-de-cookies/
+ref: cookies-policy
 category:
     - es
 lang: es

@@ -4,6 +4,7 @@ img: hero.jpg
 title: Aviso Legal
 description: Condiciones de uso de la información contenida en este portal
 permalink: /aviso-legal/
+ref: legal-notice
 category:
     - es
 lang: es

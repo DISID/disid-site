@@ -60,8 +60,8 @@ permalink: pretty
 permalink: /:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 highlighter: rouge
-paginate:    2
-paginate_path: "blog/page:num"
+#paginate:    2
+#paginate_path: "blog/page:num"
 
 # jekyll configuration
 
@@ -103,6 +103,7 @@ t:
     intro-heading: "We are your best choice"
     learn-more: Learn more
     close: Close
+    footer-text: Sociedad Limitada 2013 CC BY-NC-SA 3.0 ES | Developed with Jekyll & Bootstrap
     suscribe: Subscribe to stay in the loop
     suscribe-button: Subscribe me!
     contact: Drop us a line
@@ -121,6 +122,7 @@ t:
     intro-heading: "Nosotros somos tu mejor elección"
     learn-more: Saber más
     close: Cerrar
+    footer-text: Sociedad Limitada 2013 CC BY-NC-SA 3.0 ES | Sitio web desarrollado con Jekyll & Bootstrap
     suscribe: Suscríbete para mantenerte informado de nuestras noticias
     suscribe-button: ¡Apúntame!
     contact: Queremos escucharte
@@ -177,15 +179,15 @@ linksextra:
     notice:
       title: Legal notice
       url: "/legal-notice"
-    terms:
-      title: Terms of use
-      url: "/terms-of-use"
+#    terms:
+#      title: Terms of use
+#      url: "/terms-of-use"
     cookies:
       title: Cookies
       url: "/cookies-policy"
-    privacy:
-      title: Privacy policy
-      url: "/privacy-policy"
+#    privacy:
+#      title: Privacy policy
+#      url: "/privacy-policy"
   es:
 #    jobs:
 #      title: Empleo
@@ -193,15 +195,15 @@ linksextra:
     notice:
       title: Aviso legal
       url: "/aviso-legal"
-    terms:
-      title: Condiciones de uso
-      url: "/terms-of-use"
+#    terms:
+#      title: Condiciones de uso
+#      url: "/terms-of-use"
     cookies:
       title: Cookies
       url: "/politica-de-cookies"
-    privacy:
-      title: Política de privacidad
-      url: "/privacy-policy"
+#    privacy:
+#      title: Política de privacidad
+#      url: "/privacy-policy"
 
 
 include: [".htaccess"]

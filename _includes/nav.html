@@ -58,7 +58,7 @@
                     {% endif %}
 
                     <!-- for all posts -->
-                    {% if page.layout == 'project' %}
+                    {% if page.layout == 'project' or page.layout == 'page' %}
 	                    <ul>
 											{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
 											{% for post in posts %}
