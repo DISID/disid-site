@@ -57,17 +57,8 @@
     <link rel="stylesheet" href="{{"/css/disid.css" | prepend: site.baseurl | prepend: site.url }}">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-
-
-
-    <!-- blog DISID fonts -->
-    <!--
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=latin,latin-ext' rel='stylesheet'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600&amp;subset=latin,latin-ext' rel='stylesheet'>
-    -->
-
-    <!-- Recursos en la carpeta JS - TODO --->
-    <!--  <script src="{{ "/js/jquery-1.11.0.js" | prepend: site.baseurl }}"></script> -->
+    <!-- Cookies Alert -->
+    <link rel="stylesheet" href="{{"/css/cookiecuttr.css" | prepend: site.baseurl | prepend: site.url }}" rel="stylesheet" type="text/css">
 
     <!-- jQuery, needed for toc.js, CookieCuttr,... -->
     <!-- JS CDNs -->
@@ -79,8 +70,8 @@
 	  </script>
 
     <!-- Jekyll-Asciidoc Quickstart -->
-    <script src="{{ site.url }}/assets/js/vendor/modernizr.js"></script>
-    <script src="{{ site.url }}/assets/js/toc.js"></script>
+    <script src="{/"/js/vendor/modernizr.js" | prepend: site.baseurl | prepend: site.url}}"></script>
+    <script src="{{"/js/toc.js" | prepend: site.baseurl | prepend: site.url }}"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -88,6 +79,33 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    {% if site.google_analytics %}
+
+		<!-- jQuery CookieCuttr -->
+		<script type="text/javascript" src="{{"/js/jquery.cookie.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+		{% if page.lang == 'es' %}
+		  <script type="text/javascript" src="{{"/js/jquery.cookiecuttr-es.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+		{% endif %}
+		{% if page.lang == 'en' %}
+		  <script type="text/javascript" src="{{"/js/jquery.cookiecuttr.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+		{% endif %}
+
+		<script type="text/javascript">
+		if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
+		  // insert the code you do not want to run UNTIL cookies are accepted here
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', '{{ site.google_analytics }}']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		  var s = document. getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		  }
+		</script>
+		{% endif %}
 
 
 </head>

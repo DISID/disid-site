@@ -20,3 +20,13 @@
   <!-- JS init -->
   <script src="{{"/js/scripts.js" | prepend: site.baseurl | prepend: site.url }}"></script>
 
+  <!-- Cookies consent -->
+	{% if site.google_analytics %}
+	<script>
+	    $(document).ready(function () {
+	      console.log("Cookies consent loaded");
+	      $.cookieCuttr();
+	    });
+	</script>
+	{% endif %}
+
