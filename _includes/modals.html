@@ -1,8 +1,10 @@
  <!-- Portfolio Modals -->
  {% assign collection=site.posts | where:"lang", page.lang %}
- {% if post.categories contains 'project' %}
+
 
  {% for post in collection %}
+
+  {% if post.categories contains 'project' %}
     <div class="portfolio-modal modal fade" id="{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -38,5 +40,6 @@
             </div>
         </div>
     </div>
+    {% endif %}
+
 {% endfor %}
-{% endif %}
