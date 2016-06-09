@@ -327,6 +327,19 @@
   
     
       <url>
+        <loc>/aviso-legal-correo/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/aviso-legal-correo/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/email-legal-notice/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
         <loc>/politica-de-cookies/</loc>
         
         
@@ -346,6 +359,19 @@
           <xhtml:link rel="alternate" hreflang="es" href="/politica-de-cookies/" />
         
           <xhtml:link rel="alternate" hreflang="en" href="/cookies-policy/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/email-legal-notice/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/aviso-legal-correo/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/email-legal-notice/" />
         
         <changefreq>weekly</changefreq>
       </url>
