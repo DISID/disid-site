@@ -1,7 +1,7 @@
 ---
 layout: page
 img: hero.jpg
-title: Aviso Legal - Correo electrónico
+title: Aviso Legal Correo electrónico
 description: Condiciones de uso de la información contenida
 permalink: /aviso-legal-correo/
 ref: email-legal-notice
@@ -10,7 +10,7 @@ category:
 lang: es
 ---
 
-# Confidencialidad
+## Confidencialidad
 
 Esta comunicación contiene información que puede ser
 confidencial y privilegiada. Es para uso exclusivo del
@@ -24,7 +24,7 @@ expresadas en el mensaje pueden ser personales y no
 necesariamente opiniones de DISID Corporation, S.L.
 
 
-# Virus y Seguridad
+## Virus y Seguridad
 
 Aunque hemos tomado las medidas para asegurarnos que este correo
 electrónico y sus ficheros adjuntos están libres de virus, le

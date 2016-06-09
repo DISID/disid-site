@@ -10,7 +10,7 @@ category:
 lang: en
 ---
 
-# Notice
+## Notice
 
 This e-mail transmission, and any documents, files or previous e-mail messages
 attached to it, may contain confidential or privileged information. If you are
