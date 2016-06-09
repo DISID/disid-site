@@ -1,0 +1,35 @@
+---
+layout: page
+img: hero.jpg
+title: Aviso Legal - Correo electrónico
+description: Condiciones de uso de la información contenida
+permalink: /aviso-legal-correo/
+ref: email-legal-notice
+category:
+    - es
+lang: es
+---
+
+# Confidencialidad
+
+Esta comunicación contiene información que puede ser
+confidencial y privilegiada. Es para uso exclusivo del
+destinatario indicado. Si no es Vd. el destinatario, por favor
+tome nota de que cualquier distribución, copia o uso de esta
+comunicación o información está estrictamente prohibido. Si ha
+recibido este mensaje por error, por favor avísenos por e-mail a
+mailto:info@disid.com[info@disid.com] y después
+destruya el mensaje y cualquier copia de él. Las opiniones
+expresadas en el mensaje pueden ser personales y no
+necesariamente opiniones de DISID Corporation, S.L.
+
+
+# Virus y Seguridad
+
+Aunque hemos tomado las medidas para asegurarnos que este correo
+electrónico y sus ficheros adjuntos están libres de virus, le
+recomendamos que a efectos de mantener buenas prácticas de
+seguridad, el receptor debe asegurarse que este correo y sus
+ficheros adjuntos están libres de virus.
+
+Gracias.

@@ -1,0 +1,24 @@
+---
+layout: page
+img: hero.jpg
+title: Email Legal Notice
+description: Conditions of use of the information contained in this email
+permalink: /email-legal-notice/
+ref: email-legal-notice
+category:
+    - en
+lang: en
+---
+
+# Notice
+
+This e-mail transmission, and any documents, files or previous e-mail messages
+attached to it, may contain confidential or privileged information. If you are
+not the intended recipient, or a person responsible for delivering it to the
+inteneded recipient, you are responsible for delivering it to the intended
+recipient, you are hereby notified that any disclosure, copying, distribution
+or use of any of the information contained in or attached to this message is
+STRICTLY PROHIBITED. If you have received this transmission in error, please
+immediately notify the sender and delete the e-mail and attached documents.
+
+Thank you.
