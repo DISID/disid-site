@@ -313,6 +313,29 @@
         
           <xhtml:link rel="alternate" hreflang="en" href="/404.html" />
         
+          <xhtml:link rel="alternate" hreflang="en" href="/README.html" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/index.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/index.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/sitemaps.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/style.css" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/README.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/404.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/README.html" />
+        
           <xhtml:link rel="alternate" hreflang="es" href="/es/index.html" />
         
           <xhtml:link rel="alternate" hreflang="en" href="/index.html" />
@@ -384,6 +407,8 @@
         
           <xhtml:link rel="alternate" hreflang="en" href="/404.html" />
         
+          <xhtml:link rel="alternate" hreflang="en" href="/README.html" />
+        
           <xhtml:link rel="alternate" hreflang="es" href="/es/index.html" />
         
           <xhtml:link rel="alternate" hreflang="en" href="/index.html" />
@@ -402,6 +427,8 @@
         
         
           <xhtml:link rel="alternate" hreflang="en" href="/404.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/README.html" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/es/index.html" />
         
@@ -448,6 +475,8 @@
         
           <xhtml:link rel="alternate" hreflang="en" href="/404.html" />
         
+          <xhtml:link rel="alternate" hreflang="en" href="/README.html" />
+        
           <xhtml:link rel="alternate" hreflang="es" href="/es/index.html" />
         
           <xhtml:link rel="alternate" hreflang="en" href="/index.html" />
@@ -466,6 +495,8 @@
         
         
           <xhtml:link rel="alternate" hreflang="en" href="/404.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/README.html" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/es/index.html" />
         
