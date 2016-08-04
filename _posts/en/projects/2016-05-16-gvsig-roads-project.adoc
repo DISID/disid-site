@@ -25,4 +25,4 @@ a desktop GIS for cartographic editing and update; geoportal for managing,
 editing and viewing geospatial data roads and mobile software for fieldwork activities.
 
 DISID taught online seminars to introduce the functionalities and workflow of
-the free solution for road management http://wwww.gvsigroads.com[gvSIG Roads].
+the free solution for road management http://www.gvsigroads.com[gvSIG Roads].

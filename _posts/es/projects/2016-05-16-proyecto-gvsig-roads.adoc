@@ -29,5 +29,5 @@ geoportal para la gestión, edición y la visualización de los datos geoespacia
  y software móvil para tareas de trabajo de campo.
 
 DISID imparte formación online para presentar las funcionalidades y
-flujo de trabajo de la solución libre para la gestión de carreteras http://wwww.gvsigroads.com[gvSIG Roads].
+flujo de trabajo de la solución libre para la gestión de carreteras http://www.gvsigroads.com[gvSIG Roads].
 
