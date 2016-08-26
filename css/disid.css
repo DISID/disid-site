@@ -10,7 +10,8 @@
 
 ::selection {
     text-shadow: none;
-    background: #{{ site.color.primary }};
+    background: #7AE2DE;
+    color: white;
 }
 
 img::selection {
@@ -523,5 +524,15 @@ Portfolio Modal
     transform: rotate(90deg);
 }
 
+/* ==========================================================================
+Projects
+========================================================================== */
+
+section#projects>.container >.row:nth-child(2) {
+  margin-bottom: 2em
+}
+section#projects .article-category {
+  text-transform: uppercase
+}
 
 
