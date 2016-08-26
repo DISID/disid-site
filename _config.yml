@@ -181,8 +181,8 @@ t:
     suscribe: Suscríbete para mantenerte informado de nuestras noticias
     suscribe-button: ¡Apúntame!
     contact: Queremos escucharte
-    adress: Address
-    phone: Phone
+    adress: Dirección
+    phone: Teléfono
     technologies:
       section-heading: "Nuestro soporte para el desarrollo"
       description: Nos gusta facilitar soluciones tecnológicas centradas en lo realmente importante para el negocio y desarrolladas en la base del día a día. Seleccionamos la tecnología y herramientas más apropiadas para el desarrollo de cada solución. Nuestra base en Java, Spring y siempre trabajando en un entorno colaborativo y en constante evolución del OpenSource, nos permite ofrecerte una solución ajustada a lo que realmente necesitas.
