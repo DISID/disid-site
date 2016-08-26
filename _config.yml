@@ -30,8 +30,8 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer on Contact section.
 address:
   - lines:
-    - C/ San Vicente Mártir, 84 - 5A Valencia
-    - CP 46002, Spain
+    - Avinguda de Menéndez y Pelayo, 5
+    - 46010 Valencia, Spain
 email: info@disid.com
 tel: (+34) 963 516 309
 
@@ -157,6 +157,8 @@ t:
     suscribe: Subscribe to stay in the loop
     suscribe-button: Subscribe me!
     contact: Drop us a line
+    adress: Address
+    phone: Phone
     technologies:
       section-heading: "Our Know-how"
       description: We like to provide technological solutions focused on what really matters to the business and developed on a daily basis. Select the most appropriate technology and tools for the development of each solution. Our base in Java, Spring and always working in a collaborative and evolving the OpenSource, we can offer a solution tailored to what you really need.
@@ -179,6 +181,8 @@ t:
     suscribe: Suscríbete para mantenerte informado de nuestras noticias
     suscribe-button: ¡Apúntame!
     contact: Queremos escucharte
+    adress: Address
+    phone: Phone
     technologies:
       section-heading: "Nuestro soporte para el desarrollo"
       description: Nos gusta facilitar soluciones tecnológicas centradas en lo realmente importante para el negocio y desarrolladas en la base del día a día. Seleccionamos la tecnología y herramientas más apropiadas para el desarrollo de cada solución. Nuestra base en Java, Spring y siempre trabajando en un entorno colaborativo y en constante evolución del OpenSource, nos permite ofrecerte una solución ajustada a lo que realmente necesitas.

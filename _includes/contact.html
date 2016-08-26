@@ -3,14 +3,14 @@
           <div class="container">
             <div class="row">
               <div class="col-md-12">
-                <h1 class="arrow">{{ site.t[page.lang].contact }} </h1>
+                <h1 class="arrow">{{ site.t[page.lang].contact }}</h1>
               </div>
             </div>
             <div class="row contact-details">
               <div class="col-md-4">
                 <div class="light-box box-hover">
                   <i class="fa fa-map-marker fa-3x"></i>
-                  <h2><span>Address</span></h2>
+                  <h2><span>{{ site.t[page.lang].adress }}</span></h2>
                   <p>{% for line in site.address.first.lines %}
                         {{ line }} <br>
                     {% endfor %}</p>
@@ -19,7 +19,7 @@
               <div class="col-md-4">
                 <div class="light-box box-hover">
                   <i class="fa fa-phone fa-3x"></i>
-                  <h2><span>Phone</span></h2>
+                  <h2><span>{{ site.t[page.lang].phone }}</span></h2>
                   <p><br> {{ site.tel }}</p>
                 </div>
               </div>
