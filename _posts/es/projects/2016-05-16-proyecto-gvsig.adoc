@@ -8,7 +8,7 @@ title: gvSIG
 subtitle: Gestión de información geográfica
 headline:
 description:
-link: sistemas-de-info-geografica-y-geomatica/
+link: /sistemas-de-info-geografica-y-geomatica/
 ref: gvsig-project
 category:
     - project

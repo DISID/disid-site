@@ -8,7 +8,7 @@ title: gvNIX
 subtitle: Desarrollo ágil de aplicaciones Java
 headline:
 description:
-link: desarrollo-java
+link: /desarrollo-java
 ref: gvnix-project
 category:
     - project
