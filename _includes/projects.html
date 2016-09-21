@@ -17,7 +17,7 @@
       {% for post in collection limit: 3 %}
 
              {% if post.categories contains 'project' %}
-					        <div class="col-md-4 wp4 animated fadeInDown {% if forloop.first %}first{% elsif forloop.last %}delay-1s{% else %}delay-05s{% endif %}">
+					        <div class="col-md-4 wp4 animated fadeInDown">
                     <article class="article-post">
                         <div class="overlay-effect effects clearfix">
                           <div class="img article-image has-overlay">
@@ -51,7 +51,7 @@
 
         {% if post.categories contains 'project' %}
 
-                  <div class="col-md-4 wp4 animated fadeInDown {% if forloop.first %}delay-5s{% elsif forloop.last %}delay-9s{% else %}delay-7s{% endif %}">
+                  <div class="col-md-4 wp4 animated fadeInDown">
                     <article class="article-post">
                         <div class="overlay-effect effects clearfix">
 	                        <div class="img article-image has-overlay">
