@@ -11,3 +11,6 @@ before_script:
   - git config --local user.email "travis@travis.ci"
   - git config --local user.name "Travis CI"
 script: bundle exec rake deploy
+after_script:
+  - git config --local user.email "travis@travis.ci"
+  - git config --local user.name "Travis CI"
