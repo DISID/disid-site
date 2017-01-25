@@ -11,7 +11,7 @@ categories:
 lang: es
 ---
 
-Factoria de software. Dinos qué necesitas y nosotros te ofrecemos la mejor solución.
+Factoria de software. Dinos que necesitas y nosotros te ofrecemos la mejor solución.
 
 Creamos aplicaciones móviles tanto para Android como iPhone, aplicaciones web para intranet o extranet, aplicaciones de escritorio y nuevos servicios o componentes para una arquitectura ya existente.
 
