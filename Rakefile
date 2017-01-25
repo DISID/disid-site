@@ -3,7 +3,7 @@ require 'rake-jekyll'
 # This task builds the Jekyll site and deploys it to a remote Git repository.
 # It's preconfigured to be used with GitHub and Travis CI.
 # See http://github.com/jirutka/rake-jekyll for more options.
-git config user.email ${GH_EMAIL}
+git config --local user.email 'pargudo@disid.com'
 Rake::Jekyll::GitDeployTask.new(:deploy)
 
 # adapted from https://github.com/imathis/octopress/blob/master/Rakefile
