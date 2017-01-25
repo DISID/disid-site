@@ -45,7 +45,6 @@ Rake::Jekyll::GitDeployTask.new(:deploy) do |t|
   # variable GH_TOKEN is set, then it adds it as a userinfo to the URL.
   t.remote_url = -> {
     url = `git config remote.origin.url`.strip.gsub(/^git:/, 'https:')
-    next url.gsub(%r{^https://([^/]+)/(.*)$}, 'git@\1:\2') if ssh_key_file?
     next url.gsub(%r{^https://}, "https://#{ENV['GH_TOKEN']}@") if ENV.key? 'GH_TOKEN'
     next url
   }
@@ -57,9 +56,6 @@ Rake::Jekyll::GitDeployTask.new(:deploy) do |t|
       %w[yes y true 1].include?(ENV['SKIP_DEPLOY'].to_s.downcase) ||
       (ENV['SOURCE_BRANCH'] && ENV['SOURCE_BRANCH'] != ENV['TRAVIS_BRANCH'])
   }
-  # Path of the private SSH key to be used for communication with the
-  # repository defined by remote_url.
-  t.ssh_key_file = '.deploy_key'
 end
 
 # adapted from https://github.com/imathis/octopress/blob/master/Rakefile
