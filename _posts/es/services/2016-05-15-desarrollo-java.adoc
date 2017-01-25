@@ -3,7 +3,7 @@ layout: project
 hero-img: hero-bg-java.jpg
 img: pic-java.jpg
 title: Expertos en Java
-headline: Factoria de software. Dinos que necesitas y nosotros te ofrecemos la mejor solución.
+headline: Factoria de software. Dinos qué necesitas y nosotros te ofrecemos la mejor solución.
 description: Desarrollo de aplicaciones a medida que se adaptan a las necesidades de cada negocio.
 icon: fa-cogs
 typed: true
