@@ -1,35 +1,100 @@
-desc 'Generate deck from Travis CI and publish to GitHub Pages.'
-task :travis do
-  # if this is a pull request, do a simple build of the site and stop
-  if ENV['TRAVIS_PULL_REQUEST'].to_s.to_i > 0
-    puts 'Pull request detected. Executing build only.'
-    sh 'bundle exec rake build'
-    next
+require 'rake-jekyll'
+
+# This task builds the Jekyll site and deploys it to a remote Git repository.
+# It's preconfigured to be used with GitHub and Travis CI.
+# See http://github.com/jirutka/rake-jekyll for more options.
+Rake::Jekyll::GitDeployTask.new(:deploy)
+
+# adapted from https://github.com/imathis/octopress/blob/master/Rakefile
+# usage rake new_post['My New Post'] or rake new_post (defaults to "My New Post")
+  desc "Start a new post"
+  task :new, :title do |t, args|
+   args.with_defaults(:title => 'My New Post')
+   title = args.title
+   filename = "_posts/#{Time.now.strftime('%Y-%m-%d')}-#{title.downcase.gsub(/&/,'and').gsub(/[,'":\?!\(\)\[\]]/,'').gsub(/[\W\.]/, '-').gsub(/-+$/,'')}.md"
+   puts "Creating new post: #{filename}"
+   open(filename, 'w') do |post|
+     post.puts "---"
+     post.puts "layout: post"
+     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
+     post.puts "description: "
+     post.puts "headline: "
+     post.puts "modified: #{Time.now.strftime('%Y-%m-%d')}"
+     post.puts "category: personal"
+     post.puts "tags: []"
+     post.puts "image: "
+     post.puts "  feature: "
+     post.puts "mathjax: "
+     post.puts "---"
+   end
   end
 
-  repo = %x(git config remote.origin.url).gsub(/^git:/, 'https:').strip
-  deploy_url = repo.gsub %r{https://}, "https://#{ENV['GH_TOKEN']}@"
-  deploy_branch = repo.match(/github\.io\.git$/) ? 'master' : 'gh-pages'
-  rev = %x(git rev-parse HEAD).strip
-
-  Dir.mktmpdir do |dir|
-    dir = File.join dir, 'site'
-    sh 'bundle exec rake build'
-    fail "Build failed." unless Dir.exists? destination
-    sh "git clone --branch #{deploy_branch} #{repo} #{dir}"
-    sh %Q(rsync -rt --del --exclude=".git" --exclude=".nojekyll" #{destination} #{dir})
-    Dir.chdir dir do
-      # setup credentials so Travis CI can push to GitHub
-      verbose false do
-        sh "git config user.name '#{ENV['GIT_NAME']}'"
-        sh "git config user.email '#{ENV['GIT_EMAIL']}'"
-      end
-
-      sh 'git add --all'
-      sh "git commit -m 'Built from #{rev}'."
-      verbose false do
-        sh "git push -q #{deploy_url} #{deploy_branch}"
-      end
-    end
+  desc "Start a new quote"
+  task :newquote, :title do |t, args|
+   args.with_defaults(:title => 'My New quote')
+   title = args.title
+   filename = "_posts/#{Time.now.strftime('%Y-%m-%d')}-#{title.downcase.gsub(/&/,'and').gsub(/[,'":\?!\(\)\[\]]/,'').gsub(/[\W\.]/, '-').gsub(/-+$/,'')}.md"
+   puts "Creating new post: #{filename}"
+   open(filename, 'w') do |post|
+     post.puts "---"
+     post.puts "layout: post"
+     post.puts "type: quote"
+     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
+     post.puts "description: "
+     post.puts "headline: "
+     post.puts "modified: #{Time.now.strftime('%Y-%m-%d')}"
+     post.puts "category: quotes"
+     post.puts "tags: []"
+     post.puts "image: "
+     post.puts "  feature: "
+     post.puts "mathjax: "
+     post.puts "---"
+   end
   end
-end
+
+  desc "Start a new status"
+  task :newstatus, :title do |t, args|
+   args.with_defaults(:title => 'My New Post')
+   title = args.title
+   filename = "_posts/#{Time.now.strftime('%Y-%m-%d')}-#{title.downcase.gsub(/&/,'and').gsub(/[,'":\?!\(\)\[\]]/,'').gsub(/[\W\.]/, '-').gsub(/-+$/,'')}.md"
+   puts "Creating new post: #{filename}"
+   open(filename, 'w') do |post|
+     post.puts "---"
+     post.puts "layout: post"
+     post.puts "type: status"
+     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
+     post.puts "description: "
+     post.puts "headline: "
+     post.puts "modified: #{Time.now.strftime('%Y-%m-%d')}"
+     post.puts "category: status"
+     post.puts "tags: []"
+     post.puts "image: "
+     post.puts "  feature: "
+     post.puts "mathjax: "
+     post.puts "---"
+   end
+  end
+
+    # adapted from https://github.com/imathis/octopress/blob/master/Rakefile
+  # usage rake new_post['My New Post'] or rake new_post (defaults to "My New Post")
+  desc "Start a new page"
+  task :newpage, :title do |t, args|
+   args.with_defaults(:title => 'My New page')
+   title = args.title
+   filename = "#{title.downcase.gsub(/&/,'and').gsub(/[,'":\?!\(\)\[\]]/,'').gsub(/[\W\.]/, '-').gsub(/-+$/,'')}.md"
+   puts "Creating new page: #{filename}"
+   open(filename, 'w') do |post|
+     post.puts "---"
+     post.puts "layout: page"
+     post.puts "permalink: #{title.downcase.gsub(/&/,'and').gsub(/[,'":\?!\(\)\[\]]/,'').gsub(/[\W\.]/, '-').gsub(/-+$/,'')}/index.html"
+     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
+     post.puts "description: "
+     post.puts "headline: "
+     post.puts "modified: #{Time.now.strftime('%Y-%m-%d')}"
+     post.puts "tags: []"
+     post.puts "image: "
+     post.puts "  feature: "
+     post.puts "mathjax: "
+     post.puts "---"
+   end
+  end
