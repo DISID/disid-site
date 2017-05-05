@@ -199,6 +199,18 @@ $('div.modal').on('show.bs.modal', function() {
 	}
 });
 
+/***************** Tab ******************/
+
+$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+  //
+})
+
+//http://imakewebthings.com/waypoints/api/disable/
+$('a[data-toggle="tab"]').on('click', function() {
+  console.log("Disable waypoints to load UI Tabs");
+  waypoint.disable();
+  //  $.waypoints('refresh');
+})
 
 /***************** Preloader ******************/
 
