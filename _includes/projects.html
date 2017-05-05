@@ -24,10 +24,16 @@
                             <img src="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/projects/{{ post.img }}" alt="{{ post.title }}" draggable="false">
                             <div class="overlay">
                               <!-- <a href="{{ post.url }}" class="expand"><i class="fa fa-plus"></i><br>{{site.t[page.lang].learn-more}}</a> -->
+                              {% if post.categories contains 'project-page' %}
+                              <a href="{{ site.url }}{{ | prepend: site.baseurl }}{{ post.url }}" class="expand">
+                                <i class="fa fa-plus"></i><br>{{site.t[page.lang].learn-more}}
+                              </a>
+                              {% else %}
                               <a href="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}#{{ post.modal-id }}" class="expand" data-toggle="modal">
                                 <i class="fa fa-plus"></i><br>{{site.t[page.lang].learn-more}}
                               </a>
                               <a class="close-overlay hidden">x</a>
+                              {% endif %}
                             </div>
                           </div>
                           <figcaption>
@@ -58,10 +64,16 @@
 	                          <img src="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/projects/{{ post.img }}" alt="{{ post.title }}" draggable="false">
 	                          <div class="overlay">
 	                            <!-- <a href="{{ post.url }}" class="expand"><i class="fa fa-plus"></i><br>{{site.t[page.lang].learn-more}}</a> -->
-	                            <a href="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}#{{ post.modal-id }}" class="expand" data-toggle="modal">
+                              {% if post.categories contains 'project-page' %}
+                              <a href="{{ site.url }}{{ | prepend: site.baseurl }}{{ post.url }}" class="expand">
                                 <i class="fa fa-plus"></i><br>{{site.t[page.lang].learn-more}}
                               </a>
-	                            <a class="close-overlay hidden">x</a>
+                              {% else %}
+                              <a href="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}#{{ post.modal-id }}" class="expand" data-toggle="modal">
+                                <i class="fa fa-plus"></i><br>{{site.t[page.lang].learn-more}}
+                              </a>
+                              <a class="close-overlay hidden">x</a>
+                              {% endif %}
 	                          </div>
 	                        </div>
 	                        <figcaption>

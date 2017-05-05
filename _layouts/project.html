@@ -26,6 +26,15 @@
         </div>
     </section>
 
+{% comment %}
+    {% assign collection=site.posts | where:"lang", page.lang %}
+    {% for post in collection %}
+      {% if post.categories contains 'project-page' %}
+        {% include project-tabs.html %}
+      {% endif %}
+    {% endfor %}
+{% endcomment %}
+
     {% include footer.html %}
     {% include js.html %}
 

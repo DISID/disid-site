@@ -1,0 +1,117 @@
+---
+layout: project
+modal-id: innovation-project
+hero-img: hero-bg-innovation.jpg
+img: pic-innovation.jpg
+icon: fa-
+title: Investigación y desarrollo
+subtitle: Proyecto seleccionado en el Programa Operativo FEDER de la Comunitat Valenciana - IVACE
+headline: test
+description: test
+link: java-development
+url: innovation
+ref: innovation
+category:
+    - project
+    - project-page
+lang: es
+tags:
+- Java
+- I+D
+headings:
+- Descripción del proyecto
+- Objetivos específicos del proyecto
+- Resultados
+sections:
+- ¿Qué te ofrece gvSIG Roads?
+- Características destacadas de gvSIG Roads que se adecuan a la licitación.
+- |
+  Párrafo largo explicativo de algún módulo destacado de gvSIG Roads que se adecua
+  a esta licitación.
+
+  Párrafo que continua la explicación.
+- |
+  Y otro párrafo.
+
+  Y otro párrafo.
+---
+
+Investigación y desarrollo experimental de un sistema generación automática de
+sistemas de información basados en tecnologías de código abierto a partir de modelos de comportamiento.
+
+DISID participa en el Programa Operativo del Fondo de Desarrollo Regional de la Comunidad Valenciana
+
+DISID ha desarrollado el proyecto de I+D de "Investigación y desarrollo
+experimental de un sistema generación automática de sistemas de información basados
+en tecnologías de código abierto a partir de modelos de comportamiento".
+
+Este proyecto ha sido financiado por el IVACE, Instituto Valenciano de Competitividad
+Empresarial de la Generalitat Valenciana, a través de los Fondos Europeos FEDER de Desarrollo Regional,
+dentro del marco del Programa Operativo de la Comunitat Valenciana para el periodo 2014‐2020.
+
+El objetivo del proyecto es desarrollar una solución software que permita transformar sistemas de información desarrollados a medida con tecnologías propietarias a entornos tecnológicos basados en software de código abierto.
+
+El alcance del proyecto se divide en 4 ámbitos:
+Ingeniería inversa de un sistema origen implementado con la familia de productos Oracle Developer Suite.
+Especificación del sistema origen en notación estructurada.
+Generación automática de un nuevo sistema de información.
+Sistema de información generado basado en tecnologías de código abierto.
+Dentro de la diversidad de sistemas propietarios hemos escogido como primer objetivo del proyecto los sistemas de información desarrollados con Oracle Developer Suite debido al inmenso número de aplicaciones (millones de líneas de código) que todavía se encuentran en funcionamiento sin una perspectiva clara de migración a nuevos entornos debido a su alto coste de migración. Se trata de sistemas complejos y críticos que guardan todo el core de negocio de las empresas.
+
+Como sistema abierto para ejecutar el sistema de información generado hemos elegido la plataforma JEE, hoy por hoy la más extendida y estandarizada en el sector.
+
+Por último se ha elegido gvNIX, el entorno de desarrollo Java de código abierto recientemente elegido como estándar de desarrollo de la Generalitat Valenciana, como la plataforma de desarrollo donde se implementarán los componentes y algoritmos de generación automática de aplicaciones.
+
+El principal desafío técnico del proyecto ha consistido en cubrir la brecha tecnológica entre sistemas mediante la implementación de un conjunto de procesos de ingeniería inversa que permitan analizar el código, documentación y comportamiento del sistema a migrar para identificar sus componentes y sus dependencias con el objetivo de extraer una abstracción del sistema que sirva de entrada a una serie de herramientas de generación de código que permitan generar semiautomáticamente un nuevo sistema con el mismo comportamiento que el anterior pero funcionando en una tecnología diferente.
+
++++
+<div>
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#descripcion" aria-controls="descripcion" role="tab" data-toggle="tab">Descripción del proyecto</a></li>
+        <li role="presentation"><a href="#objetivos" aria-controls="objetivos" role="tab" data-toggle="tab">Objetivos específicos del proyecto</a></li>
+        <li role="presentation"><a href="#resultados" aria-controls="resultados" role="tab" data-toggle="tab">Resultados</a></li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="descripcion">
+            <p>Este proyecto se ha desarrollado en 2 campos de investigación relacionados:</p>
+            <ul>
+                <li>Mediante técnicas de reingeniería de procesos y técnicas de reingeniería de datos, generación automática de un "modelo de sistema" que sea capaz de abstraer el funcionamiento y los componentes estructurales de un sistema de información
+                    origen desarrollado con tecnologías propietarias.</li>
+                <li>A partir de un "modelo de sistema", generación automática de un nuevo sistema de información funcional y basado en tecnologías de código abierto.</li>
+            </ul>
+            <p><strong>Referencia del proyecto</strong> IFIDTA/2014/87</p>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="objetivos">
+            <ul>
+                <li><strong>Objetivo 1.</strong> Definición del "modelo de sistema", es decir, conjunto de especificaciones que permita representar los componentes de un sistema de información:
+                    <ul>
+                        <li>Estructura. Modelo de los componentes estructurales del sistema de información.</li>
+                        <li>Comportamiento. Modelo de los componentes dinámicos del sistema de información.</li>
+                        <li>Interfaz de usuario. Modelo de la interfaz de interacción con el usuario.​</li>
+                    </ul>
+                </li>
+                <li><strong> Objetivo 2.</strong> Diseño y desarrollo de componentes gvNIX para automatización de la generación de código del nuevo sistema
+                    <ul>
+                        <li>​El sistema de generación que a partir de un "modelo de sistema" que genera: la capa de negocio, la capa de control y la capa de interfaz de usuario.​ </li>
+                        <li>​El código generado es personalizable por el desarrollador.</li>
+                        <li>El código generado utiliza sólo tecnologías de código abierto.</li>​
+                    </ul>
+                </li>
+                <li><strong>​Objetivo 3.</strong> Pilotaje del sistema.
+                    <p>Se ha realizado un piloto del sistema que ha permitido evaluar la fiabilidad y adecuación del sistema a los problemas presentes en situaciones reales.</p>
+                </li>
+                <li><strong>​Objetivo 4.</strong> Difusión de la labor de investigación y desarrollo
+                    <p>​Se han publicado los resultados obtenidos para dar a conocer los avances experimentados en el proyecto y difundir las actividades de investigación realizadas.</p>
+                </li>
+            </ul>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="resultados">
+            <p>El proyecto se ha desarrollado como un addon de Spring Roo y como parte de las funcionalidades que ofrece la nueva versión de gvNIX.<br> Se distribuirá en siguientes versiones de gvNIX como una nueva funcionalidad o bien como addon independiente
+                que se podrá instalar sobre gvNIX.</p>
+        </div>
+    </div>
+</div>
++++
+
