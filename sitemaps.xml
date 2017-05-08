@@ -10,7 +10,21 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/proyecto-spring-roo" />
         
-        <lastmod>2016-05-16T00:00:00+00:00</lastmod>
+        <lastmod>2016-05-16T00:00:00+02:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/research-and-development-project</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/research-and-development-project" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/proyecto-investigacion-y-desarrollo" />
+        
+        <lastmod>2016-05-16T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     
@@ -24,7 +38,7 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/proyecto-reconec" />
         
-        <lastmod>2016-05-16T00:00:00+00:00</lastmod>
+        <lastmod>2016-05-16T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     
@@ -38,7 +52,7 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/proyecto-spring-roo" />
         
-        <lastmod>2016-05-16T00:00:00+00:00</lastmod>
+        <lastmod>2016-05-16T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     
@@ -52,7 +66,21 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/proyecto-reconec" />
         
-        <lastmod>2016-05-16T00:00:00+00:00</lastmod>
+        <lastmod>2016-05-16T00:00:00+02:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/proyecto-investigacion-y-desarrollo</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/research-and-development-project" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/proyecto-investigacion-y-desarrollo" />
+        
+        <lastmod>2016-05-16T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     
@@ -64,7 +92,7 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/proyecto-gvsig-roads" />
         
-        <lastmod>2016-05-16T00:00:00+00:00</lastmod>
+        <lastmod>2016-05-16T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     
@@ -78,7 +106,7 @@
         
           <xhtml:link rel="alternate" hreflang="en" href="/gvsig-project" />
         
-        <lastmod>2016-05-16T00:00:00+00:00</lastmod>
+        <lastmod>2016-05-16T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     
@@ -92,7 +120,7 @@
         
           <xhtml:link rel="alternate" hreflang="en" href="/gvnix-project" />
         
-        <lastmod>2016-05-16T00:00:00+00:00</lastmod>
+        <lastmod>2016-05-16T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     
@@ -106,7 +134,7 @@
         
           <xhtml:link rel="alternate" hreflang="en" href="/geotic-project" />
         
-        <lastmod>2016-05-16T00:00:00+00:00</lastmod>
+        <lastmod>2016-05-16T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     
@@ -118,7 +146,7 @@
         
           <xhtml:link rel="alternate" hreflang="en" href="/gvsig-roads-project" />
         
-        <lastmod>2016-05-16T00:00:00+00:00</lastmod>
+        <lastmod>2016-05-16T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     
@@ -132,7 +160,7 @@
         
           <xhtml:link rel="alternate" hreflang="en" href="/gvsig-project" />
         
-        <lastmod>2016-05-16T00:00:00+00:00</lastmod>
+        <lastmod>2016-05-16T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     
@@ -146,7 +174,7 @@
         
           <xhtml:link rel="alternate" hreflang="en" href="/gvnix-project" />
         
-        <lastmod>2016-05-16T00:00:00+00:00</lastmod>
+        <lastmod>2016-05-16T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     
@@ -160,7 +188,7 @@
         
           <xhtml:link rel="alternate" hreflang="en" href="/geotic-project" />
         
-        <lastmod>2016-05-16T00:00:00+00:00</lastmod>
+        <lastmod>2016-05-16T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     
@@ -174,7 +202,7 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/desarrollo-java" />
         
-        <lastmod>2016-05-15T00:00:00+00:00</lastmod>
+        <lastmod>2016-05-15T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     
@@ -184,11 +212,11 @@
         <loc>/intro</loc>
         
         
-          <xhtml:link rel="alternate" hreflang="en" href="/intro" />
-        
           <xhtml:link rel="alternate" hreflang="es" href="/intro" />
         
-        <lastmod>2016-05-15T00:00:00+00:00</lastmod>
+          <xhtml:link rel="alternate" hreflang="en" href="/intro" />
+        
+        <lastmod>2016-05-15T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     
@@ -198,11 +226,11 @@
         <loc>/intro</loc>
         
         
-          <xhtml:link rel="alternate" hreflang="en" href="/intro" />
-        
           <xhtml:link rel="alternate" hreflang="es" href="/intro" />
         
-        <lastmod>2016-05-15T00:00:00+00:00</lastmod>
+          <xhtml:link rel="alternate" hreflang="en" href="/intro" />
+        
+        <lastmod>2016-05-15T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     
@@ -216,7 +244,7 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/desarrollo-java" />
         
-        <lastmod>2016-05-15T00:00:00+00:00</lastmod>
+        <lastmod>2016-05-15T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     
@@ -230,7 +258,7 @@
         
           <xhtml:link rel="alternate" hreflang="en" href="/geographic-info-systems-and-geomatic" />
         
-        <lastmod>2016-05-09T00:00:00+00:00</lastmod>
+        <lastmod>2016-05-09T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     
@@ -244,7 +272,7 @@
         
           <xhtml:link rel="alternate" hreflang="en" href="/geographic-info-systems-and-geomatic" />
         
-        <lastmod>2016-05-09T00:00:00+00:00</lastmod>
+        <lastmod>2016-05-09T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     
@@ -258,7 +286,7 @@
         
           <xhtml:link rel="alternate" hreflang="en" href="/location-system" />
         
-        <lastmod>2016-05-06T00:00:00+00:00</lastmod>
+        <lastmod>2016-05-06T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     
@@ -272,7 +300,7 @@
         
           <xhtml:link rel="alternate" hreflang="en" href="/location-system" />
         
-        <lastmod>2016-05-06T00:00:00+00:00</lastmod>
+        <lastmod>2016-05-06T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     
@@ -286,7 +314,7 @@
         
           <xhtml:link rel="alternate" hreflang="en" href="/mobility-solutions" />
         
-        <lastmod>2016-05-05T00:00:00+00:00</lastmod>
+        <lastmod>2016-05-05T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     
@@ -300,7 +328,7 @@
         
           <xhtml:link rel="alternate" hreflang="en" href="/mobility-solutions" />
         
-        <lastmod>2016-05-05T00:00:00+00:00</lastmod>
+        <lastmod>2016-05-05T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     
@@ -312,29 +340,6 @@
         
         
           <xhtml:link rel="alternate" hreflang="en" href="/404.html" />
-        
-          <xhtml:link rel="alternate" hreflang="en" href="/README.html" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/es/index.html" />
-        
-          <xhtml:link rel="alternate" hreflang="en" href="/index.html" />
-        
-          <xhtml:link rel="alternate" hreflang="en" href="/sitemaps.xml" />
-        
-          <xhtml:link rel="alternate" hreflang="en" href="/style.css" />
-        
-        <changefreq>weekly</changefreq>
-      </url>
-    
-  
-    
-      <url>
-        <loc>/README.html</loc>
-        
-        
-          <xhtml:link rel="alternate" hreflang="en" href="/404.html" />
-        
-          <xhtml:link rel="alternate" hreflang="en" href="/README.html" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/es/index.html" />
         
@@ -407,8 +412,6 @@
         
           <xhtml:link rel="alternate" hreflang="en" href="/404.html" />
         
-          <xhtml:link rel="alternate" hreflang="en" href="/README.html" />
-        
           <xhtml:link rel="alternate" hreflang="es" href="/es/index.html" />
         
           <xhtml:link rel="alternate" hreflang="en" href="/index.html" />
@@ -427,8 +430,6 @@
         
         
           <xhtml:link rel="alternate" hreflang="en" href="/404.html" />
-        
-          <xhtml:link rel="alternate" hreflang="en" href="/README.html" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/es/index.html" />
         
@@ -475,8 +476,6 @@
         
           <xhtml:link rel="alternate" hreflang="en" href="/404.html" />
         
-          <xhtml:link rel="alternate" hreflang="en" href="/README.html" />
-        
           <xhtml:link rel="alternate" hreflang="es" href="/es/index.html" />
         
           <xhtml:link rel="alternate" hreflang="en" href="/index.html" />
@@ -495,8 +494,6 @@
         
         
           <xhtml:link rel="alternate" hreflang="en" href="/404.html" />
-        
-          <xhtml:link rel="alternate" hreflang="en" href="/README.html" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/es/index.html" />
         
