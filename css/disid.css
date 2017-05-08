@@ -26,6 +26,23 @@ body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
 }
 
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+a,
+body.project section.content strong {
+  color: #6bc5c2;
+}
+
+.clearfix{
+  clear: both;
+}
+
+
 /* ==========================================================================
 Preloader
 ========================================================================== */
@@ -431,7 +448,10 @@ Pages: Project
 }
 .project .content ul li {
     list-style: inherit;
+    margin-bottom: 1em;
 }
+.project .content ol {
+    list-style: decimal;
 
 /* ==========================================================================
 Portfolio Modal
@@ -524,15 +544,5 @@ Portfolio Modal
     transform: rotate(90deg);
 }
 
-/* ==========================================================================
-Projects
-========================================================================== */
-
-section#projects>.container >.row:nth-child(2) {
-  margin-bottom: 2em
-}
-section#projects .article-category {
-  text-transform: uppercase
-}
 
 
