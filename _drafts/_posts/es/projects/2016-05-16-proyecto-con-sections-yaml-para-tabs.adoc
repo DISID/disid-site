@@ -1,0 +1,39 @@
+---
+layout: project
+modal-id: innovation-project
+hero-img: hero-bg-innovation.jpg
+img: pic-innovation.jpg
+icon: fa-
+title: Proyecto I+D seleccionado por el IVACE dentro del Programa Operativo FEDER de la Comunitat Valenciana
+subtitle:
+headline: Investigación y desarrollo experimental de un sistema generación automática de sistemas de información basados en tecnologías de código abierto a partir de modelos de comportamiento
+description:
+link: java-development
+url: innovation
+ref: innovation
+category:
+    - project
+    - project-page
+lang: es
+tags:
+- Java
+- I+D
+headings:
+- Descripción del proyecto
+- Objetivos específicos del proyecto
+- Resultados
+sections:
+- ¿Qué te ofrece gvSIG Roads?
+- Características destacadas de gvSIG Roads que se adecuan a la licitación.
+- |
+  Párrafo largo explicativo de algún módulo destacado de gvSIG Roads que se adecua
+  a esta licitación.
+
+  Párrafo que continua la explicación.
+- |
+  Y otro párrafo.
+
+  Y otro párrafo.
+---
+
+Content.
