@@ -37,7 +37,14 @@
                             </div>
                           </div>
                           <figcaption>
-                            <h2>{{ post.title }}</h2>
+                            <h2>
+                            {% if post.short-title %}
+                              {{ post.short-title }}
+                            {% else %}
+                              {{ post.title }}
+                            {% endif %}
+                            </h2>
+
                             <p>{{ post.subtitle }}</p>
                           </figcaption>
                       </div>
