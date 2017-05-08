@@ -33,8 +33,9 @@ address:
     - Avinguda de Menéndez y Pelayo, 5
     - 46010 Valencia, Spain
 email: info@disid.com
+email-icon: envelope
 tel: (+34) 963 516 309
-
+tel-icon: phone
 # Clients information. Shown on Home.
 clients:
   - name: Diputación de Valencia
@@ -148,7 +149,7 @@ defaults:
 t:
   en:
     title: "DISID, Be software"
-    description: "We are a software engineering company specialized in Java technology."
+    description: "DISID is a software engineering company specializing in technology, Java platform, Spring IO platform and geomatics."
     intro-lead-in: "Be Software"
     intro-heading: "We are your best choice"
     learn-more: Learn more
@@ -170,9 +171,13 @@ t:
       description: "Find out which technologies move us and what R&D projects motivate us.
       Always on open source, we fix, improve and share our work into the core of the open platforms we use: Liferay, gvNIX, Spring, Spring Roo and gvSIG.
       An active and continued collaboration."
+    banner:
+      title: "If you have a business project, we will help you to develop it."
+      description: "please contact us and we'll assist you with your project's necessities and objectives"
+      call-to-action: "Let's talk!"
   es:
     title: "DISID, Be Software"
-    description: "We are a software engineering company specialized in Java technology."
+    description: "DISID es una empresa de ingeniería de software especializada en tecnología, plataforma Java, plataforma Spring IO y geomática."
     intro-lead-in: "Be Software"
     intro-heading: "Nosotros somos tu mejor elección"
     learn-more: Saber más
@@ -194,7 +199,10 @@ t:
       description: "Entérate de primera mano sobre qué tecnologías nos movemos y qué proyectos nos motivan.
       Siempre sobre código abierto, desarrollamos mejoras e implementaciones sobre nuestras plataformas de desarrollo Liferay, gvNIX, Spring Roo y gvSIG.
       Una participación activa y continuada."
-
+    banner:
+      title: "Si tienes una idea de negocio, te ayudamos a desarrollarla."
+      description: "Ponte en contacto con nosotros y te asesoramos con tu proyecto"
+      call-to-action: "¿Hablamos?"
 
 # To include variable in liquid: {{ site.t[page.lang].labs.section-heading }}
 # You can add translations group
