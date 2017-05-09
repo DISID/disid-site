@@ -374,6 +374,50 @@ Cards
   text-decoration: none;
 }
 
+/* ==========================================================================
+Banner
+========================================================================== */
+
+.banner {
+    padding: 5em 0;
+    color: #f8f8f8;
+    background: url(../img/kim-s-ly-187663.jpg) top right no-repeat;
+    background-size: cover;
+}
+.banner .call-to-action p  {
+  color: white;
+  font-weight: bold;
+}
+.banner .call-to-action h2.section-heading {
+   color: white;
+   text-transform: uppercase;
+   max-width: 60%;
+   margin: 0 auto 0.5em;
+}
+.banner .call-to-action p {
+  margin: 0;
+}
+
+#mc_embed_signup {
+    clear: left;
+    padding: 1em 0;
+    background: rgba(34, 34, 34, 0.2);
+}
+#mc_embed_signup select,
+#mc_embed_signup select option{
+  color: #222;
+}
+
+#mc-embedded-subscribe{
+  margin: 0 auto !important;
+}
+#mc_embed_signup .mc-field-group label {
+    display: block;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 
 
 

@@ -212,6 +212,11 @@ $('a[data-toggle="tab"]').on('click', function() {
   //  $.waypoints('refresh');
 })
 
+$('a[data-toggle="collapse"]').on('click', function() {
+  console.log("Disable waypoints to load UI Collapse");
+  waypoint.disable();
+})
+
 /***************** Preloader ******************/
 
 jQuery(function($) {
