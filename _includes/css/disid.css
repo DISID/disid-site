@@ -419,3 +419,6 @@ Banner
     font-weight: bold;
 }
 
+#mc_embed_signup div#mce-responses{
+      background: rgba(0, 0, 0, 0.3);
+}
