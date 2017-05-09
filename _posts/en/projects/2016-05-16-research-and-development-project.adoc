@@ -109,8 +109,28 @@ The main technical challenge of the project has been to cover the technology gap
                 </ul>
             </div>
             <div role="tabpanel" class="tab-pane" id="findings">
-                <p>The project has been developed as a Spring Roo addon and as part agreed set of functionalities that new version gvNIX offers.
-It will be distributed in next gvNIX versions as a new functionality or as a installable independent addon on gvNIX.</p>
+            <p>The objective of the project was to develop a software solution that would allow
+            the transformation of information systems developed with proprietary and non-compatible
+            technologies to open-source software environments that could make use of market-based
+            services that were advantageous, so that technically feasible and the return on investment is guaranteed.</p>
+            <p>To do this the <em>"Add-on Scene"</em> an <em>OSGi</em> component that fits perfectly into the
+            environment <em>Spring Roo</em> and <em>gvNIX</em>, providing the new required functionality is created.</p>
+            <p>We are proud of the technological innovation of the project where the proposed
+            solution has one of its strengths in transforming systems developed with proprietary
+            technologies into systems developed with open source technologies.
+            This new business line will open a new framework of collaboration
+            between companies of the Valencian Community.</p>
+            <p>An important advantage for potential users of the solution, both economically
+            and technically and functionally, can become active participants in development communities.</p>
+            <p>Currently the costs of such a migration are so high that they are comparable to
+            re-developing the entire application. That is why many organizations do not even raise it.</p>
+            <p>This is why with this project DISID, in collaboration with <a href="http://www.pentec.es/">Pentec</a>,
+            we have succeeded in semi-automate the migration process of this type of systems,
+            reducing costs at a high level, opening a Market of thousands of systems migrations
+            that are in this situation.</p>
+            <p>The project has been developed as <a href="http://projects.spring.io/spring-roo/">Spring Roo</a>
+            <em>"Add-on Scene"</em> and as part of the features that the new version of
+             <a href="http://www.gvnix.org/">gvNIX</a> will offer.</p>
             </div>
         </div>
     </div>
