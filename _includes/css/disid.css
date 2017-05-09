@@ -403,6 +403,7 @@ Banner
     padding: 1em 0;
     background: rgba(34, 34, 34, 0.2);
 }
+#mc_embed_signup .mc-field-group input,
 #mc_embed_signup select,
 #mc_embed_signup select option{
   color: #222;
