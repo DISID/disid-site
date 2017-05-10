@@ -15,7 +15,6 @@ link: desarrollo-java
 url: innovation
 ref: innovation
 category:
-    - project
     - project-page
 lang: es
 tags:

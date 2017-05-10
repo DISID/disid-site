@@ -16,7 +16,7 @@
       <div class="row">
       {% for post in collection limit: 3 %}
 
-             {% if post.categories contains 'project' %}
+             {% if post.categories contains 'project' or 'project-page' %}
 					        <div class="col-md-4 wp4 animated fadeInDown">
                     <article class="article-post">
                         <div class="overlay-effect effects clearfix">
@@ -28,7 +28,8 @@
                               <a href="{{ site.url }}{{ | prepend: site.baseurl }}{{ post.url }}" class="expand">
                                 <i class="fa fa-plus"></i><br>{{site.t[page.lang].learn-more}}
                               </a>
-                              {% else %}
+                              {% endif %}
+                              {% if post.categories contains 'project' %}
                               <a href="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}#{{ post.modal-id }}" class="expand" data-toggle="modal">
                                 <i class="fa fa-plus"></i><br>{{site.t[page.lang].learn-more}}
                               </a>
@@ -62,7 +63,7 @@
       <div class="row">
         {% for post in collection limit: 3 offset: 3 %}
 
-        {% if post.categories contains 'project' %}
+        {% if post.categories contains 'project' or 'project-page' %}
 
                   <div class="col-md-4 wp4 animated fadeInDown">
                     <article class="article-post">
@@ -75,7 +76,8 @@
                               <a href="{{ site.url }}{{ | prepend: site.baseurl }}{{ post.url }}" class="expand">
                                 <i class="fa fa-plus"></i><br>{{site.t[page.lang].learn-more}}
                               </a>
-                              {% else %}
+                              {% endif %}
+                              {% if post.categories contains 'project' %}
                               <a href="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}#{{ post.modal-id }}" class="expand" data-toggle="modal">
                                 <i class="fa fa-plus"></i><br>{{site.t[page.lang].learn-more}}
                               </a>
