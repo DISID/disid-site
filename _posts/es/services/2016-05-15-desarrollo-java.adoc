@@ -6,7 +6,6 @@ title: Expertos en Java
 headline: Factoria de software. Dinos que necesitas y nosotros te ofrecemos la mejor solución.
 description: Desarrollo de aplicaciones a medida que se adaptan a las necesidades de tu negocio.
 icon: fa-cogs
-typed: true
 url: desarrollo-java
 ref: java-development
 categories:

@@ -6,7 +6,6 @@ title: Experts in Java
 headline: Software factory. Tell us what you need and we offer the best solution.
 description: Mobile and web applications development customized to business specific needs.
 icon: fa-cogs
-typed: true
 url: java-development
 ref: java-development
 categories:

@@ -5,7 +5,6 @@ img: pic03.jpg
 icon: fa-cogs
 ancla: factoria-software
 title: Sofware factory
-typed: true
 description: Mobile and web applications development customized to business specific needs. We use the best Java RAD framework, gvNIX.
 categories:
 - service

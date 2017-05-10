@@ -1,48 +1,41 @@
 <section class="alternate-bg text-center contact-wrap has-padding" id="contact">
-          <a href="#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h1 class="arrow">{{ site.t[page.lang].contact }}</h1>
-              </div>
-            </div>
-            <div class="row contact-details">
-              <div class="col-md-4">
-                <div class="light-box box-hover">
-                  <i class="fa fa-map-marker fa-3x"></i>
-                  <h2><span>{{ site.t[page.lang].adress }}</span></h2>
-                  <p>{% for line in site.address.first.lines %}
-                        {{ line }} <br>
-                    {% endfor %}</p>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="light-box box-hover">
-                  <i class="fa fa-phone fa-3x"></i>
-                  <h2><span>{{ site.t[page.lang].phone }}</span></h2>
-                  <p><br> {{ site.tel }}</p>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="light-box box-hover">
-                  <i class="fa fa-envelope-o fa-3x"></i>
-                  <h2><span>Email</span></h2>
-                  <p><br> <a class="email" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row-fluid">
-                <div class="col-sm-8 col-sm-offset-2 text-center">
-                    <h2 class="section-heading"></h2>
-                    <hr class="primary">
-                    <p>
-
-                    </p>
-                </div>
-
-            </div>
-
-        </section>
+  <a href="#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h4 class="arrow">{{ site.t[page.lang].contact }}</h4>
+      </div>
+    </div>
+    <div class="row contact-details">
+      <div class="col-md-4">
+        <div class="light-box box-hover">
+          <i class="fa fa-map-marker fa-3x"></i>
+          <span>{{ site.t[page.lang].adress }}</span>
+          <p>{% for line in site.address.first.lines %}
+                {{ line }} <br>
+            {% endfor %}</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="light-box box-hover">
+          <i class="fa fa-phone fa-3x"></i>
+          <span>{{ site.t[page.lang].phone }}</span>
+          <p><br> {{ site.tel }}</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="light-box box-hover">
+          <i class="fa fa-envelope-o fa-3x"></i>
+          <span>Email</span>
+          <p><br> <a class="email" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row-fluid">
+    <div class="col-sm-8 col-sm-offset-2 text-center">
+        <h2 class="section-heading"></h2>
+        <hr class="primary">
+    </div>
+  </div>
+</section>
