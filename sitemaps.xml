@@ -407,6 +407,19 @@
   
     
       <url>
+        <loc>/empleo/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/empleo/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/jobs/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
         <loc>/es/index.html</loc>
         
         
@@ -445,6 +458,19 @@
   
     
       <url>
+        <loc>/jobs/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/empleo/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/jobs/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
         <loc>/aviso-legal/</loc>
         
         
@@ -464,6 +490,32 @@
           <xhtml:link rel="alternate" hreflang="es" href="/aviso-legal/" />
         
           <xhtml:link rel="alternate" hreflang="en" href="/legal-notice/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/politica-de-privacidad/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/politica-de-privacidad/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/privacy-policy/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/privacy-policy/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/politica-de-privacidad/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/privacy-policy/" />
         
         <changefreq>weekly</changefreq>
       </url>
