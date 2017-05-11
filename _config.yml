@@ -254,7 +254,7 @@ links:
       url: "http://www.disid.com#contact"
 
 linksextra:
-#  en:
+  en:
 #    jobs:
 #      title: Jobs
 #      url: "/jobs"
@@ -270,7 +270,7 @@ linksextra:
     privacy:
       title: Privacy policy
       url: "/privacy-policy"
-#  es:
+  es:
 #    jobs:
 #      title: Empleo
 #      url: "/jobs"
