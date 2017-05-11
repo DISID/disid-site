@@ -5,13 +5,6 @@
  */
 
 
-/* ==========================================================================
-Header
-========================================================================== */
-
-header.hero{
-  padding: 0;
-}
 
 /* ==========================================================================
 Navbar
@@ -336,6 +329,56 @@ Customized by DISID
 }
 
 /* ==========================================================================
+Panel accordion
+========================================================================== */
+
+.panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 0;
+    /* border-color: transparent; */
+    margin: 10px;
+}
+.panel-default>.panel-heading {
+    background-color: transparent !important;
+    border-left: 4px solid #7ae2de !important;
+}
+
+.panel h4,
+h4.panel-title,
+h3.panel-title {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+h4.panel-title::after,
+h3.panel-title::after {
+    background-color: transparent;
+}
+h4.panel-title a::after,
+h3.panel-title a::after {
+    font-family: "Fontawesome";
+    content:"\f077"; /*up*/
+    color: #333;
+    background-color: transparent;
+}
+h4.panel-title a.collapsed::after,
+h3.panel-title a.collapsed::after {
+    font-family: "Fontawesome";
+    content:"\f078";
+    color: #333;
+    background-color: transparent;
+}
+h4.panel-title a.collapsed:hover::after,
+h3.panel-title a.collapsed:hover::after,
+h4.panel-title a:hover::after,
+h3.panel-title a:hover::after {
+    color: #7ae2de;
+}
+
+
+
+/* ==========================================================================
 Cards
 ========================================================================== */
 .card {
@@ -443,6 +486,7 @@ Banner
 .banner #mc_embed_signup div#mce-responses{
       background: rgba(0, 0, 0, 0.3);
 }
+
 
 /* ==========================================================================
 Modal

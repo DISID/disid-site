@@ -5,16 +5,11 @@
 <!--[if gt IE 8]><!-->
 <html class="no-js" lang="{{ page.lang }}">
 <!--<![endif]-->
-
 <html lang="{{ page.lang }}">
-
   {% include head.html %}
-
   <body id="page-top" class="project">
-
     {% include nav.html %}
     {% include wrap.html %}
-
     <section id="main" class="content has-padding" role="main" itemprop="mainContentOfPage">
         <div class="container">
             <div class="row">
@@ -25,26 +20,22 @@
             </div>
         </div>
     </section>
-
-{% comment %}
-    {% assign collection=site.posts | where:"lang", page.lang %}
-    {% for post in collection %}
-      {% if post.categories contains 'project-page' %}
-        {% include project-tabs.html %}
-      {% endif %}
-    {% endfor %}
-{% endcomment %}
-
-  {% assign collection=site.posts | where:"lang", page.lang %}
-  {% for post in collection %}
-    {% if post.categories contains 'project-page' %}
-      {% include banner-project.html %}
-    {% endif %}
-  {% endfor %}
-
+    {% comment %}
+        {% assign collection=site.posts | where:"lang", page.lang %}
+        {% for post in collection %}
+          {% if post.categories contains 'project-page' %}
+            {% include project-tabs.html %}
+          {% endif %}
+        {% endfor %}
+    {% endcomment %}
+      {% assign collection=site.posts | where:"lang", page.lang %}
+      {% for post in collection %}
+        {% if post.categories contains 'project-page' %}
+          {% include banner-project.html %}
+        {% endif %}
+      {% endfor %}
     {% include footer.html %}
     {% include js.html %}
-
   </body>
 </html>
 

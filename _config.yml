@@ -175,6 +175,10 @@ t:
       title: "If you have a business project, we will help you to develop it."
       description: "please contact us and we'll assist you with your project's necessities and objectives"
       call-to-action: "Let's talk!"
+    banner-team:
+      title: "Tell us why you want to work with us"
+      description: "Please send your CV with the projects you've worked"
+      call-to-action: "¿Hablamos?"
   es:
     title: "DISID, Be Software"
     description: "DISID es una empresa de ingeniería de software especializada en tecnología, plataforma Java, plataforma Spring IO y geomática."
@@ -202,6 +206,10 @@ t:
     banner:
       title: "Si tienes una idea de negocio, te ayudamos a desarrollarla."
       description: "Ponte en contacto con nosotros y te asesoramos con tu proyecto"
+      call-to-action: "¿Hablamos?"
+    banner-team:
+      title: "Cuéntanos por qué quieres trabajar con nosotros"
+      description: "Envíanos tu CV con los proyectos en los que has trabajado"
       call-to-action: "¿Hablamos?"
 
 # To include variable in liquid: {{ site.t[page.lang].labs.section-heading }}
@@ -246,7 +254,7 @@ links:
       url: "http://www.disid.com#contact"
 
 linksextra:
-  en:
+#  en:
 #    jobs:
 #      title: Jobs
 #      url: "/jobs"
@@ -259,10 +267,10 @@ linksextra:
     cookies:
       title: Cookies
       url: "/cookies-policy"
-#    privacy:
-#      title: Privacy policy
-#      url: "/privacy-policy"
-  es:
+    privacy:
+      title: Privacy policy
+      url: "/privacy-policy"
+#  es:
 #    jobs:
 #      title: Empleo
 #      url: "/jobs"
@@ -275,9 +283,9 @@ linksextra:
     cookies:
       title: Cookies
       url: "/politica-de-cookies"
-#    privacy:
-#      title: Política de privacidad
-#      url: "/privacy-policy"
+    privacy:
+      title: Política de privacidad
+      url: "/politica-de-privacidad"
 
 
 include: [".htaccess"]

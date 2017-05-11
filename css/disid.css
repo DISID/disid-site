@@ -72,17 +72,6 @@ Preloader
 Header
 ========================================================================== */
 
-footer .footer-nav ul.footer-secondary-nav li small{
-  font-size: 80%;
-  margin: 1em 0;
-  display: block;
-}
-
-
-/* ==========================================================================
-Header
-========================================================================== */
-
 header.hero{
   padding: 0;
 }
@@ -90,14 +79,19 @@ header.hero{
 header.hero h1 {
     margin-bottom: 0;
 }
-
+header.hero p {
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+/*home header*/
 header.hero .hero-bg .hero-intro-text {
     margin-top: 0px;
 }
 header.hero .hero-bg .hero-intro-text p{
-      margin-bottom: 40px;
+    margin-bottom: 40px;
 }
-
 header .typed {
   display: inline-block;
   margin: 0;
@@ -121,6 +115,15 @@ header .typed-cursor {
   header .typed-cursor {
     display: none;
   }
+}
+/* ==========================================================================
+Footer
+========================================================================== */
+
+footer .footer-nav ul.footer-secondary-nav li small{
+  font-size: 80%;
+  margin: 1em 0;
+  display: block;
 }
 
 /* ==========================================================================
@@ -442,14 +445,17 @@ Pages: General
 Pages: Project
 ========================================================================== */
 
+.page .content ol, .page .content ul,
 .project .content ol, .project .content ul {
     list-style: inherit;
     margin: 10px 0 0px 20px;
 }
+.page .content ul li,
 .project .content ul li {
     list-style: inherit;
     margin-bottom: 1em;
 }
+.page .content ol,
 .project .content ol {
     list-style: decimal;
 
@@ -543,6 +549,8 @@ Portfolio Modal
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+
 
 
 

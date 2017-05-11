@@ -1,0 +1,45 @@
+---
+layout: page
+hero-img: hero.jpg
+title: Privacy Policy
+description:
+permalink: /privacy-policy/
+ref: privacy-policy
+category:
+    - en
+lang: en
+---
+
+Dear User,
+
+DISID TECHNOLOGIES COMPANY LIMITED (hereinafter DISID) is particularly sensitive in terms of privacy and data protection of users of this website (hereinafter " Users" ).
+
+Privacy Policy built on this site are intended to inform users on the same possible treatment and use of personal information that is collected through the same, so they decide freely and voluntarily and navigate use, and access and use their various utilities and services.
+
+In accordance with the provisions of Spanish legislation, we inform that the personal data you provide to us while browsing and/or use of options, utilities and services made ​​available on this website will be processed and, where appropriate, may be incorporated into the files of which is owner and responsible DISID with the sole purpose of managing the access and use of this website, the relationship with users and management services and content, understanding that we already have consent for it from the time you access and use it. The aforementioned files are duly registered with the Spanish Data Protection Agency.
+
+However, you will have access to information about treatment, purpose and use of their data and, in general, to all the information required by applicable privacy legislation in the various forms made ​​available on this site in which personal data are collected. Answers to questions about personal information that can be found in these documents and which are marked with an asterisk (*) are mandatory and failure to reply will make it impossible to continue and access the contact option, recording, registration or service offered. Some services included in the website may contain conditions regarding privacy.
+
+The personal information you may provide to formalize records, registration, communications, forms, contracts and agreements contained in this web are equally included in the files are compatible.
+
+From the moment we provide personal telephone, electronic or postal delivery or during navigation and use data on this site, you authorize and confirm inherently express consent for recording and processing by us, their inclusion in aforementioned files and sending/receiving electronic communications and commercial information content by DISID, especially to provide personalized content and services that can Glad we requested.
+
+Also, by accepting delivery of the forms provided at present on this web site, User agrees and expressly and unequivocally the recording and processing of your personal data, their inclusion in the given files and their use for sending/receiving electronic communication of business information or content, statistical studies, manage service requests and send newsletters.
+
+The consent given as a User for the treatment of your personal data is revocable. At any time, you may exercise over their data, access rights, rectification, cancellation and in case opposition by sending your written request along with a photocopy of your National Identity Card or any other equivalent document proof of identity , at: Avinguda de Menéndez y Pelayo, 5 46010 Valencia, Spain. DISID may not implement the right of cancellation in respect to those facts that the law requires to be preserved. However, the corresponding safety data block is applied to prevent its application to other than those established in regulations requiring conservation purposes.
+
+The data provided by the User may be transferred to or processed by third parties to enable the operational, technical, IT and business management DISID and to allow adequate relationship management and service delivery. Also, please note that Internet services, access and usage of IT applications hosted on remote servers outside, and downloads and telephone/electronic communications inevitably involve automated operations and technical interconnection procedures, transit and storage and as communications, transfers and interconnections with others, especially with platforms, networks and operators.
+
+DISID is committed to fulfilling its obligation of confidentiality and secrecy of personal data and its duty to guard it, and take the legally required safety measures that reasonably ensure their protection, confidentiality and integrity in view at all times state of technology. However, DISID can not fully guarantee the absolute invulnerability of its security systems or third parties, since no security measures being installed today is absolutely unbreakable, so DISID not be liable in any way for any incidents may arise over personal data when arising from an attack or unauthorized access to their systems so that it is impossible to detect by security systems in place.
+
+The User agrees to maintain the information provided to DISID duly updated and is responsible for damages DISID and/or third parties may suffer as a result of the lack of accuracy, inaccuracy, lack of validity and authenticity of the data provided. DISID the power to remove or destroy the information provided by the user that could work in their files without notice, especially if it detects the lack of truthfulness, accuracy or timeliness of the same reserves.
+
+In order to protect the privacy of users of the website, DISID not use "cookies" when they first browse for it. However, DISID reserves the right to future use of the same or similar file, in any use of the website, its utilities or services. As a user, from the moment you use any of the options, utilities or services on this site, you agree that DISID or its service providers may use cookies in the future. You can set your browser to notify and reject the installation of cookies sent by them, without affecting the user's ability to access applications, tools and features that do not require identification.
+
+The website may contain links or references to other websites that are not under our control and in which, therefore, is not applicable to this data protection policy. We advise reading the entries about each website you visit. You will be solely responsible for its connections to such pages.
+
+This privacy policy may be modified at any time by DISID, especially to conform to current legislation, administrative and legal criteria, instructions for the Spanish Data Protection Agency, or corporate codes of conduct which the Director is a member, practices industry or interests DISID, so we recommend regular consultation of the same in order to know the changes in the same, notwithstanding the inclusion of all information note on this site.
+
+For more information please contact us at the following address " info at disid.com".
+
+IMPORTANT: Should there be discrepancies between the versions of this Privacy Policy published in English, Spanish and Valencian prevail in any case, the Spanish version.

@@ -1,6 +1,6 @@
 ---
 layout: page
-img: hero.jpg
+hero-img: hero.jpg
 title: Aviso Legal Correo electrónico
 description: Condiciones de uso de la información contenida
 permalink: /aviso-legal-correo/

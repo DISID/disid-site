@@ -22,7 +22,7 @@ Applications that fit perfectly functioning and processes of each organization.
 We have a methodology for software development encompassing analysis, planning
 and management, design, development and testing to ensure the quality of the applications.
 
-### When do you need a custom development?
+## When do you need a custom development?
 
 * Specific needs.Developed as an option to consider when the market any product meets the requirements of the company.
 
@@ -30,7 +30,7 @@ and management, design, development and testing to ensure the quality of the app
 
 * Interaction applications. We have a closed system that does not allow integration with third party applications.
 
-### Our services
+## Our services
 
 * Functional analysis, software architecture and design.
 * Management and control of projects.

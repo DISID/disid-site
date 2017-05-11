@@ -26,7 +26,7 @@ Con una evaluación de las necesidades del cliente y las características de
 los proyectos, teniendo en cuenta tanto la gestión de usuarios y el acceso
 a la información de la empresa como la sincronización de datos.
 
-### ¿Cuándo necesito una solución de movilidad?
+## ¿Cuándo necesito una solución de movilidad?
 
 * Acceso a datos de la empresa en movilidad. Personal de tu empresa que necesita acceder a la información en tiempo real durante sus desplazamientos.
 * Recogida de información fuera de las instalaciones. Poder recoger datos directamente desde cualquier lugar y que sean incluidos automáticamente en la información central de la empresa.
@@ -34,7 +34,7 @@ a la información de la empresa como la sincronización de datos.
 * Fotografías y vídeos. Captura fotografías o vídeos para incorporarlos a los datos de la organización.
 * Datos de sensores. Leer automáticamente la información de los dispositivos móviles, como temperatura, luz, presión, etc.
 
-### Nuestros servicios
+## Nuestros servicios
 
 * Análisis de requisitos, funcional, arquitectura y diseño de software.
 * Propuesta de la mejor opción tecnológica: aplicación web o nativa.

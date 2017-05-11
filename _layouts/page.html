@@ -5,30 +5,28 @@
 <!--[if gt IE 8]><!-->
 <html class="no-js" lang="{{ page.lang }}">
 <!--<![endif]-->
-
 <html lang="{{ page.lang }}">
-
   {% include head.html %}
-
   <body id="page-top" class="page">
-
     {% include nav.html %}
     {% include wrap.html %}
-
 		<section id="main" class="content has-padding" role="main" itemprop="mainContentOfPage">
-		    <div class="container">
-		        <div class="row">
-		            <div class="page-body col-md-10 col-md-offset-1" itemprop="description">
-		                {{ content }}
-		            </div>
-		        </div>
-		    </div>
+	    <div class="container">
+	        <div class="row">
+	            <div class="page-body col-md-10 col-md-offset-1" itemprop="description">
+	                {{ content }}
+	            </div>
+	        </div>
+	    </div>
 		</section>
-
+    {% assign pages=site.pages | where:"ref", page.ref | where:"lang", page.lang %}
+    {% for page in pages %}
+      {% if page.tags contains 'team' %}
+         {% include banner-team.html %}
+      {% endif %}
+    {% endfor %}
     {% include footer.html %}
     {% include js.html %}
-
-
   </body>
 </html>
 

@@ -1,26 +1,22 @@
 <!-- Header -->
 <header class="hero">
-    <div class="carousel">
-
-      {% assign collection=site.posts | where:"lang", page.lang %}
-
-      {% if page.layout == 'page' %}
-      <div class="carousel-cell" style="background-image: url({{ site.url | prepend: site.baseurl }}/img/{{ page.img }});">
-
-      {% elsif page.layout == 'project' %}
-      <div class="carousel-cell" style="background-image: url({{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/services/{{ page.hero-img }});">
-      {% endif %}
-
-        <div class="hero-bg">
-          <div class="container">
-
-                  <div class="row">
-                    <div class="col-md-12 text-center">
-                      <h1 class="wp1">{% if page.wrap_title %}{{ page.wrap_title }}{% else %}{{ page.title }}{% endif %}</h1>
-                    </div>
-                  </div>
+  <div class="carousel">
+    {% assign collection=site.posts | where:"lang", page.lang %}
+    {% if page.layout == 'page' %}
+    <div class="carousel-cell" style="background-image: url({{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/pages/{{ page.hero-img }});">
+    {% elsif page.layout == 'project' %}
+    <div class="carousel-cell" style="background-image: url({{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/services/{{ page.hero-img }});">
+    {% endif %}
+      <div class="hero-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h1 class="wp1">{% if page.wrap_title %}{{ page.wrap_title }}{% else %}{{ page.title }}{% endif %}</h1>
+              {% if page.description %}<p class="wp2">{{ page.description }}</p>{% endif %}
+            </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 </header>

@@ -1,0 +1,85 @@
+---
+layout: page
+#img: hero.jpg
+hero-img: hero-bg-team.jpg
+title: Empleo en DISID
+description: Únete al equipo
+permalink: /empleo/
+ref: jobs
+tags: team
+category:
+    - es
+lang: es
+---
+
+Somos un equipo, profesionales con experiencia construyendo grandes proyectos.
+Nos gusta conocer a otros profesionales con los que potenciar nuestro conocimiento
+y crecer como equipo. Nos gustaría acompañarte en tu desarrollo profesional
+y personal. Si quieres involucrarte en proyectos interesantes e innovadores
+echa un vistazo a nuestras ofertas de empleo.
+
+## Ofertas actuales
+
++++
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h3 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+Desarrollador GIS
+</a>
+            </h3>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+                <p>En DISID estamos experimentando un importante crecimiento en el desarrollo de servicios TI.<br>Esta es una excelente oportunidad para que un experimentado desarrollador GIS se una a nosotros para formar parte del equipo de técnico de desarrollo
+                    de aplicaciones web java con componente GEO. Como desarrollador GIS, trabajará en estrecha colaboración con el personal técnico, el departamento comercial y los equipos de administración de TI.</p>
+                <div class="col-sm-5">
+                    <h4>Qué buscamos?</h4>
+                    <p>El desarrollador GIS tendrá habilidades y experiencia en las siguientes áreas:</p>
+                    <ul>
+                        <li>3 o más años de experiencia en desarrollo de software.</li>
+                        <li>Alto nivel en desarrollo Java, Javascript y Spring.</li>
+                        <li>Experiencia con grandes aplicaciones Javascript.</li>
+                        <li>Fuertes conocimientos e interés en aspectos de Cartografía y Geomática.</li>
+                        <li>Fluidez para visualizar de datos cartográficos en la web (webmapping).</li>
+                        <li>Conocimientos de buenas prácticas en el desarrollo de software, incluyendo optimización, documentación y testing.</li>
+                        <li>Sólidos conocimientos de bases de datos espaciales, especialmente Postgis y Oracle Spatial.</li>
+                        <li>Manejo de repositorios de software y controles de versiones SVN y GIT.</li>
+                        <li>Buenas capacidades de comunicación y organización.</li>
+                    </ul>
+                    <p>Deseable:</p>
+                    <ul>
+                        <li>Experiencia de trabajo dentro de una organización similar.</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-sm-offset-1 bg-light">
+                    <h4>Qué te ofrecemos?</h4>
+                    <ul>
+                        <li>Salario de 22K €/año brutos</li>
+                        <li>Inicialmente, un contrato temporal de 1 año.</li>
+                        <li>Sólido y altamente cualificado equipo profesional.</li>
+                        <li>Flexibilidad de horarios.</li>
+                        <li>Posibilidad de teletrajo.</li>
+                        <li>Jornada intensiva en verano y viernes tarde libres todo el año.</li>
+                        <li>Una oficina amplia y luminosa, buen café y futbolín.</li>
+                    </ul>
+                </div>
+                <div class="clearfix">
+                    <p>En DISID creemos que el desarrollo profesional ocurre con la ayuda de un buen equipo. Aunque pienses que no cumples exactamente con el perfil, no dudes en aplicar si realmente crees que eres un buen candidato.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
++++
+
+[.col-sm-6.col-sm-offset-5]
+## Un gran equipo y un gran ambiente de trabajo.
+
+Te unirás a un equipo lleno de
+energía con amplia experiencia. Trabajarás en un ambiente dinámico.
+Formarás parte de una compañía en crecimiento. DISID desarrolla soluciones de
+tecnologías de la información para ayudar a mejorar los negocios de nuestros
+clientes. Un pasado con éxitos y un futuro prometedor, con desafíos muy
+interesantes para los profesionales adecuados.

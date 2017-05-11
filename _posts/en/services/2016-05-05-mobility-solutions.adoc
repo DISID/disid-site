@@ -25,7 +25,7 @@ With an assessment of customer needs and the characteristics of projects,
 taking into account both user management and access to company information
 and data synchronization.
 
-### When do I need a mobility solution?
+## When do I need a mobility solution?
 
 * Access to data in mobility. If company staff who need to access company information in real-time on the road.
 * Collecting information offsite. To collect data directly from anywhere and are automatically included in the central business information.
@@ -33,7 +33,7 @@ and data synchronization.
 * Pictures and videos.. Capture photos or videos to incorporate the data of the organization.
 * Sensor data. Automatically read information from the mobile devices, such as temperature, light, pressure, etc.
 
-### Our services
+## Our services
 
 * Requirements and functional analysis, software architecture and design.
 

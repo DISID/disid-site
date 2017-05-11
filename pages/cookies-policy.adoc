@@ -1,6 +1,6 @@
 ---
 layout: page
-img: hero.jpg
+hero-img: hero.jpg
 title: Cookies Policy
 permalink: /cookies-policy/
 ref: cookies-policy

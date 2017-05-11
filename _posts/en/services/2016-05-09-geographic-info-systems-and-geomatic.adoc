@@ -23,7 +23,7 @@ Your solution with support geographic data server, desktop, web and mobile.
 We facilitate their management, editing and analysis with custom applications
 tailored to the needs of each project to build the right solution.
 
-### Why do I need a geographic information system?
+## Why do I need a geographic information system?
 
 * Management and visualization of geographic data, mark the position on a map of relevant information.
 * Conversion of geographic data, can be in the form of image, sensor data, geometric shapes or data in general.
@@ -36,7 +36,7 @@ continuous improvement of the application as well as the development of solution
 * Reporting and map displays. Creates, manages and displays the information of people,
 environmental resources, path or road design, among others.
 
-### Our services
+## Our services
 
 * Geospatial information analysis and cartographic production processes.
 

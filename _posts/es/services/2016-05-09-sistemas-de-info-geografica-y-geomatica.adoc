@@ -24,14 +24,14 @@ Te facilitamos su gestión, edición y análisis con aplicaciones personalizadas
 ajustadas a las necesidades de cada proyecto para construir la solución
 más adecuada.
 
-### ¿Para qué necesito un sistema de información geográfica?
+## ¿Para qué necesito un sistema de información geográfica?
 
 * Gestión y visualización de datos geográficos, marca la posición dentro de un mapa de la información de interés.
 * Conversión de datos geográficos, puede ser en forma de imagen, datos de sensores, formas geométricas o datos en general. Una solución para la captura, almacenamiento, que te permita la manipulación y análisis de los datos.
 * Integración de nuevas funcionalidades, personaliza y mejora tu software de información geográfica según las necesidades de los usuarios con nuevas extensiones y funcionalidades, permitiendo una mejora continua de la aplicación, así como el desarrollo de soluciones a medida.
 * Generación de informes y presentaciones de mapas. Crea, gestiona y visualiza la información de personas, recursos medioambientales, trazado o diseño vial, entre otros.
 
-### Nuestros servicios
+## Nuestros servicios
 
 * Análisis de la información geoespacial y de los procesos de producción cartográfica.
 

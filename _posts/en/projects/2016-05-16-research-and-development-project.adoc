@@ -1,9 +1,9 @@
 ---
 layout: project
-modal-id: innovation-project
+#modal-id: innovation-project
 hero-img: hero-bg-innovation.jpg
 img: pic-innovation.jpg
-icon: fa-
+#icon: fa-phone
 title: R&D project selected by IVACE for Operational Programme (ERDF) of the Community of Valencia
 #in use in home layout
 short-title: R&D Project

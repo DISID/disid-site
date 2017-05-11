@@ -22,13 +22,13 @@ Aplicaciones que se ajustan perfectamente al funcionamiento y procesos de cada o
 Contamos con una metodología para el desarrollo de software que abarca el análisis,
 planificación y gestión, diseño, desarrollo y pruebas para asegurar la calidad de las aplicaciones.
 
-### ¿Cuándo necesito un desarrollo a medida?
+## ¿Cuándo necesito un desarrollo a medida?
 
 * Necesidades específicas. Un desarrollo a medida es una opción a considerar cuando ningún producto del mercado se adecúa a los requisitos de la empresa.
 * Migración de aplicaciones y sistemas. La tecnología está desfasada y nos limita la creación de nuevas funcionalidades que sí aportan los nuevos sistemas y herramientas.
 * Interacción de aplicaciones. Disponemos de un sistema cerrado que no permite integraciones con aplicaciones de terceros.
 
-### Nuestros servicios
+## Nuestros servicios
 
 * Oficina Técnica en Java
 
