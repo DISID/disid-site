@@ -60,7 +60,7 @@ Desarrollador GIS
                         <li>Inicialmente, un contrato temporal de 1 año.</li>
                         <li>Sólido y altamente cualificado equipo profesional.</li>
                         <li>Flexibilidad de horarios.</li>
-                        <li>Posibilidad de teletrajo.</li>
+                        <li>Posibilidad de teletrabajo.</li>
                         <li>Jornada intensiva en verano y viernes tarde libres todo el año.</li>
                         <li>Una oficina amplia y luminosa, buen café y futbolín.</li>
                     </ul>
