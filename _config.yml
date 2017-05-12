@@ -1,6 +1,6 @@
 # Site settings
-url: http://www.disid.com
-#url: http://localhost:4000
+#url: http://www.disid.com
+url: http://localhost:4000
 #baseurl:
 email: info@disid.com
 google_analytics: UA-1393802-1 #Google analytics code in the format XX-nnnnnnnn-n
@@ -178,7 +178,7 @@ t:
     banner-team:
       title: "Tell us why you want to work with us"
       description: "Please send your CV with the projects you've worked"
-      call-to-action: "¿Hablamos?"
+      call-to-action: "Let's talk?"
   es:
     title: "DISID, Be Software"
     description: "DISID es una empresa de ingeniería de software especializada en tecnología, plataforma Java, plataforma Spring IO y geomática."
@@ -255,9 +255,9 @@ links:
 
 linksextra:
   en:
-#    jobs:
-#      title: Jobs
-#      url: "/jobs"
+    jobs:
+      title: Jobs
+      url: "/jobs"
     notice:
       title: Legal notice
       url: "/legal-notice"
@@ -271,9 +271,9 @@ linksextra:
       title: Privacy policy
       url: "/privacy-policy"
   es:
-#    jobs:
-#      title: Empleo
-#      url: "/jobs"
+    jobs:
+      title: Empleo
+      url: "/jobs"
     notice:
       title: Aviso legal
       url: "/aviso-legal"

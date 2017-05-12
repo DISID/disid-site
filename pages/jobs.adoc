@@ -27,47 +27,50 @@ you to have a look at the job offers we have at the moment.
         <div class="panel-heading" role="tab" id="headingOne">
             <h3 class="panel-title">
                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-Desarrollador GIS
+GIS Developer
 </a>
             </h3>
         </div>
         <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
             <div class="panel-body">
-                <p>En DISID estamos experimentando un importante crecimiento en el desarrollo de servicios TI.<br>Esta es una excelente oportunidad para que un experimentado desarrollador GIS se una a nosotros para formar parte del equipo de técnico de desarrollo
-                    de aplicaciones web java con componente GEO. Como desarrollador GIS, trabajará en estrecha colaboración con el personal técnico, el departamento comercial y los equipos de administración de TI.</p>
+                <p>At DISID we are experiencing significant growth in IT service development.
+This is an excellent opportunity for an experienced GIS developer to join us to become part of the team of Java web application development technician with GEO component. As a GIS developer, you will work closely with technical staff, the business department, and IT management teams.</p>
                 <div class="col-sm-5">
-                    <h4>Qué buscamos?</h4>
+                    <h4>What we look for?</h4>
                     <p>El desarrollador GIS tendrá habilidades y experiencia en las siguientes áreas:</p>
                     <ul>
-                        <li>3 o más años de experiencia en desarrollo de software.</li>
-                        <li>Alto nivel en desarrollo Java, Javascript y Spring.</li>
-                        <li>Experiencia con grandes aplicaciones Javascript.</li>
-                        <li>Fuertes conocimientos e interés en aspectos de Cartografía y Geomática.</li>
-                        <li>Fluidez para visualizar de datos cartográficos en la web (webmapping).</li>
-                        <li>Conocimientos de buenas prácticas en el desarrollo de software, incluyendo optimización, documentación y testing.</li>
-                        <li>Sólidos conocimientos de bases de datos espaciales, especialmente Postgis y Oracle Spatial.</li>
-                        <li>Manejo de repositorios de software y controles de versiones SVN y GIT.</li>
-                        <li>Buenas capacidades de comunicación y organización.</li>
+                         <li>3 or more years of experience in software development. </li>
+                         <li>High level in Java, Javascript and Spring development. </li>
+                         <li>Experience with large Javascript applications. </li>
+                         <li>Strong knowledge and interest in aspects of Cartography and Geomatics. </li>
+                         <li>Fluency in visualizing web mapping data. </li>
+                         <li>Good practice knowledge in software development, including optimization, documentation and testing. </li>
+                         <li>Solid knowledge of spatial databases, especially Postgis and Oracle Spatial. </li>
+                         <li>Handling software repositories and SVN and GIT version controls. </li>
+                         <li>Good communication and organizational skills. </li>
                     </ul>
-                    <p>Deseable:</p>
+                    <p>Desired:</p>
                     <ul>
-                        <li>Experiencia de trabajo dentro de una organización similar.</li>
+                        <li>Working experience within a similar organization.</li>
                     </ul>
                 </div>
                 <div class="col-sm-6 col-sm-offset-1 bg-light">
-                    <h4>Qué te ofrecemos?</h4>
+                    <h4>What we offer?</h4>
                     <ul>
-                        <li>Salario de 22K €/año brutos</li>
-                        <li>Inicialmente, un contrato temporal de 1 año.</li>
-                        <li>Sólido y altamente cualificado equipo profesional.</li>
-                        <li>Flexibilidad de horarios.</li>
-                        <li>Posibilidad de teletrajo.</li>
-                        <li>Jornada intensiva en verano y viernes tarde libres todo el año.</li>
-                        <li>Una oficina amplia y luminosa, buen café y futbolín.</li>
+                        <li>Salary of € 22K/year gross </li>
+                         <li>Initially, a one-year temporary contract. </li>
+                         <li>Solid and highly qualified professional team. </li>
+                         <li>Flexibility of schedules. </li>
+                         <li>Possibility of teleworking. </li>
+                         <li>Intensive day in summer and Friday afternoon free all year. </li>
+                         <li>A spacious and bright office, good coffee and foosball. </li>
                     </ul>
                 </div>
                 <div class="clearfix">
-                    <p>En DISID creemos que el desarrollo profesional ocurre con la ayuda de un buen equipo. Aunque pienses que no cumples exactamente con el perfil, no dudes en aplicar si realmente crees que eres un buen candidato.</p>
+                    <p>
+                    At DISID we believe that professional development is improved with the help of a good team.
+                    Even if you think that you do not fit the profile, do not hesitate to apply if you really believe that you are a good candidate.
+                    </p>
                 </div>
             </div>
         </div>
