@@ -25,9 +25,7 @@ echa un vistazo a nuestras ofertas de empleo.
     <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="headingOne">
             <h3 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-Desarrollador GIS
-</a>
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Desarrollador GIS </a>
             </h3>
         </div>
         <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
@@ -36,7 +34,7 @@ Desarrollador GIS
                     de aplicaciones web java con componente GEO. Como desarrollador GIS, trabajará en estrecha colaboración con el personal técnico, el departamento comercial y los equipos de administración de TI.</p>
                 <div class="col-sm-5">
                     <h4>¿Qué buscamos?</h4>
-                    <p>The GIS Developer will have skills and experience in the following areas:</p>
+                    <p>El desarrollador GIS tendrá habilidades y experiencia en las siguientes áreas:</p>
                     <ul>
                         <li>3 o más años de experiencia en desarrollo de software.</li>
                         <li>Alto nivel en desarrollo Java, Javascript y Spring.</li>
@@ -70,8 +68,107 @@ Desarrollador GIS
                 </div>
             </div>
         </div>
+        <div class="panel-heading" role="tab" id="headingTwo">
+            <h3 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Desarrollador Java </a>
+            </h3>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body">
+                <p>Buscamos distintos perfiles para proyectos de desarrollo de aplicaciones web Java, basadas en SpringFramework y Spring MVC, en función de titulación y experiencia profesional en este tipo de proyectos.</p>
+                <div class="col-sm-5">
+                    <h4>¿Qué perfil buscamos?</h4>
+                    <ul>
+                        <li>Programador</li>
+                        <li>Analista programador</li>
+                        <li>Analista/Arquitecto software</li>
+                    </ul>
+                    <p>Titulaciones deseadas:</p>
+                    <ul>
+                        <li>Técnico superior en desarrollo de aplicaciones en informática</li>
+                        <li>Ingeniero técnico en informática </li>
+                        <li>Ingeniero superior en informática</li>
+                        <li>Grado en ingeniería informática</li>
+                        <li>Master en ingeniería informática</li>
+                    </ul>
+                    <p>No se tendrán en cuenta propuestas que no cumplan con ninguna de las titulaciones citadas.</p>
+                </div>
+                <div class="col-sm-6 col-sm-offset-1 bg-light">
+                    <h4>¿Qué experiencia?</h4>
+                    <p>El desarrollador Java tendrá habilidades y experiencia en las siguientes áreas:</p>
+                    <ul>
+                        <li>Desarrollo de aplicaciones web Java</li>
+                        <li>Uso de librerías Javascript</li>
+                    </ul>
+                    <p>Se valorará positivamente la experiencia en:</p>
+                    <ul>
+                        <li>SpringFramework y Spring MVC</li>
+                    </ul>
+                    <p>Se valorarán los años de experiencia en los requisitos anteriores y los proyectos abordados.</p>
+                    <p>Se valorará de forma adicional la experiencia en los siguientes temas por orden de prioridad:</p>
+                    <ul>
+                        <li>Spring Roo</li>
+                        <li>JQuery</li>
+                        <li>AngularJs</li>
+                        <li>Desarrollo de servicios web SOAP o JSON</li>
+                        <li>Liferay</li>
+                        <li>Alfresco</li>
+                    </ul>
+                </div>
+                <div class="clearfix">
+                    <h4>¿Qué te ofrecemos?</h4>
+                    <ul>
+                        <li>Sólido y altamente cualificado equipo profesional.</li>
+                        <li>Flexibilidad de horarios.</li>
+                        <li>Posibilidad de teletrajo.</li>
+                        <li>Jornada intensiva en verano y viernes tarde libres todo el año.</li>
+                        <li>Una oficina amplia y luminosa, buen café y futbolín.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="panel-heading" role="tab" id="headingThree">
+            <h3 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Ingeneriero software </a>
+            </h3>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+                <p>Estamos buscando un ingeniero de software con experiencia en desarrollo Java y Java Enterprise.<br>Dependerá del director técnico del área, el candidato será responsable del análisis y desarrollo en uno de nuestros proyectos de comercio
+                    electrónico.
+                </p>
+                <div class="col-sm-5">
+                    <h4>¿Qué perfil buscamos?</h4>
+                    <p>Tu puesto de trabajo consistirá en:</p>
+                    <ul>
+                        <li>Análisis de requerimientos y soluciones.</li>
+                        <li>Planificación y desarrollo de funcionalidades de comercio electrónico.</li>
+                        <li>Resolución de problemas, recuperación ante fallos, solución de incidencias.</li>
+                    </ul>
+                    <p>Esperamos de ti:</p>
+                    <ul>
+                        <li>Al menos 2 años de experiencia en Java y JEE.</li>
+                        <li>Inglés hablado fluido.</li>
+                        <li>Disponibilidad para viajar.</li>
+                        <li>Capacidad de análisis y elaboración de diseños técnicos.</li>
+                    </ul>
+                    <p>Se valorarán conocimientos adicionales: SOA, ESB, SIG, Android, o cualquier otro que el candidato pueda aportar.</p>
+                    <p>Se valorará el título de Ingeniero Técnico o Superior en Informática.</p>
+                </div>
+                <div class="col-sm-6 col-sm-offset-1 bg-light">
+                    <h4>¿Qué te ofrecemos?</h4>
+                    <ul>
+                        <li>Sólido y altamente cualificado equipo profesional.</li>
+                        <li>Flexibilidad de horarios.</li>
+                        <li>Posibilidad de teletrajo.</li>
+                        <li>Jornada intensiva en verano y viernes tarde libres todo el año.</li>
+                        <li>Una oficina amplia y luminosa, buen café y futbolín.</li>
+                    </ul>
+                    <p>En DISID creemos que el desarrollo profesional ocurre con la ayuda de un buen equipo. Aunque pienses que no cumples exactamente con el perfil, no dudes en optar al puesto si realmente crees que eres un buen candidato.</p>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
 +++
 
 [.col-sm-6.col-sm-offset-5]
