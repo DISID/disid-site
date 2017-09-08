@@ -1,6 +1,6 @@
 # Site settings
-#url: http://www.disid.com
-url: http://localhost:4000
+url: http://www.disid.com
+#url: http://localhost:4000
 #baseurl:
 email: info@disid.com
 google_analytics: UA-1393802-1 #Google analytics code in the format XX-nnnnnnnn-n
