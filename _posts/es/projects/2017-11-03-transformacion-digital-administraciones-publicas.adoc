@@ -1,0 +1,97 @@
+---
+layout: project
+modal-id: transformacion-digital-administraciones-publicas
+hero-img: hero-bg-cdti.jpg
+img: pic-cdti.jpg
+icon: fa-
+title: Transformación digital de las administraciones públicas
+#in use in home layout
+shorttitle: Transformación digital
+subtitle: Transformación digital de las administraciones públicas
+#in use in project layout
+headline: Antecedentes y necesidad de abordar el proyecto
+description:
+link: transformacion-digital-administraciones-publicas
+url: transformacion-digital-administraciones-publicas
+ref: transformacion-digital-administraciones-publicas
+category:
+    - project-page
+lang: es
+tags:
+- Java
+---
+
+### OBJETIVOS CIENTÍFICOS Y TECNOLÓGICOS
+
+Retomando el concepto de Transformación Digital que está llevándose a cabo en las
+administraciones públicas, empresas y sociedad en general, no podemos pasar por alto que
+un elevado porcentaje de información hace referencia al territorio.
+Es por ello que esta componente fundamental para el análisis, planificación y toma de decisiones, debe estar
+presente en la plataforma integral de Administración Electrónica y Gobierno Abierto (AE/GA).
+
+Por otra parte, tanto el acceso como publicación de esta componente espacial o territorial,
+no debe realizarse de cualquier forma y debería ceñirse a la normativa vigente. Es por ello
+que se empleará el concepto de Infraestructuras de Datos Espaciales y que está reglado tanto en la Ley 14/2010,
+de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (LISIGE)
+y la directiva europea 2007/2/CE para la creación de una Infraestructura de Datos Europea (INSPIRE).
+
++++
+<div class="row">
+<div class="tabbable-panel">
+    <div class="tabbable-line">
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#general" aria-controls="general" role="tab" data-toggle="tab">Objetivo general de la empresa en el proyecto en cooperación</a></li>
+            <li role="presentation"><a href="#especificos" aria-controls="especificos" role="tab" data-toggle="tab">Objetivos técnicos específicos de empresa en el proyecto</a></li>
+        </ul>
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="general">
+                <p>El objetivo fundamental de DISID en el proyecto es el de integrar la componente geoespacial,
+mediante las IDEs y a través del bus de interoperabilidad, a la plataforma de Administración
+Electrónica y Gobierno Abierto. Esta nueva componente geoespacial supone una innovación enlos procesos AE/GA y permitirá disponer de muchos más datos para el análisis y toma de
+decisiones.</p>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="especificos">
+            <p>Los objetivos específicos a realizar en el marco del presente proyecto podemos enumerarlos
+de la siguiente forma:</p>
+<ol>
+<li>Visualización de la información territorial: se integrarán en las plataformas de   AE/GA mapas interactivos en los procesos administrativos que requieran de   información territorial.</li>
+<li>Localización de direcciones: se dispondrá de herramientas que permitan localizar   una dirección postal en un mapa.</li>
+<li>Georreferenciación de nuevos elementos: se desarrollarán herramientas para la toma de datos georreferenciados, a través de dispositivos móviles, que sean relevantes para los procesos administrativos seleccionados.</li>
+<li>Catalogación: se implementará un catálogo de las capas de información que  puedan generarse a partir de los procesos administrativos que permitirá la búsqueda   de recursos desde otros sistemas (como por ejemplo la Infraestructura de Datos  Espaciales Española IDEE)</li>
+<li>Definición de modelos de datos estándar: se diseñarán o reutilizarán modelos de datos existentes que contemplen la componente geoespacial y que serán empleados en la plataforma.</li>
+<li>Reutilización: se interconectará la plataforma con otras fuentes de datos geoespaciales existentes y que sean relevantes para los procesos administrativos seleccionados. El objetivo será no duplicar la información y mantenerla correctamente actualizada.</li>
+</ol>
+</div>
+        </div>
+    </div>
+</div>
+</div>
++++
+
+
++++
+    <div class="row">
+        <!-- Card Projects -->
+        <div class="col-md-8 col-md-offset-2">
+            <div class="">
+                <div class="card-image">
+                    <img class="img-responsive" style="margin: 1em auto 2em" alt="Logotipo conjunto CDTI-Ministerio de Economía, Industria y Competitividad"
+                    src="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/projects/logo-cdti.jpg">
+                </div>
+                <div class="card-content">
+                 <p class="text-center">Este proyecto cuenta con la financiación a cargo del Programa Operativo de Crecimiento Inteligente - FEDER</p>
+                </div>
+                <div class="card-image">
+                    <img class="img-responsive" style="margin: 1em auto 3em" alt="Logotipo FEDER"
+                    src="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/projects/logo-feder.jpg">
+                </div>
+                <div class="card-action text-right">
+                    <a href="http://www.idi.mineco.gob.es/portal/site/MICINN/menuitem.7eeac5cd345b4f34f09dfd1001432ea0/?vgnextoid=b232582770a45510VgnVCM1000001d04140aRCRD" target="new_blank"> Toda la información sobre FEDER
+                    <i class="fa fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
++++
+
+

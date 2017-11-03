@@ -5,7 +5,7 @@ hero-img: hero-bg-gvsig.jpg
 img: pic-gvsig.jpg
 icon: fa-globe
 title: gvSIG
-subtitle: Gestión de información geográfica
+subtitle: Desarrollo de aplicaciones para la gestión de información geográfica y geomática
 headline:
 description:
 link: /sistemas-de-info-geografica-y-geomatica/

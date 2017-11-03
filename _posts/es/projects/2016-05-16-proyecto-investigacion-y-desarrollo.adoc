@@ -6,7 +6,7 @@ img: pic-innovation.jpg
 icon: fa-
 title: Proyecto I+D seleccionado por el IVACE dentro del Programa Operativo FEDER de la Comunitat Valenciana
 #in use in home layout
-short-title: Proyecto I+D
+shorttitle: Proyecto I+D
 subtitle: Seleccionado por el IVACE dentro del Programa Operativo FEDER de la Comunitat Valenciana
 #in use in project layout
 headline: Investigación y desarrollo experimental de un sistema generación automática de sistemas de información basados en tecnologías de código abierto a partir de modelos de comportamiento

@@ -450,6 +450,8 @@ Pages: Project
     list-style: inherit;
     margin: 10px 0 0px 20px;
 }
+.page .content ol li,
+.project .content ol li,
 .page .content ul li,
 .project .content ul li {
     list-style: inherit;

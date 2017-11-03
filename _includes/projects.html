@@ -35,8 +35,8 @@
               </div>
               <figcaption>
                 <h2>
-                {% if post.short-title %}
-                  {{ post.short-title }}
+                {% if post.shorttitle %}
+                  {{ post.shorttitle }}
                 {% else %}
                   {{ post.title }}
                 {% endif %}
@@ -78,9 +78,13 @@
               </div>
             </div>
             <figcaption>
-              <h2>{{ post.title }}</h2>
-              <h3>{{ post.subtitle }}</h3>
-            </figcaption>
+                {% if post.shorttitle %}
+                  <h2>{{ post.shorttitle }}</h2>
+                {% else %}
+                  <h2>{{ post.title }}</h2>
+                {% endif %}
+                <h3>{{ post.subtitle }}</h3>
+              </figcaption>
         </div>
         <ul class="article-footer">
           <li class="article-category">
