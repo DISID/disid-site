@@ -31,11 +31,10 @@
     {% endcomment %}
 
       {% assign collection=site.posts | where:"lang", page.lang %}
-      {% for post in collection %}
-        {% if post.categories contains 'project-page' %}
-          {% include banner-project.html limit=1 %}
-        {% endif %}
-      {% endfor %}
+      {% for post in collection limit: 1 %}
+          {% include banner-project.html %}
+       {% endfor %}
+
     {% include footer.html %}
     {% include js.html %}
   </body>
