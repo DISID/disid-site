@@ -3,6 +3,18 @@
   
     
       <url>
+        <loc>/transformacion-digital-administraciones-publicas</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/transformacion-digital-administraciones-publicas" />
+        
+        <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
         <loc>/spring-roo-project</loc>
         
         
@@ -113,20 +125,6 @@
   
     
       <url>
-        <loc>/proyecto-gvnix</loc>
-        
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/proyecto-gvnix" />
-        
-          <xhtml:link rel="alternate" hreflang="en" href="/gvnix-project" />
-        
-        <lastmod>2016-05-16T00:00:00+00:00</lastmod>
-        <changefreq>weekly</changefreq>
-      </url>
-    
-  
-    
-      <url>
         <loc>/proyecto-geotic</loc>
         
         
@@ -169,8 +167,6 @@
       <url>
         <loc>/gvnix-project</loc>
         
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/proyecto-gvnix" />
         
           <xhtml:link rel="alternate" hreflang="en" href="/gvnix-project" />
         

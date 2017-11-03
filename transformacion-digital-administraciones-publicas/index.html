@@ -1,0 +1,693 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="es">
+<!--<![endif]-->
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Transformación digital de las administraciones públicas - DISID, Be Software</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="DISID es una empresa de ingeniería de software especializada en tecnología, plataforma Java, plataforma Spring IO y geomática.">
+	  <meta name="keywords" content="software, Java,desarrollo, Valencia, GIS, GEO, Spring, Spring Roo, gvNIX, gvSIG" />
+	  <meta name="author" content="DISID Corporation" />
+
+    <link rel="canonical" href="http://www.disid.com/transformacion-digital-administraciones-publicas">
+
+    <!-- language -->
+    
+		
+		  <link rel="alternate" hreflang="es" href="/transformacion-digital-administraciones-publicas" />
+		
+		
+		
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+     <!-- CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,300italic,400italic,500,500italic,600,600italic,700,700italic' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet'>
+
+    <!-- layout with our CSS -->
+    <link rel="stylesheet" href="http://www.disid.com/style.css">
+
+     <!-- CSS -->
+    <link rel="stylesheet" href="http://www.disid.com/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://www.disid.com/css/normalize.min.css">
+    <link rel="stylesheet" href="http://www.disid.com/css/animate.min.css">
+    <link rel="stylesheet" href="http://www.disid.com/css/flickity.min.css">
+
+    <link rel="stylesheet" href="http://www.disid.com/css/styles.css">
+    <link rel="stylesheet" href="http://www.disid.com/css/disid.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Cookies Alert -->
+    <link rel="stylesheet" href="http://www.disid.com/css/cookiecuttr.css" rel="stylesheet" type="text/css">
+
+    <!-- jQuery, needed for toc.js, CookieCuttr,... -->
+    <!-- JS CDNs -->
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+	  <!-- jQuery local fallback -->
+	  <script>
+	  window.jQuery || document.write('<script src="js/min/jquery-1.11.2.min.js"><\/script>')
+	  </script>
+
+    <!-- Jekyll-Asciidoc Quickstart -->
+    <script src="http://www.disid.com/js/vendor/modernizr.js"></script>
+    <script src="http://www.disid.com/js/toc.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    
+
+		<!-- jQuery CookieCuttr -->
+		<script type="text/javascript" src="http://www.disid.com/js/jquery.cookie.js"></script>
+		
+		  <script type="text/javascript" src="http://www.disid.com/js/jquery.cookiecuttr-es.js"></script>
+		
+		
+
+		<script type="text/javascript">
+		if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
+		  // insert the code you do not want to run UNTIL cookies are accepted here
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-1393802-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		  var s = document. getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		  }
+		</script>
+		
+
+
+</head>
+
+  <body id="page-top" class="project">
+    
+<!-- Navigation -->
+
+  <div class="container-fluid navbar-fixed-top">
+    <div class="row">
+      <div class="header-nav-wrapper">
+        <div class="logo">
+          <a class="navbar-brand page-scroll" href="http://www.disid.com#page-top">
+           <img src="http://www.disid.com/img/logo-disid-white.png" class="img-responsive">
+          </a>
+
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="primary-nav-wrapper">
+          <nav>
+            <ul class="primary-nav">
+              <li class="hidden"><a href="#page-top"></a></li>
+              
+
+	               
+	                    <li>
+	                      <a class="page-scroll" href="http://www.disid.com#solutions">Soluciones</a>
+	                      
+	                    </li>
+	              
+	                    <li>
+	                      <a class="page-scroll" href="http://www.disid.com#projects">Proyectos</a>
+	                      
+	                    </li>
+	              
+	                    <li>
+	                      <a class="page-scroll" href="http://www.disid.com#technologies">Tecnologías</a>
+	                      
+	                    </li>
+	              
+	                    <li>
+	                      <a class="page-scroll" href="http://blog.disid.com/es/index.html">Blog</a>
+	                      
+	                    </li>
+	              
+	                    <li>
+	                      <a class="page-scroll" href="http://www.disid.com#contact">Contacto</a>
+	                      
+	                    </li>
+	              
+
+              
+
+            </ul>
+          </nav>
+          <div class="secondary-nav-wrapper">
+            <ul class="secondary-nav">
+               <!-- language variables -->
+                    <!-- for home -->
+                    
+
+                    <!-- for all posts -->
+                    
+	                    <ul>
+											
+											
+											  <li class="lang subscribe">
+											    <a href="/transformacion-digital-administraciones-publicas" class="es">es</a>
+											  </li>
+											
+
+											
+											
+											</ul>
+										
+
+              <!-- TODO: seach funcionality -->
+              <!-- <li class="search"><a href="#search" class="show-search"><i class="fa fa-search"></i></a></li> -->
+            </ul>
+          </div>
+            <!-- TODO: seach funcionality -->
+          <!-- <div class="search-wrapper">
+            <ul class="search">
+              <li>
+                <input type="text" id="search-input" placeholder="Start typing then hit enter to search">
+              </li>
+              <li>
+                <a href="#" class="hide-search"><i class="fa fa-close"></i></a>
+              </li>
+            </ul>
+          </div> -->
+        </div>
+        <div class="navicon">
+          <a class="nav-toggle" href="#"><span></span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Header -->
+<header class="hero">
+  <div class="carousel">
+    
+    
+    <div class="carousel-cell" style="background-image: url(http://www.disid.com/assets/img/services/hero-bg-cdti.jpg);">
+    
+      <div class="hero-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h1 class="wp1">Transformación digital de las administraciones públicas</h1>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+    <section id="main" class="content has-padding" role="main" itemprop="mainContentOfPage">
+        <div class="container">
+            <div class="row">
+                <div class="page-body col-md-10 col-md-offset-1" itemprop="description">
+                    <h2>Antecedentes y necesidad de abordar el proyecto</h2>
+                    <div class="sect2">
+<h3 id="objetivos_cientÍficos_y_tecnolÓgicos">OBJETIVOS CIENTÍFICOS Y TECNOLÓGICOS</h3>
+<div class="paragraph">
+<p>Retomando el concepto de Transformación Digital que está llevándose a cabo en las
+administraciones públicas, empresas y sociedad en general, no podemos pasar por alto que
+un elevado porcentaje de información hace referencia al territorio.
+Es por ello que esta componente fundamental para el análisis, planificación y toma de decisiones, debe estar
+presente en la plataforma integral de Administración Electrónica y Gobierno Abierto (AE/GA).</p>
+</div>
+<div class="paragraph">
+<p>Por otra parte, tanto el acceso como publicación de esta componente espacial o territorial,
+no debe realizarse de cualquier forma y debería ceñirse a la normativa vigente. Es por ello
+que se empleará el concepto de Infraestructuras de Datos Espaciales y que está reglado tanto en la Ley 14/2010,
+de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (LISIGE)
+y la directiva europea 2007/2/CE para la creación de una Infraestructura de Datos Europea (INSPIRE).</p>
+</div>
+<div class="paragraph">
+<p>
+<div class="row">
+<div class="tabbable-panel">
+    <div class="tabbable-line">
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#general" aria-controls="general" role="tab" data-toggle="tab">Objetivo general de la empresa en el proyecto en cooperación</a></li>
+            <li role="presentation"><a href="#especificos" aria-controls="especificos" role="tab" data-toggle="tab">Objetivos técnicos específicos de empresa en el proyecto</a></li>
+        </ul>
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="general">
+                <p>El objetivo fundamental de DISID en el proyecto es el de integrar la componente geoespacial,
+mediante las IDEs y a través del bus de interoperabilidad, a la plataforma de Administración
+Electrónica y Gobierno Abierto. Esta nueva componente geoespacial supone una innovación enlos procesos AE/GA y permitirá disponer de muchos más datos para el análisis y toma de
+decisiones.</p>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="especificos">
+            <p>Los objetivos específicos a realizar en el marco del presente proyecto podemos enumerarlos
+de la siguiente forma:</p>
+<ol>
+<li>Visualización de la información territorial: se integrarán en las plataformas de   AE/GA mapas interactivos en los procesos administrativos que requieran de   información territorial.</li>
+<li>Localización de direcciones: se dispondrá de herramientas que permitan localizar   una dirección postal en un mapa.</li>
+<li>Georreferenciación de nuevos elementos: se desarrollarán herramientas para la toma de datos georreferenciados, a través de dispositivos móviles, que sean relevantes para los procesos administrativos seleccionados.</li>
+<li>Catalogación: se implementará un catálogo de las capas de información que  puedan generarse a partir de los procesos administrativos que permitirá la búsqueda   de recursos desde otros sistemas (como por ejemplo la Infraestructura de Datos  Espaciales Española IDEE)</li>
+<li>Definición de modelos de datos estándar: se diseñarán o reutilizarán modelos de datos existentes que contemplen la componente geoespacial y que serán empleados en la plataforma.</li>
+<li>Reutilización: se interconectará la plataforma con otras fuentes de datos geoespaciales existentes y que sean relevantes para los procesos administrativos seleccionados. El objetivo será no duplicar la información y mantenerla correctamente actualizada.</li>
+</ol>
+</div>
+        </div>
+    </div>
+</div>
+</div>
+</p>
+</div>
+<div class="paragraph">
+<p>
+    <div class="row">
+        <!-- Card Projects -->
+        <div class="col-md-8 col-md-offset-2">
+            <div class="">
+                <div class="card-image">
+                    <img class="img-responsive" style="margin: 1em auto 2em" alt="Logotipo conjunto CDTI-Ministerio de Economía, Industria y Competitividad"
+                    src="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/projects/logo-cdti.jpg">
+                </div>
+                <div class="card-content">
+                 <p class="text-center">Este proyecto cuenta con la financiación a cargo del Programa Operativo de Crecimiento Inteligente - FEDER</p>
+                </div>
+                <div class="card-image">
+                    <img class="img-responsive" style="margin: 1em auto 3em" alt="Logotipo FEDER"
+                    src="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/projects/logo-feder.jpg">
+                </div>
+                <div class="card-action text-right">
+                    <a href="http://www.idi.mineco.gob.es/portal/site/MICINN/menuitem.7eeac5cd345b4f34f09dfd1001432ea0/?vgnextoid=b232582770a45510VgnVCM1000001d04140aRCRD" target="new_blank"> Toda la información sobre FEDER
+                    <i class="fa fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</p>
+</div>
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+      
+      
+        
+          <!-- BANNER -->
+<div id="banner">
+  <div class="banner" id="accordion">
+    <!-- TEXT&LINK -->
+    <div class="container text-center">
+      <div class="row-fluid call-to-action text-center">
+          <h2 class="section-heading">Si tienes una idea de negocio, te ayudamos a desarrollarla.</h2>
+          <p>Ponte en contacto con nosotros y te asesoramos con tu proyecto</p>
+          <p>
+              <a class="btn dmbutton btn-xl wow pulse" data-wow-delay=".6s" data-toggle="collapse" data-parent="#accordion" href="#collapseContact">
+              ¿Hablamos?
+          </a>
+          </p>
+      </div>
+    </div>
+    <!-- COLLAPSE -->
+    <div id="collapseContact" class="panel-collapse collapse noCrossRef">
+      <div class="panel-body">
+        
+        <!-- Begin MailChimp Signup Form -->
+        <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+        <div id="mc_embed_signup">
+        <form action="//disid.us11.list-manage.com/subscribe/post?u=6c8ebdf66f7cedc23b4c8e986&amp;id=c445e3151e&SIGNUP=ContactoProyectoIVACE" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+              <div class="col-md-6 form-line">
+                <div class="mc-field-group form-group">
+                  <label for="mce-EMAIL">Correo electrónico </label>
+                  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                </div>
+                <div class="mc-field-group form-group">
+                  <label for="mce-FNAME">Nombre </label>
+                  <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                </div>
+                <div class="mc-field-group form-group">
+                  <label for="mce-LNAME">Apellidos </label>
+                  <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+                </div>
+                <div class="mc-field-group form-group size1of2">
+                  <label for="mce-MMERGE3">Teléfono </label>
+                  <input type="text" name="MMERGE3" class="" value="" id="mce-MMERGE3">
+                </div>
+              </div>
+              <div class="col-md-6 form-line">
+                <div class="mc-field-group form-group">
+                  <label for="mce-MMERGE4">Empresa </label>
+                  <input type="text" value="" name="MMERGE4" class="" id="mce-MMERGE4">
+                </div>
+                <div class="mc-field-group form-group">
+                  <label for="mce-MMERGE5">Website </label>
+                  <input type="url" value="" name="MMERGE5" class=" url" id="mce-MMERGE5">
+                </div>
+                <div class="mc-field-group form-group">
+                  <label for="mce-MMERGE6">Quieres hablar sobre: </label>
+                  <select name="MMERGE6" class="" id="mce-MMERGE6">
+                  <option value=""></option>
+                  <option value="Desarrollo Java">Desarrollo Java</option>
+                <option value="SIG &amp; Geomática">SIG &amp; Geomática</option>
+                <option value="Sistemas de localización">Sistemas de localización</option>
+                <option value="Soluciones de movilidad">Soluciones de movilidad</option>
+                  </select>
+                </div>
+                <div class="mc-field-group form-group">
+                  <label for="mce-MMERGE7">Tus objetivos: </label>
+                  <input type="text" value="" name="MMERGE7" class="" id="mce-MMERGE7">
+                </div>
+              </div>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_6c8ebdf66f7cedc23b4c8e986_c445e3151e" tabindex="-1" value=""></div>
+                <div class="clear">
+                <input type="submit" value="Enviar" name="subscribe" id="mc-embedded-subscribe" class="btn dmbutton btn-xl wow pulse" data-wow-delay=".6s">
+                </div>
+            </div>
+        </form>
+        </div>
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+        <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='phone';fnames[4]='MMERGE4';ftypes[4]='text';fnames[5]='MMERGE5';ftypes[5]='url';fnames[6]='MMERGE6';ftypes[6]='dropdown';fnames[7]='MMERGE7';ftypes[7]='text';fnames[8]='SIGNUP';ftypes[8]='text';
+        /*
+         * Translated default messages for the $ validation plugin.
+         * Locale: ES
+         */
+        $.extend($.validator.messages, {
+          required: "Este campo es obligatorio.",
+          remote: "Por favor, rellena este campo.",
+          email: "Por favor, escribe una dirección de correo válida",
+          url: "Por favor, escribe una URL válida.",
+          date: "Por favor, escribe una fecha válida.",
+          dateISO: "Por favor, escribe una fecha (ISO) válida.",
+          number: "Por favor, escribe un número entero válido.",
+          digits: "Por favor, escribe sólo dígitos.",
+          creditcard: "Por favor, escribe un número de tarjeta válido.",
+          equalTo: "Por favor, escribe el mismo valor de nuevo.",
+          accept: "Por favor, escribe un valor con una extensión aceptada.",
+          maxlength: $.validator.format("Por favor, no escribas más de {0} caracteres."),
+          minlength: $.validator.format("Por favor, no escribas menos de {0} caracteres."),
+          rangelength: $.validator.format("Por favor, escribe un valor entre {0} y {1} caracteres."),
+          range: $.validator.format("Por favor, escribe un valor entre {0} y {1}."),
+          max: $.validator.format("Por favor, escribe un valor menor o igual a {0}."),
+          min: $.validator.format("Por favor, escribe un valor mayor o igual a {0}.")
+        });}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+        <!--End mc_embed_signup-->
+        
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /.banner -->
+        
+      
+        
+      
+        
+      
+        
+          <!-- BANNER -->
+<div id="banner">
+  <div class="banner" id="accordion">
+    <!-- TEXT&LINK -->
+    <div class="container text-center">
+      <div class="row-fluid call-to-action text-center">
+          <h2 class="section-heading">Si tienes una idea de negocio, te ayudamos a desarrollarla.</h2>
+          <p>Ponte en contacto con nosotros y te asesoramos con tu proyecto</p>
+          <p>
+              <a class="btn dmbutton btn-xl wow pulse" data-wow-delay=".6s" data-toggle="collapse" data-parent="#accordion" href="#collapseContact">
+              ¿Hablamos?
+          </a>
+          </p>
+      </div>
+    </div>
+    <!-- COLLAPSE -->
+    <div id="collapseContact" class="panel-collapse collapse noCrossRef">
+      <div class="panel-body">
+        
+        <!-- Begin MailChimp Signup Form -->
+        <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+        <div id="mc_embed_signup">
+        <form action="//disid.us11.list-manage.com/subscribe/post?u=6c8ebdf66f7cedc23b4c8e986&amp;id=c445e3151e&SIGNUP=ContactoProyectoIVACE" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+              <div class="col-md-6 form-line">
+                <div class="mc-field-group form-group">
+                  <label for="mce-EMAIL">Correo electrónico </label>
+                  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                </div>
+                <div class="mc-field-group form-group">
+                  <label for="mce-FNAME">Nombre </label>
+                  <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                </div>
+                <div class="mc-field-group form-group">
+                  <label for="mce-LNAME">Apellidos </label>
+                  <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+                </div>
+                <div class="mc-field-group form-group size1of2">
+                  <label for="mce-MMERGE3">Teléfono </label>
+                  <input type="text" name="MMERGE3" class="" value="" id="mce-MMERGE3">
+                </div>
+              </div>
+              <div class="col-md-6 form-line">
+                <div class="mc-field-group form-group">
+                  <label for="mce-MMERGE4">Empresa </label>
+                  <input type="text" value="" name="MMERGE4" class="" id="mce-MMERGE4">
+                </div>
+                <div class="mc-field-group form-group">
+                  <label for="mce-MMERGE5">Website </label>
+                  <input type="url" value="" name="MMERGE5" class=" url" id="mce-MMERGE5">
+                </div>
+                <div class="mc-field-group form-group">
+                  <label for="mce-MMERGE6">Quieres hablar sobre: </label>
+                  <select name="MMERGE6" class="" id="mce-MMERGE6">
+                  <option value=""></option>
+                  <option value="Desarrollo Java">Desarrollo Java</option>
+                <option value="SIG &amp; Geomática">SIG &amp; Geomática</option>
+                <option value="Sistemas de localización">Sistemas de localización</option>
+                <option value="Soluciones de movilidad">Soluciones de movilidad</option>
+                  </select>
+                </div>
+                <div class="mc-field-group form-group">
+                  <label for="mce-MMERGE7">Tus objetivos: </label>
+                  <input type="text" value="" name="MMERGE7" class="" id="mce-MMERGE7">
+                </div>
+              </div>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_6c8ebdf66f7cedc23b4c8e986_c445e3151e" tabindex="-1" value=""></div>
+                <div class="clear">
+                <input type="submit" value="Enviar" name="subscribe" id="mc-embedded-subscribe" class="btn dmbutton btn-xl wow pulse" data-wow-delay=".6s">
+                </div>
+            </div>
+        </form>
+        </div>
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+        <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='phone';fnames[4]='MMERGE4';ftypes[4]='text';fnames[5]='MMERGE5';ftypes[5]='url';fnames[6]='MMERGE6';ftypes[6]='dropdown';fnames[7]='MMERGE7';ftypes[7]='text';fnames[8]='SIGNUP';ftypes[8]='text';
+        /*
+         * Translated default messages for the $ validation plugin.
+         * Locale: ES
+         */
+        $.extend($.validator.messages, {
+          required: "Este campo es obligatorio.",
+          remote: "Por favor, rellena este campo.",
+          email: "Por favor, escribe una dirección de correo válida",
+          url: "Por favor, escribe una URL válida.",
+          date: "Por favor, escribe una fecha válida.",
+          dateISO: "Por favor, escribe una fecha (ISO) válida.",
+          number: "Por favor, escribe un número entero válido.",
+          digits: "Por favor, escribe sólo dígitos.",
+          creditcard: "Por favor, escribe un número de tarjeta válido.",
+          equalTo: "Por favor, escribe el mismo valor de nuevo.",
+          accept: "Por favor, escribe un valor con una extensión aceptada.",
+          maxlength: $.validator.format("Por favor, no escribas más de {0} caracteres."),
+          minlength: $.validator.format("Por favor, no escribas menos de {0} caracteres."),
+          rangelength: $.validator.format("Por favor, escribe un valor entre {0} y {1} caracteres."),
+          range: $.validator.format("Por favor, escribe un valor entre {0} y {1}."),
+          max: $.validator.format("Por favor, escribe un valor menor o igual a {0}."),
+          min: $.validator.format("Por favor, escribe un valor mayor o igual a {0}.")
+        });}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+        <!--End mc_embed_signup-->
+        
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /.banner -->
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    <!-- SECTION: Footer -->
+  <footer class="has-padding footer-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 footer-branding">
+          <img src="http://www.disid.com/img/logo-disid-white.png"
+          class="img-responsive footer-branding-logo" alt="DISID Corporation">
+          <p>DISID es una empresa de ingeniería de software especializada en tecnología, plataforma Java, plataforma Spring IO y geomática.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 footer-nav">
+          <ul class="footer-primary-nav">
+            
+                    <li>
+                      
+                      <a class="page-scroll" href="/jobs">Empleo</a>
+                      
+                    </li>
+            
+                    <li>
+                      
+                      <a class="page-scroll" href="/aviso-legal">Aviso legal</a>
+                      
+                    </li>
+            
+                    <li>
+                      
+                      <a class="page-scroll" href="/politica-de-cookies">Cookies</a>
+                      
+                    </li>
+            
+                    <li>
+                      
+                      <a class="page-scroll" href="/politica-de-privacidad">Política de privacidad</a>
+                      
+                    </li>
+            
+            
+              <li>
+                  <i class="fa fa-envelope"></i>
+                  <span>info@disid.com</span>
+              </li>
+            
+            
+              <li>
+                  <i class="fa fa-phone"></i>
+                  <span>(+34) 963 516 309</span>
+              </li>
+            
+
+          </ul>
+          <ul class="footer-share">
+            
+              <li><a href="http://twitter.com/disid_corp">
+              <i class="fa fa-twitter"></i>
+              <span></span>
+              </a></li>
+            
+              <li><a href="https://www.facebook.com/DISIDCorp/">
+              <i class="fa fa-facebook"></i>
+              <span></span>
+              </a></li>
+            
+              <li><a href="https://github.com/DISID">
+              <i class="fa fa-github"></i>
+              <span></span>
+              </a></li>
+            
+              <li><a href="https://www.linkedin.com/company/disid">
+              <i class="fa fa-linkedin"></i>
+              <span></span>
+              </a></li>
+            
+          </ul>
+
+          <ul class="footer-secondary-nav">
+            <li>&copy; DISID Corporation 2016.</li>
+            <li><small>Sociedad Limitada 2013 CC BY-NC-SA 3.0 ES | Sitio web desarrollado con Jekyll & Bootstrap</small></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END SECTION: Footer -->
+
+
+    
+  <!-- Bootstrap Core JavaScript -->
+  <script src="http://www.disid.com/js/min/bootstrap.min.js"></script>
+
+  <!-- JS CDNs -->
+  <script src="http://vjs.zencdn.net/5.4.6/video.min.js"></script>
+
+  <!-- JS Locals -->
+  <script src="http://www.disid.com/js/min/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  <script src="http://www.disid.com/js/min/retina.min.js"></script>
+  <script src="http://www.disid.com/js/min/jquery.waypoints.min.js"></script>
+  <script src="http://www.disid.com/js/min/flickity.pkgd.min.js"></script>
+
+  <!-- Menu on scroll -->
+  <script src="http://www.disid.com/js/cbpAnimatedHeader.js"></script>
+
+  <!-- Animation scripts -->
+  <script src="http://www.disid.com/js/typewriter.js"></script>
+
+  <!-- JS init -->
+  <script src="http://www.disid.com/js/scripts.js"></script>
+
+  <!-- Cookies consent -->
+	
+	<script>
+	    $(document).ready(function () {
+	      console.log("Cookies consent loaded");
+	      $.cookieCuttr();
+	    });
+	</script>
+	
+
+
+  </body>
+</html>
+
