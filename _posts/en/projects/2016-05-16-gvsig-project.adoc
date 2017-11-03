@@ -5,7 +5,7 @@ hero-img: hero-bg-gvsig.jpg
 img: pic-gvsig.jpg
 icon: fa-globe
 title: gvSIG
-subtitle: Geographic information management
+subtitle: Solutions for geographic information management and geomatic
 headline:
 description:
 link: geographic-info-systems-and-geomatic
@@ -26,7 +26,6 @@ being able to access the most common formats, both vector and raster.
 It has a large number of tools for working with geographic data
 (query, mapping, geoprocessing, networks, etc) Which make it an ideal
 tool for users working with territorial component.
-
 
 The gvSIG Association trust us as architects of gvSIG 2.0 one of
 the leading open source GIS world.

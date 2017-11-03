@@ -5,7 +5,7 @@ hero-img: hero-gvnix.jpg
 img: pic-gvnix.jpg
 icon: fa-
 title: gvNIX
-subtitle: Agile development of Java applications
+subtitle: An open source tool for agile development of Java applications
 headline:
 description:
 link: java-development
