@@ -151,7 +151,7 @@ herramientas de generación de código que permitan generar semiautomáticamente
         <div class="col-md-5">
             <div class="card">
                 <div class="card-image">
-                    <img class="img-responsive" alt="Instituto Valenciano de Competitividad Empresarial" src="{{ site.url }}{{ site.ASSET_PATH }}/img/Institucional-cs.png">
+                    <img class="img-responsive" alt="Instituto Valenciano de Competitividad Empresarial" src="http://www.disid.com/assets/img/Institucional-cs.png">
                 </div>
                 <div class="card-content">
                     <p>El Instituto Valenciano de Competitividad Empresarial (IVACE) es una entidad de derecho público de la Generalitat Valenciana adscrita a la Consellería de Economía, Industria, Turismo y Empleo. El anterior Instituto de la Pequeña y Mediana Industria de la Generalitat Valenciana (IMPIVA) pasó a denominarse Instituto Valenciano de Competitividad Empresarial a raiz del D/L 7/2012 de 19 de octubre del Consell, de Medidas de Reestructuración y Racionalización del Sector Público Empresarial y Fundacional de la Generalitat.</p>
@@ -166,7 +166,7 @@ herramientas de generación de código que permitan generar semiautomáticamente
         <div class="col-md-5 col-md-offset-2">
             <div class="card">
                 <div class="card-image">
-                    <img class="img-responsive" src="{{ site.url }}{{ site.ASSET_PATH }}/img/logo-025-FEDER.jpg" alt="Proyecto Cofinanciado por los Fondos FEDER dentro del programa operativo FEDER de la Comunidad Valenciana 2014-2020">
+                    <img class="img-responsive" src="http://www.disid.com/assets/img/logo-025-FEDER.jpg" alt="Proyecto Cofinanciado por los Fondos FEDER dentro del programa operativo FEDER de la Comunidad Valenciana 2014-2020">
                 </div>
                 <div class="card-content">
                     <p>El Fondo Europeo de Desarrollo Regional (FEDER) tiene como objetivo fortalecer la cohesión socioeconómica dentro de la Unión Europea corrigiendo los desequilibrios entre sus regiones.</p>
