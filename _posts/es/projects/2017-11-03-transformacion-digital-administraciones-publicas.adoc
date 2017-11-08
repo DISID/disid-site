@@ -5,9 +5,9 @@ hero-img: hero-bg-cdti.jpg
 img: pic-cdti.jpg
 icon: fa-
 title: Transformación digital de las administraciones públicas
-#in use in home layout
 shorttitle: Transformación digital
-subtitle: Transformación digital de las administraciones públicas
+subtitle: Plataforma integral de Administración Electrónica y Gobierno Abierto
+#in use in home layout
 #in use in project layout
 headline: Antecedentes y necesidad de abordar el proyecto
 description:
@@ -19,6 +19,7 @@ category:
 lang: es
 tags:
 - Java
+- Geo
 ---
 
 ### OBJETIVOS CIENTÍFICOS Y TECNOLÓGICOS
