@@ -4,9 +4,9 @@ modal-id: transformacion-digital-administraciones-publicas
 hero-img: hero-bg-cdti.jpg
 img: pic-cdti.jpg
 icon: fa-
-title: Transformación digital de las administraciones públicas
-shorttitle: Transformación digital
-subtitle: Plataforma integral de Administración Electrónica y Gobierno Abierto
+title: Digital transformation of public administrations
+shorttitle: Digital transformation
+subtitle: Integral platform of Electronic Administration and Open Government
 #in use in home layout
 #in use in project layout
 headline: Antecedentes y necesidad de abordar el proyecto
@@ -16,7 +16,7 @@ url: transformacion-digital-administraciones-publicas
 ref: transformacion-digital-administraciones-publicas
 category:
     - project-page
-lang: es
+lang: en
 tags:
 - Java
 - Geo
