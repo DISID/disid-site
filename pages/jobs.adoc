@@ -107,9 +107,12 @@ you to have a look at the job offers we have at the moment.
                     <p>Years of experience will be valued at the previous requirements and undertaken projects.</p>
                     <p>Additionally, will be valued experience in the following areas in order of priority:</p>
                     <ul>
+                        <li>ElasticSearch - Logstash - Kibana (ELK)</li>
+                        <li>MongoDB</li>
                         <li>NodeJS</li>
                         <li>REST services development</li>
                         <li>IoT solutions and platforms</li>
+                        <li>Node-RED</li>
                     </ul>
                 </div>
                 <div class="clearfix">
