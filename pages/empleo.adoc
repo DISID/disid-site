@@ -275,7 +275,7 @@ Nos gusta conocer a otros profesionales proactivos con los que potenciar nuestro
                 </div>
             </div>
         </div>
-
+    </div>
 <!-- # OFERTAS NO VIGENTES: 
         <div class="panel-heading" role="tab" id="headingThree">
             <h3 class="panel-title">
@@ -319,7 +319,6 @@ Nos gusta conocer a otros profesionales proactivos con los que potenciar nuestro
             </div>
         </div>
 -->
-    </div>
 +++
 [.col-sm-6.col-sm-offset-5]
 ## Un gran equipo y un gran ambiente de trabajo.
