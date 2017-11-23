@@ -224,7 +224,7 @@ Nos gusta conocer a otros profesionales proactivos con los que potenciar nuestro
         </div>
         <div class="panel-heading" role="tab" id="headingThree">
             <h3 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseThree">Desarrollador / Administrador de Sistemas</a>
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseThree">Desarrollador Java - Administrador de Sistemas</a>
             </h3>
         </div>
         <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
