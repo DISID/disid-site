@@ -222,6 +222,60 @@ Nos gusta conocer a otros profesionales proactivos con los que potenciar nuestro
                 </div>
             </div>
         </div>
+        <div class="panel-heading" role="tab" id="headingThree">
+            <h3 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseThree">Desarrollador / Administrador de Sistemas</a>
+            </h3>
+        </div>
+        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+                <p>En DISID estamos experimentando un importante crecimiento en el desarrollo de servicios TI.<br>Esta es una excelente oportunidad para un administrador de sistemas y desarrollador Java, se una a nosotros para formar parte del equipo de Devops Java. Trabajará en estrecha colaboración con el personal técnico, el departamento comercial y los equipos de administración de TI.</p>
+                <div class="col-sm-5">
+                    <h4>¿Qué buscamos?</h4>
+                    <p>Habilidades en las siguientes áreas:</p>
+                    <ul>
+                        <li>Experiencia como administrador de sistemas.</li>
+                        <li>Experiencia en Java para entender código ya escrito y ser capaz de aportar mejoras, adaptarse rápidamente para realizar modificaciones.</li>
+                        <li>Conocimientos en la puesta en marcha, mantenimiento y configuración de tecnologías relacionadas con plataforma Java: Tomcat, JBoss, etc.</li>
+                        <li>Conocimientos de buenas prácticas en el desarrollo de software, incluyendo optimización, documentación y testing.</li>
+                        <li>Manejo de repositorios de software y controles de versiones SVN y GIT.</li>
+                        <li>Buenas capacidades de comunicación y organización.</li>
+                    </ul>
+                    <p>Deseable:</p>
+                    <ul>
+                        <li>2 años de experiencia como administrador de sistemas.</li>
+                        <li>2 años de experiencia en desarrollo de software.</li>
+                        <li>Experiencia con plataforma Spring IO.</li>
+                        <li>Experiencia en sistemas cloud: Cloudfoundry, OpenShift, etc.</li>
+                        <li>Titulación en informática:<br/>
+                        <ul>
+                            <li>Técnico superior en desarrollo de aplicaciones en informática</li>
+                            <li>Ingeniero técnico en informática </li>
+                            <li>Ingeniero superior en informática</li>
+                            <li>Grado en ingeniería informática</li>
+                            <li>Master en ingeniería informática</li>
+                        </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-sm-offset-1 bg-light">
+                    <h4>¿Qué te ofrecemos?</h4>
+                    <ul>
+                        <li>Salario según aptitudes, conocimientos y experiencia.</li>
+                        <li>Inicialmente, un contrato temporal de 1 año.</li>
+                        <li>Sólido y altamente cualificado equipo profesional.</li>
+                        <li>Flexibilidad de horarios.</li>
+                        <li>Posibilidad de teletrabajo.</li>
+                        <li>Jornada intensiva en verano y viernes tarde libres todo el año.</li>
+                        <li>Una oficina amplia y luminosa, buen café y futbolín.</li>
+                    </ul>
+                </div>
+                <div class="clearfix">
+                    <p>En DISID creemos que el desarrollo profesional ocurre con la ayuda de un buen equipo. Aunque pienses que no cumples exactamente con el perfil, no dudes en optar al puesto si realmente crees que eres un buen candidato.</p>
+                </div>
+            </div>
+        </div>
+
 <!-- # OFERTAS NO VIGENTES: 
         <div class="panel-heading" role="tab" id="headingThree">
             <h3 class="panel-title">
