@@ -13,10 +13,8 @@ lang: es
 ---
 
 Somos un equipo, profesionales con experiencia construyendo grandes proyectos.
-Nos gusta conocer a otros profesionales con los que potenciar nuestro conocimiento
-y crecer como equipo. Nos gustaría acompañarte en tu desarrollo profesional
-y personal. Si quieres involucrarte en proyectos interesantes e innovadores
-echa un vistazo a nuestras ofertas de empleo.
+
+Nos gusta conocer a otros profesionales proactivos con los que potenciar nuestro conocimiento y crecer como equipo. Nos gustaría acompañarte en tu desarrollo profesional y personal. Si quieres involucrarte en proyectos interesantes e innovadores echa un vistazo a nuestras ofertas de empleo.
 
 ## Ofertas actuales
 
@@ -131,41 +129,53 @@ echa un vistazo a nuestras ofertas de empleo.
         </div>
         <div class="panel-heading" role="tab" id="headingThree">
             <h3 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Ingeneriero software </a>
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Desarrollador Frontend Javascript, HTML5 y UX</a>
             </h3>
         </div>
-        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
             <div class="panel-body">
-                <p>Estamos buscando un ingeniero de software con experiencia en desarrollo Java y Java Enterprise.<br>Dependerá del director técnico del área, el candidato será responsable del análisis y desarrollo en uno de nuestros proyectos de comercio
-                    electrónico.
-                </p>
+                <p>En DISID estamos experimentando un importante crecimiento en el desarrollo de servicios TI.<br>Esta es una excelente oportunidad para un desarrollador Javascript se una a nosotros para formar parte del equipo de técnico de desarrollo de aplicaciones web Java. Como desarrollador Javascript y maquetador HTML, trabajará en estrecha colaboración con el personal técnico, el departamento comercial y los equipos de administración de TI.</p>
                 <div class="col-sm-5">
-                    <h4>¿Qué perfil buscamos?</h4>
-                    <p>Tu puesto de trabajo consistirá en:</p>
+                    <h4>¿Qué buscamos?</h4>
+                    <p>Habilidades en las siguientes áreas:</p>
                     <ul>
-                        <li>Análisis de requerimientos y soluciones.</li>
-                        <li>Planificación y desarrollo de funcionalidades de comercio electrónico.</li>
-                        <li>Resolución de problemas, recuperación ante fallos, solución de incidencias.</li>
+                        <li>Experiencia en JavaScript para entender código ya escrito y ser capaz de aportar mejoras, adaptarse rápidamente para realizar modificaciones.</li>
+                        <li>Alto nivel en HTML5 y CSS3.</li>
+                        <li>Conocimientos e interés en aspectos de usabilidad y experiencia de usuario.</li>
+                        <li>Conocimientos de buenas prácticas en el desarrollo de software, incluyendo optimización, documentación y testing.</li>
+                        <li>Conocimientos en tecnologías reactivas, especialmente Websockets.</li>
+                        <li>Manejo de repositorios de software y controles de versiones SVN y GIT.</li>
+                        <li>Buenas capacidades de comunicación y organización.</li>
                     </ul>
-                    <p>Esperamos de ti:</p>
+                    <p>Deseable:</p>
                     <ul>
-                        <li>2 años de experiencia en Java y JEE.</li>
-                        <li>Inglés hablado fluido.</li>
-                        <li>Disponibilidad para viajar.</li>
-                        <li>Capacidad de análisis y elaboración de diseños técnicos.</li>
+                        <li>2 años de experiencia en desarrollo de software.</li>
+                        <li>Experiencia con Spring y Thymeleaf.</li>
+                        <li>Experiencia con las principales librerías Javascript: jQuery, Datatables, Angular, etc.</li>
+                        <li>Titulación en informática:<br/>
+                        <ul>
+                            <li>Técnico superior en desarrollo de aplicaciones en informática</li>
+                            <li>Ingeniero técnico en informática </li>
+                            <li>Ingeniero superior en informática</li>
+                            <li>Grado en ingeniería informática</li>
+                            <li>Master en ingeniería informática</li>
+                        </ul>
+                        </li>
                     </ul>
-                    <p>Se valorarán conocimientos adicionales: SOA, ESB, SIG, Android, o cualquier otro que el candidato pueda aportar.</p>
-                    <p>Se valorará el título de Ingeniero Técnico o Superior en Informática.</p>
                 </div>
                 <div class="col-sm-6 col-sm-offset-1 bg-light">
                     <h4>¿Qué te ofrecemos?</h4>
                     <ul>
+                        <li>Salario según aptitudes, conocimientos y experiencia.</li>
+                        <li>Inicialmente, un contrato temporal de 1 año.</li>
                         <li>Sólido y altamente cualificado equipo profesional.</li>
                         <li>Flexibilidad de horarios.</li>
-                        <li>Posibilidad de teletrajo.</li>
+                        <li>Posibilidad de teletrabajo.</li>
                         <li>Jornada intensiva en verano y viernes tarde libres todo el año.</li>
                         <li>Una oficina amplia y luminosa, buen café y futbolín.</li>
                     </ul>
+                </div>
+                <div class="clearfix">
                     <p>En DISID creemos que el desarrollo profesional ocurre con la ayuda de un buen equipo. Aunque pienses que no cumples exactamente con el perfil, no dudes en optar al puesto si realmente crees que eres un buen candidato.</p>
                 </div>
             </div>
@@ -212,6 +222,49 @@ echa un vistazo a nuestras ofertas de empleo.
                 </div>
             </div>
         </div>
+<!-- # OFERTAS NO VIGENTES: 
+        <div class="panel-heading" role="tab" id="headingThree">
+            <h3 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Ingeniero software </a>
+            </h3>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+                <p>Estamos buscando un ingeniero de software con experiencia en desarrollo Java y Java Enterprise.<br>Dependerá del director técnico del área, el candidato será responsable del análisis y desarrollo en uno de nuestros proyectos de comercio
+                    electrónico.
+                </p>
+                <div class="col-sm-5">
+                    <h4>¿Qué perfil buscamos?</h4>
+                    <p>Tu puesto de trabajo consistirá en:</p>
+                    <ul>
+                        <li>Análisis de requerimientos y soluciones.</li>
+                        <li>Planificación y desarrollo de funcionalidades de comercio electrónico.</li>
+                        <li>Resolución de problemas, recuperación ante fallos, solución de incidencias.</li>
+                    </ul>
+                    <p>Esperamos de ti:</p>
+                    <ul>
+                        <li>2 años de experiencia en Java y JEE.</li>
+                        <li>Inglés hablado fluido.</li>
+                        <li>Disponibilidad para viajar.</li>
+                        <li>Capacidad de análisis y elaboración de diseños técnicos.</li>
+                    </ul>
+                    <p>Se valorarán conocimientos adicionales: SOA, ESB, SIG, Android, o cualquier otro que el candidato pueda aportar.</p>
+                    <p>Se valorará el título de Ingeniero Técnico o Superior en Informática.</p>
+                </div>
+                <div class="col-sm-6 col-sm-offset-1 bg-light">
+                    <h4>¿Qué te ofrecemos?</h4>
+                    <ul>
+                        <li>Sólido y altamente cualificado equipo profesional.</li>
+                        <li>Flexibilidad de horarios.</li>
+                        <li>Posibilidad de teletrajo.</li>
+                        <li>Jornada intensiva en verano y viernes tarde libres todo el año.</li>
+                        <li>Una oficina amplia y luminosa, buen café y futbolín.</li>
+                    </ul>
+                    <p>En DISID creemos que el desarrollo profesional ocurre con la ayuda de un buen equipo. Aunque pienses que no cumples exactamente con el perfil, no dudes en optar al puesto si realmente crees que eres un buen candidato.</p>
+                </div>
+            </div>
+        </div>
+-->
     </div>
 +++
 [.col-sm-6.col-sm-offset-5]
