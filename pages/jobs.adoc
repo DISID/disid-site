@@ -15,15 +15,16 @@ lang: en
 
 We are a team, professionals with experience building large projects.
 We like to meet other professionals that improve our knowledge and grow as a team.
-We would like to accompany you in your professional and personal development.
+We would like to go along with you in your professional and personal development.
 If you want to get involved in interesting and innovative projects we invite
-you to have a look at the job offers we have at the moment.
+you to have a look at our current job offers.
 
 ## Jobs opening
 
 +++
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
     <div class="panel panel-default">
+
         <div class="panel-heading" role="tab" id="headingOne">
             <h3 class="panel-title">
                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">GIS Developer </a>
@@ -66,6 +67,7 @@ you to have a look at the job offers we have at the moment.
                 </div>
             </div>
         </div>
+
         <div class="panel-heading" role="tab" id="headingTwo">
             <h3 class="panel-title">
                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Java Full-Stack Developer</a>
@@ -128,47 +130,61 @@ you to have a look at the job offers we have at the moment.
                 </div>
             </div>
         </div>
+
         <div class="panel-heading" role="tab" id="headingThree">
             <h3 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Software engineer </a>
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Javascript, HTML5 and UX frontend developer</a>
             </h3>
         </div>
         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
             <div class="panel-body">
-                <p>We are looking for a software engineer with experience in Java and Java Enterprise development.<br> Reporting to the technical director of the unit, the candidate will be responsible for analysis and development in one of our ecommerce
-                    projects.
-                </p>
+                <p>At DISID we are experiencing a significant growth in the development of IT services. <br> This is an excellent opportunity for a Javascript developer to join us to be part of the Java web application development team. As a Javascript developer and HTML layout designer, you will work closely with the programming staff, the sales department and the IT administration team.</p>
                 <div class="col-sm-5">
-                    <h4>WHAT PROFILE ARE WE LOOKING FOR?</h4>
-                    <p>The job responsibilities include:</p>
+                    <h4>What we look for?</h4>
+                    <p>The GIS Developer must have skills and experience in the following areas:</p>
                     <ul>
-                        <li>Analyzing requirements and solutions.</li>
-                        <li>Planning and developing ecommerce functionalities.</li>
-                        <li>Troubleshooting, disaster recovery, and issue resolution.</li>
+                         <li>Experience in JavaScript to understand code and be able to make improvements, and to adapt quickly to make modifications. </ li>
+                         <li>High level in HTML5 and CSS3. </ li>
+                         <li>Knowledge and interest in aspects of usability and user experience. </ li>
+                         <li>Knowledge of good practices in software development, including optimization, documentation and testing. </ li>
+                         <li>Knowledge in reactive technologies, especially Websockets. </ li>
+                         <li>Management of software repositories like Subversion and GIT. </ li>
+                         <li>Good communication and organization skills. </ li>
                     </ul>
-                    <p>What we expect:</p>
+                    <p>Desired:</p>
                     <ul>
-                        <li>2 years of hands-on experience in Java and JEE.</li>
-                        <li>Spoken English.</li>
-                        <li>Willing to travel.</li>
-                        <li>Ability to analyze and elaborate technical designs.</li>
+                         <li>2 years of experience in software development. </ li>
+                         <li>Experience with Spring and Thymeleaf. </ li>
+                         <li>Experience with the main Javascript libraries: jQuery, Datatables, Angular, etc. </ li>
+                         <li>Desired degrees:<br/>
+                         <ul>
+                            <li>Technical degree in Computer Science with a focus on application development</li>
+                            <li>IT Technical Engineer </li>
+                            <li>Degree in Software Engineering</li>
+                            <li>Degree in Computer Engineering</li>
+                            <li>Master in Computer Engineering</li>
+                         </ul>
+                        </li>
                     </ul>
-                    <p>Additional knowledge will be valued: SOA, ESB, SIG, Android, or any other that the candidate can contribute.</p>
-                    <p>Bachelor's degree in computer engineering is a plus.</p>
                 </div>
                 <div class="col-sm-6 col-sm-offset-1 bg-light">
                     <h4>What we offer?</h4>
                     <ul>
+                        <li>Salary according to aptitudes, knowledge and experience.</li>
+                        <li>Initially, a one-year temporary contract. </li>
                         <li>Solid and highly qualified professional team. </li>
                         <li>Flexibility of schedules. </li>
                         <li>Possibility of teleworking. </li>
                         <li>Intensive day in summer and Friday afternoon free all year. </li>
-                        <li>A spacious and bright office, good coffee and foosball. </li>
+                        <li>A spacious and bright office, good coffee and table football.</li>
                     </ul>
+                </div>
+                <div class="clearfix">
                     <p>At DISID we believe that professional development is improved with the help of a good team. Even if you think that you do not fit the profile, do not hesitate to apply if you really believe that you are a good candidate.</p>
                 </div>
             </div>
         </div>
+
         <div class="panel-heading" role="tab" id="headingFour">
             <h3 class="panel-title">
                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Java/Android web developer </a>
@@ -212,6 +228,49 @@ you to have a look at the job offers we have at the moment.
         </div>
     </div>
 </div>
+<!-- # OFERTAS NO VIGENTES: 
+        <div class="panel-heading" role="tab" id="headingXXX">
+            <h3 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Software engineer </a>
+            </h3>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+                <p>We are looking for a software engineer with experience in Java and Java Enterprise development.<br> Reporting to the technical director of the unit, the candidate will be responsible for analysis and development in one of our ecommerce
+                    projects.
+                </p>
+                <div class="col-sm-5">
+                    <h4>WHAT PROFILE ARE WE LOOKING FOR?</h4>
+                    <p>The job responsibilities include:</p>
+                    <ul>
+                        <li>Analyzing requirements and solutions.</li>
+                        <li>Planning and developing ecommerce functionalities.</li>
+                        <li>Troubleshooting, disaster recovery, and issue resolution.</li>
+                    </ul>
+                    <p>What we expect:</p>
+                    <ul>
+                        <li>2 years of hands-on experience in Java and JEE.</li>
+                        <li>Spoken English.</li>
+                        <li>Willing to travel.</li>
+                        <li>Ability to analyze and elaborate technical designs.</li>
+                    </ul>
+                    <p>Additional knowledge will be valued: SOA, ESB, SIG, Android, or any other that the candidate can contribute.</p>
+                    <p>Bachelor's degree in computer engineering is a plus.</p>
+                </div>
+                <div class="col-sm-6 col-sm-offset-1 bg-light">
+                    <h4>What we offer?</h4>
+                    <ul>
+                        <li>Solid and highly qualified professional team. </li>
+                        <li>Flexibility of schedules. </li>
+                        <li>Possibility of teleworking. </li>
+                        <li>Intensive day in summer and Friday afternoon free all year. </li>
+                        <li>A spacious and bright office, good coffee and foosball. </li>
+                    </ul>
+                    <p>At DISID we believe that professional development is improved with the help of a good team. Even if you think that you do not fit the profile, do not hesitate to apply if you really believe that you are a good candidate.</p>
+                </div>
+            </div>
+        </div>
+-->
 +++
 
 [.col-sm-6.col-sm-offset-5]
