@@ -1,0 +1,32 @@
+---
+layout: landing
+hero-img: hero-bg-master.jpg
+img: pic-master.jpg
+title: Master title...
+headline: Master headline ...
+description: Master descripción ...
+url: master-java
+category:
+- master
+lang: en
+published: false
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet eu turpis ac ornare. Curabitur magna nisl, porttitor in augue non, semper ullamcorper augue. Sed eu vestibulum nisi. Aliquam iaculis nisi vitae sem sodales pellentesque. Quisque vitae suscipit lectus. Integer eleifend fermentum massa non mollis. Aenean vestibulum, est non porttitor dictum, ligula ex varius ante, in suscipit quam lorem eu lacus. Fusce arcu tellus, tempus sit amet posuere ac, laoreet non lacus. Aenean tempor tellus et laoreet laoreet. Ut cursus justo id purus egestas, scelerisque iaculis nulla imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed tempus justo in eros vulputate, sit amet fermentum orci condimentum. Nullam faucibus elit non tortor sagittis, sed volutpat mi sodales. Ut orci tortor, iaculis sed massa ac, interdum blandit odio.
+
+Integer ultrices laoreet nulla, id aliquam urna aliquet vitae. Donec nibh ante, scelerisque nec semper eu, malesuada eu metus. Curabitur tempor, neque a fringilla pharet
+
+## Lorem ipsum dolor sit amet
+
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+* Aliquam vel nulla pharetra, faucibus nisi ut, tempor nisl.
+* Integer vel quam quis massa fringilla mattis.
+
+##  Aliquam vel nulla pharetra
+
+* Mauris pellentesque ligula eu molestie lacinia.
+* Curabitur porta dui vitae quam efficitur blandit at eget enim.
+* Vestibulum tempus lorem eu purus eleifend ultrices.
+* Etiam fringilla massa convallis sapien pretium vulputate.
+* Morbi malesuada magna et tellus ullamcorper mollis.
+

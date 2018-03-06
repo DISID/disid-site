@@ -225,6 +225,9 @@ links:
     projects:
       title: Projects
       url: "http://www.disid.com#projects"
+    #master:
+    #  title: Master
+    #  url: "http://www.disid.com#master"
     technologies:
       title: Technologies
       url: "http://www.disid.com#technologies"
@@ -242,6 +245,9 @@ links:
     projects:
       title: Proyectos
       url: "http://www.disid.com#projects"
+    #master:
+    #  title: Master
+    #  url: "http://www.disid.com#master"
     technologies:
       title: Tecnologías
       url: "http://www.disid.com#technologies"
@@ -287,6 +293,33 @@ linksextra:
       title: Política de privacidad
       url: "/politica-de-privacidad"
 
+
+# Links to include in master navigation
+master-links:
+  en:
+    description:
+      title: Description
+      url: "#description"
+    agenda:
+      title: Agenda
+      url: "#agenda"
+  es:
+    description:
+      title: Descripción
+      url: "#description"
+    agenda:
+      title: Temario
+      url: "#agenda"
+
+
+#Collection
+collections:
+  master-featured:
+    output: false
+    #permalink: /about/:path/
+  master-agenda:
+    output: false
+    #permalink: /agenda/:path/
 
 include: [".htaccess"]
 exclude: ["slides","vendor", "lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
