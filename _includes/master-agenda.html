@@ -1,0 +1,48 @@
+<section id="agenda" class="bg-dark">
+  <div class="container-fluid">
+    <div class="row text-center center">
+        <div class="col-sm-10 col-sm-offset-1">
+          <h2 class="title">{{ site.t[page.lang].how.title }}</h2>
+          <p>{{ site.t[page.lang].how.description }}</p>
+        </div>
+    </div>
+
+    <div class="row">
+    <div class="col-sm-12 col-md-10 col-md-offset-1">
+
+
+      <!-- TABS ACCORDION -->
+      <div class="panel-group" role="tablist" aria-multiselectable="true">
+
+        {% assign collection=site.master-agenda | where:"lang", page.lang %}
+        {% for post in collection %}
+        {% if post.categories contains 'agenda' limit:include.limit %}
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab">
+            <h4 class="panel-title">
+              <a role="button" data-toggle="collapse" href="#collapse{{ post.href }}">
+                {{ post.description }} <i class="pull-right fa fa-plus"></i>
+              </a>
+            </h4>
+          </div>
+          <div id="collapse{{ post.href }}" class="panel-collapse collapse" role="tabpanel">
+            <div class="panel-body">
+             <div class="row">
+              <div class="col-xs-12">
+                <div class="lead">{{ post.content }}</div>
+              </div>
+              <div class="col-xs-12">
+                <img class="img-responsive" src="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/how/{{ post.img }}" alt="">
+              </div>
+             </div>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div><!-- panel group -->
+
+    </div><!-- col -->
+    </div><!-- row -->
+ </div><!-- container -->
+</section>

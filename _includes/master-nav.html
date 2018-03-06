@@ -1,0 +1,22 @@
+
+<!-- Navigation -->
+
+<!-- TODO navbar-fixed-top -->
+  <div class="container-fluid navbar-shrink">
+    <div class="row">
+      <div class="header-nav-wrapper">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="primary-nav-wrapper pull-left">
+          <nav>
+            <ul class="primary-nav ">
+	               {% for link in site.master-links[page.lang] %}
+	                    <li>
+	                      <a class="page-scroll" href="{{ link[1].url }}">{{ link[1].title }}</a>
+	                    </li>
+	              {% endfor %}
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
