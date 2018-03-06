@@ -1,0 +1,44 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="{{ page.lang }}">
+<!--<![endif]-->
+<html lang="{{ page.lang }}">
+  {% include head.html %}
+  <body id="page-top" class="project">
+    {% include nav.html %}
+    {% include wrap.html %}
+
+    {% include master-nav.html %}
+
+    <section id="description" class="content has-padding" role="main" itemprop="mainContentOfPage">
+        <div class="container">
+            <div class="row">
+                <div class="page-body col-md-10 col-md-offset-1" itemprop="description">
+                    <h2>{{ page.headline }}</h2>
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% include master-agenda.html %}
+
+    {% include master-featured.html %}
+
+    {% include master-tabs.html %}
+
+   {% include master-contact.html %}
+
+    {% assign collection=site.posts | where:"lang", page.lang %}
+    {% for post in collection limit: 1 %}
+        {% include banner-project.html %}
+    {% endfor %}
+
+    {% include footer.html %}
+    {% include js.html %}
+  </body>
+</html>
+
