@@ -218,28 +218,28 @@ $('a[data-toggle="collapse"]').on('click', function() {
 })
 
 /***************** Preloader ******************/
-
-jQuery(function($) {
-	"use strict";
-	// Author Code Here
-
-	// Window Load
-	$(window).load(function() {
-
-		$('.preloader').addClass('animated fadeOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-			$('.preloader').hide();
-		});
-
-		// Typing Intro Init
-		$(".typed").typewriter({
-			speed: 60
-		});
-
-	});
-
-
-
-});
+//
+//jQuery(function($) {
+//	"use strict";
+//	// Author Code Here
+//
+//	// Window Load
+//	$(window).load(function() {
+//
+//		$('.preloader').addClass('animated fadeOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+//			$('.preloader').hide();
+//		});
+//
+//		// Typing Intro Init
+//		$(".typed").typewriter({
+//			speed: 60
+//		});
+//
+//	});
+//
+//
+//
+//});
 
 
 /***************** Overlays ******************/
