@@ -1,11 +1,8 @@
 ---
 layout: project
-img: how-incidencias.png
-title: Incidences
-href: incidences
-description: Incidences
+title: Tema 1
+description: Tema 1
 categories:
-  - en
   - agenda
 lang: en
 ---

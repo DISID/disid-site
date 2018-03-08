@@ -7,11 +7,13 @@
 <!--<![endif]-->
 <html lang="{{ page.lang }}">
   {% include head.html %}
-  <body id="page-top" class="project">
+  <body id="page-top" class="project landing-master">
     {% include nav.html %}
     {% include wrap.html %}
 
     {% include master-nav.html %}
+
+    {% include master-featured.html %}
 
     <section id="description" class="content has-padding" role="main" itemprop="mainContentOfPage">
         <div class="container">
@@ -26,15 +28,15 @@
 
     {% include master-agenda.html %}
 
-    {% include master-featured.html %}
+    {% include master-teachers.html %}
 
-    {% include master-tabs.html %}
+    {% include master-job.html %}
 
    {% include master-contact.html %}
 
     {% assign collection=site.posts | where:"lang", page.lang %}
     {% for post in collection limit: 1 %}
-        {% include banner-project.html %}
+        {% include master-banner-landing.html %}
     {% endfor %}
 
     {% include footer.html %}

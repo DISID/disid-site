@@ -1,12 +1,9 @@
 ---
 layout: project
-img: how-vigilancias.png
-title: Vigilancias
-href: vigilancias
-description: Vigilancias
-active: true
+title: Tema 1
+description: Tema 1
+href: tema-1
 categories:
-  - es
   - agenda
 lang: es
 ---

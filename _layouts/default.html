@@ -13,15 +13,16 @@
 
   <body id="page-top" class="index">
 
-	  <div class="preloader">
+	  <!-- <div class="preloader">
 	    <img src="{{ site.url | prepend: site.baseurl }}/img/loader.gif" alt="Preloader image">
-	  </div>
+	  </div> -->
 
     {% include nav.html %}
     {% include header.html %}
     {% include intro-disid.html %}
     {% include services.html limit=4 %}
     {% include projects.html limit=8 %}
+    {% include master-banner.html %}
     {% include technologies.html %}
 
 {% comment %}

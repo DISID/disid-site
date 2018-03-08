@@ -1,23 +1,15 @@
-    <!-- ******ABOUT****** -->
-    <section id="about" class="about">
+    <!-- ******MASTER INFO ****** -->
+    <section id="master-info" class="alternate-bg text-center">
         <div class="container-fluid">
-          <div class="row-fluid">
-            <h2 class="title text-center">{{ site.t[page.lang].about.title }}</h2>
-            <p class="intro text-center lead">
-            {% for line in site.t[page.lang].about.description.first.lines %}
-                        {{ line }} <br>
-            {% endfor %}
-            </p>
-          </div>
-            <div class="row">
+            <div class="row-fluid">
                 {% assign collection=site.master-featured | where:"lang", page.lang %}
                 {% for post in collection %}
                   {% if post.categories contains 'featured' limit:include.limit %}
                   <div class="item col-md-3 col-sm-6 col-xs-12">
-                    <div class="icon-holder">
-                        <i class="wow bounceIn fa {{ post.icon }}" data-wow-delay=".{{ post.icon-delay }}"></i>
-                    </div>
                     <div class="content">
+                      <div class="icon-holder pull-left">
+                          <span class="wow bounceIn fa-3x fa {{ post.icon }}" data-wow-delay=".{{ post.icon-delay }}"></span>
+                      </div>
                         <h3 class="sub-title">{{ post.title }}</h3>
                         <p>{{ post.content }}</p>
                     </div><!--//content-->

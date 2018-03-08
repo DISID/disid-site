@@ -1,0 +1,15 @@
+---
+layout: project
+title: Precio
+icon: fa-euro
+icon-delay: 35s
+categories:
+  - es
+  - featured
+lang: es
+---
+1500 € Pago único
+
+250 € al reservar plaza
+
+1250 € antes de comenzar

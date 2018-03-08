@@ -76,6 +76,25 @@
 											</ul>
 										{% endif %}
 
+                    <!-- for landing page -->
+                    {% if page.layout == 'landing' %}
+                      <ul>
+                      {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+                      {% for post in posts %}
+                        <li class="lang subscribe">
+                          <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
+                        </li>
+                      {% endfor %}
+
+                      {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+                      {% for page in pages %}
+                        <li class="lang subscribe">
+                          <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+                        </li>
+                      {% endfor %}
+                      </ul>
+                    {% endif %}
+
               <!-- TODO: seach funcionality -->
               <!-- <li class="search"><a href="#search" class="show-search"><i class="fa fa-search"></i></a></li> -->
             </ul>

@@ -1,11 +1,8 @@
 ---
 layout: project
-img: how-vigilancias.png
-title: Surveillances
-href: surveillances
-description: Surveillances
+title: Tema 2
+description: Tema 2
 categories:
-  - en
   - agenda
 lang: en
 ---

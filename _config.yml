@@ -6,6 +6,7 @@ email: info@disid.com
 google_analytics: UA-1393802-1 #Google analytics code in the format XX-nnnnnnnn-n
 ASSET_PATH: /assets
 logo: logo-disid-white.png
+master-logo: logo-disid-white.png
 
 # Color settings (hex-codes without the leading hash-tag)
 # primary_rgb: "59,139,186" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
@@ -179,6 +180,19 @@ t:
       title: "Tell us why you want to work with us"
       description: "Please send your CV with the projects you've worked"
       call-to-action: "Let's talk?"
+    banner-master:
+      title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      call-to-action: "Let's talk?"
+    master:
+      button-info: Get more info
+      contact: Contact with us
+    master-teachers:
+      section-heading: "Teachers"
+      description: Heading sobre los profesores del master dónde se explique su calidad profesional y experiencia laboral
+    master-jobs:
+      section-heading: "Employment and Internships"
+      description: Heading sobre la salida laboral el máster
   es:
     title: "DISID, Be Software"
     description: "DISID es una empresa de ingeniería de software especializada en tecnología, plataforma Java, plataforma Spring IO y geomática."
@@ -211,6 +225,20 @@ t:
       title: "Cuéntanos por qué quieres trabajar con nosotros"
       description: "Envíanos tu CV con los proyectos en los que has trabajado"
       call-to-action: "¿Hablamos?"
+    banner-master:
+      title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      call-to-action: "¿Hablamos?"
+    master:
+      button-info: Quiero más información
+      contact: Contacta con nosotros
+    master-teachers:
+      section-heading: "Profesores"
+      description: Heading sobre los profesores del master dónde se explique su calidad profesional y experiencia laboral
+    master-jobs:
+      section-heading: "Empleo y prácticas"
+      description: Heading sobre la salida laboral el máster
+
 
 # To include variable in liquid: {{ site.t[page.lang].labs.section-heading }}
 # You can add translations group
@@ -303,6 +331,12 @@ master-links:
     agenda:
       title: Agenda
       url: "#agenda"
+    teachers:
+      title: Teachers
+      url: "#teachers"
+    employment:
+      title: Employment and internships
+      url: "#job-works"
   es:
     description:
       title: Descripción
@@ -310,7 +344,66 @@ master-links:
     agenda:
       title: Temario
       url: "#agenda"
+    teachers:
+      title: Profesores
+      url: "#teachers"
+    employment:
+      title: Empleo y prácticas
+      url: "#job-works"
 
+# Teachers information. Shown on Master page.
+teachers:
+  en:
+    - name: Profesor 1
+      img: perfil.jpg
+      title: Profesor 1
+      url: https://linkedin.com/
+    - name: Profesor 2
+      img: perfil.jpg
+      title: Profesor 2
+      url: https://linkedin.com/
+    - name: Profesor 3
+      img: perfil.jpg
+      title: Profesor 3
+      url: https://linkedin.com/
+    - name: Profesor 4
+      img: perfil.jpg
+      title: Profesor 4
+      url: https://linkedin.com/
+    - name: Profesor 5
+      img: perfil.jpg
+      title: Profesor 5
+      url: https://linkedin.com/
+    - name: Profesor 6
+      img: perfil.jpg
+      title: Profesor 6
+      url: https://linkedin.com/
+
+  es:
+    - name: Profesor 1
+      img: perfil.jpg
+      title: Profesor 1
+      url: https://linkedin.com/
+    - name: Profesor 2
+      img: perfil.jpg
+      title: Profesor 2
+      url: https://linkedin.com/
+    - name: Profesor 3
+      img: perfil.jpg
+      title: Profesor 3
+      url: https://linkedin.com/
+    - name: Profesor 4
+      img: perfil.jpg
+      title: Profesor 4
+      url: https://linkedin.com/
+    - name: Profesor 5
+      img: perfil.jpg
+      title: Profesor 5
+      url: https://linkedin.com/
+    - name: Profesor 6
+      img: perfil.jpg
+      title: Profesor 6
+      url: https://linkedin.com/
 
 #Collection
 collections:
@@ -318,6 +411,9 @@ collections:
     output: false
     #permalink: /about/:path/
   master-agenda:
+    output: false
+    #permalink: /agenda/:path/
+  master-job:
     output: false
     #permalink: /agenda/:path/
 

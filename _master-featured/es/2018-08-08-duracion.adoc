@@ -1,0 +1,15 @@
+---
+layout: project
+title: Duración
+icon: fa-clock-o
+icon-delay: 19s
+categories:
+  - es
+  - featured
+lang: es
+---
+60 horas
+
+En 8 semanas
+
+I Edición
