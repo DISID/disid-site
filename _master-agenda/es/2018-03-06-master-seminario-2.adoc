@@ -1,0 +1,17 @@
+---
+layout: project
+title: SEMINARIO 2. ITIL
+description:
+href: seminario-2
+categories:
+  - agenda
+lang: es
+---
+
+* Introduccion a ITIL
+* Conceptos generales
+* Estrategia del Servicio
+* Diseño del Servicio
+* Transición del Servicio
+* Operación del Servicio
+* Modelo de Mejora Continua

@@ -1,0 +1,37 @@
+    <!-- ******WHY ****** -->
+    <section id="why" class="">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-4">
+              <h4 class="">{{ site.t[page.lang].master-why.section-heading }} <br></h4>
+            </div>
+            <div class="col-md-8 col-sm-8">
+                <p class="text-muted">{{ site.t[page.lang].master-why.description }}</p>
+            </div>
+          </div>
+
+            <div class="row">
+                {% assign collection=site.master-why | where:"lang", page.lang %}
+                {% for post in collection %}
+                  {% if post.categories contains 'why' limit:include.limit %}
+                  <div class="item col-md-4">
+                    <div class="icon-holder">
+                        <i class="wow bounceIn fa-2x fa {{ post.icon }} pull-left" data-wow-delay=".{{ post.icon-delay }}"></i>
+                        <h3 class="sub-title">{{ post.title }}</h3>
+                    </div>
+                    <div class="content">
+
+                        <p>{{ post.content }}</p>
+                    </div><!--//content-->
+                  </div><!--//item-->
+                  {% endif %}
+                {% endfor %}
+                <div class="clearfix visible-md"></div>
+
+            </div><!--//row-->
+
+        </div><!--//container-->
+<div class="clearfix"></div>
+    </section><!--//about-->
+
+

@@ -2,56 +2,63 @@
 layout: landing
 hero-img: hero-bg-master.jpg
 img: pic-master.jpg
-title: Título máster...
-headline: Master eslogan ...
-description: Master descripción/eslogan...
+title: Máster profesional en desarrollo de aplicaciones Java con metodologías ágiles
+headline: Master headline/slogan ...
+description: 1ª edición
 url: master-desarrollo-aplicaciones-java-metodos-agiles
 ref: java-master
 categories:
 - master
 lang: es
-published: false
+published: true
 ---
 
+El *Máster Profesional en Desarrollo de Aplicaciones Java con Metodologías Ágiles* promovido
+por *DISID CORPORATION*, es un programa formativo diseñado en colaboración con empresas del
+sector TIC y con expertos del ámbito empresarial y profesional, que nace expresamente con el
+objetivo de desarrollar perfiles tecnológicos para dar respuesta a corto plazo a las necesidades del
+mercado laboral TIC-Java.
 
-Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
-Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor
-(N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera
-que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno
-en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset",
-las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual
-incluye versiones de Lorem Ipsum.
+Un máster fuertemente marcado por la motivación constante de DISID por acercar el mundo
+académico al mundo profesional y de la empresa, a través de una formación práctica, colaborativa y
+ágil.
 
-[.col-sm-6]
-Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
-Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor
-(N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera
-que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno
-en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset",
-las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual
-incluye versiones de Lorem Ipsum.
+El ser un máster de iniciativa privada, permite una mayor flexibilidad y por tanto, es un programa
+académico más ceñido a la realidad actual de las empresas del sector TIC.
+El programa académico está estructurado en itinerarios y seminarios alineados con las enseñanzas
+TIC regladas más relevantes, lo que permite al alumno/a obtener las certificaciones más
+demandadas del sector.
 
-[.col-sm-6]
-Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
-Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor
-(N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera
-que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno
-en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset",
-las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual
-incluye versiones de Lorem Ipsum.
+## Objetivos
 
 [.col-sm-6]
-## Lorem ipsum dolor sit amet
-
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-* Aliquam vel nulla pharetra, faucibus nisi ut, tempor nisl.
-* Integer vel quam quis massa fringilla mattis.
+. Abrir las puertas al mercado laboral TIC, mejorar el puesto actual o reconvertir una carrera
+profesional.
+. Adquirir los criterios y estrategias que deben aplicarse para la gestión ágil de organizaciones,
+proyectos y equipos para el desarrollo de software.
+. Comprender la estructura, los elementos clave y fundamentos del marco de gestión de
+servicios de TI en el marco ITIL ©.
+. Conocer en profundidad el lenguaje de programación Java, la plataforma Java y Spring, los
+conocimientos más demandados en el sector TIC español.
 
 [.col-sm-6]
-##  Aliquam vel nulla pharetra
+[start=5]
+. Aprender los principios y fundamentos de Integración Continua y DevOps, para aplicar
+distintas prácticas y herramientas que ayuden a la organización a mejorar su competitividad a
+través de la entrega pronta de valor y asegurando su calidad.
+. Aportar las herramientas necesarias para que el alumno aprenda a desarrollar una aplicación
+web Java.
+. Obtener los conocimientos necesarios para llevar a cabo el desarrollo de aplicaciones Web
+GIS.
+. Capacitar al alumno/a para formar parte de un equipo de desarrollo Java en cualquier
+empresa del sector TIC y ser productivo/a desde el primer día de trabajo.
 
-* Mauris pellentesque ligula eu molestie lacinia.
-* Curabitur porta dui vitae quam efficitur blandit at eget enim.
-* Vestibulum tempus lorem eu purus eleifend ultrices.
-* Etiam fringilla massa convallis sapien pretium vulputate.
-* Morbi malesuada magna et tellus ullamcorper mollis.
+
+##  Perfil de alumno
+
+El máster está dirigido a gran variedad de perfiles, es un máster tecnológico que puede ser seguido
+por cualquier perfil, tanto si es un profesional con formación en informática como si carece de
+conocimientos técnicos.
+
+El alumno/a sólo debe tener conocimientos en programación, saber leer textos técnicos en inglés y
+disponer de 12 horas semanales fuera del tiempo lectivo

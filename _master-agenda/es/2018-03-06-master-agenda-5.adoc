@@ -1,0 +1,15 @@
+---
+layout: project
+title: ITINERARIO 5. Persistencia de datos
+description:
+href: tema-5
+categories:
+  - agenda
+lang: es
+---
+
+* SQL
+* PostGres
+* NoSQL
+* Redis
+* S3

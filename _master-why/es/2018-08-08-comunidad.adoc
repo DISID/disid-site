@@ -1,0 +1,21 @@
+---
+layout: project
+title: Comunidad
+icon: fa-calendar
+icon-delay: 51s
+categories:
+  - es
+  - why
+lang: es
+---
+
+El máster conecta a los
+alumnos/as con la comunidad
+de desarrolladores de la
+ciudad. Lo que les permite
+conocer de primera mano el
+mercado
+de
+trabajo,
+profesionales y empresas del
+sector.

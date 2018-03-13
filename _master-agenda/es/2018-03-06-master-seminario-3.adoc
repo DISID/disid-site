@@ -1,0 +1,15 @@
+---
+layout: project
+title: SEMINIARIO 3. FrontEnd
+description:
+href: seminario-3
+categories:
+  - agenda
+lang: es
+---
+
+* Ajax y asincronía (Promesas, Callbacks, Bus)
+* Webpack, configuración y uso
+* CSS como código (SAAS)
+* Arquitectura FrontEnd (Componentes, Modelo, Servicios)
+* Framework JS (VUE /Angular/Polymer)

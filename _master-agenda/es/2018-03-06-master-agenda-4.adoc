@@ -1,0 +1,15 @@
+---
+layout: project
+title: ITINERARIO 4. Javascript
+description:
+href: tema-4
+categories:
+  - agenda
+lang: es
+---
+
+* Lenguaje I: variables, operadores.
+* Lenguaje II: estructuras de flujo, condicionales e iteraciones.
+* Lenguaje III: funciones, métodos, modulos.
+* ES6: Classes, nueva sintaxis, nuevos operadores, soporte en navegadores.
+* ‘This’ en javascript

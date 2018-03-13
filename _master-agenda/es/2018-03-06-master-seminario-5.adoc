@@ -1,0 +1,14 @@
+---
+layout: project
+title: SEMINARIO 5. Sistemas de información geográfica
+description:
+href: seminario-5
+categories:
+  - agenda
+lang: es
+---
+
+* Conceptos: sistemas de referencia, sistemas de coordenadas y proyecciones cartográficas.
+* Tipos de datos: raster y vectorial. IDEs.
+* GIS Web: visualización de mapas con Leaflet.
+* GIS en aplicaciones Spring.

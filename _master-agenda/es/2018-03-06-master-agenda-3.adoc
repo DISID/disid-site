@@ -1,0 +1,21 @@
+---
+layout: project
+title: ITINERARIO 3. Java avanzado
+description:
+href: tema-3
+categories:
+  - agenda
+lang: es
+---
+
+* Diseño de clases
+* Orientación a objetos
+* Genericos y colecciones
+* Trabajo con cadenas
+* Excepciones y aserciones
+* Fundamentos Java I/O
+* Java File I/O (NIO.2)
+* Aplicaciones con bases de datos (JDBC)
+* Hilos
+* Concurrencia
+* Localización e Internalización (L10N / L18N)

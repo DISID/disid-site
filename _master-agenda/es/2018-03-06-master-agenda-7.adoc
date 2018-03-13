@@ -1,0 +1,14 @@
+---
+layout: project
+title: ITINERARIO 7. Buenas practicas
+description:
+href: tema-7
+categories:
+  - agenda
+lang: es
+---
+
+* Desarrollo dirigido por pruebas (TDD)
+* Integracion Continua (IC)
+* Patrones de diseño (Design Patterns)
+* Principios de diseño orientado a objetos (SOLID)

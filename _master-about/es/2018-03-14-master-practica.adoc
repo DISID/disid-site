@@ -1,0 +1,13 @@
+---
+layout: project
+title: FORMACIÓN PRÁCTICA
+description:
+href: practica
+categories:
+  - about
+lang: es
+---
+
+Máster con un fuerte componente experiencial donde no solo se
+muestra, se vive la creación de aplicaciones, no hablamos de lo
+que se puede hacer, ¡el alumno/a lo hace!

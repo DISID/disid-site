@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Empleo
-description: Empleo descripción
+description: Bolsa de empleo
 href: job
 #first tab
 active: true
@@ -14,10 +14,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec nunc at eros 
 
 [.col-md-6]
 
-Investment
+El máster da acceso a sus alumnos/as a una *bolsa de empleo* donde las principales empresas del
+sector TIC de Valencia publican todo tipo de ofertas de las áreas de especialidad del programa
+formativo.
 
-5 MTUs, $5M
-
-Results
-
-CSAT, Lead Left Deals, Income, Cap Mkts/Treasury Penetration, Client acquisition
+En la bolsa, el alumno/a encontrará ofertas laborales y de prácticas, para trabajar a nivel nacional en
+cualquier provincia. Se trata de un servicio gratuito y vitalicio, que el alumno/a podrá seguir
+utilizándolo para avanzar en su carrera profesional.

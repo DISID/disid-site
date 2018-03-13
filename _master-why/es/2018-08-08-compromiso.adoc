@@ -1,0 +1,20 @@
+---
+layout: project
+title: Compromiso
+icon: fa-calendar
+icon-delay: 51s
+categories:
+  - es
+  - why
+lang: es
+---
+
+El máster ha sido diseñado
+para que los alumnos puedan
+superarlo, ningún alumno/a se
+quedará atrás y siempre
+asumiendo
+que
+cada
+alumno/a tiene su propio ritmo
+de aprendizaje

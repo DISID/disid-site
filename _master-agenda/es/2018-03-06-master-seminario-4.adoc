@@ -1,0 +1,13 @@
+---
+layout: project
+title: SEMINARIO 4. Operaciones
+description:
+href: seminario-4
+categories:
+  - agenda
+lang: es
+---
+
+* Contenedores: Docker compose, AWS y GCloud
+* Jenkins: Build, Test, Deploy* Contenedores Java/Spring/Postgres, configuracion y buenas prácticas
+* Monitorización de aplicaciones, dashboards

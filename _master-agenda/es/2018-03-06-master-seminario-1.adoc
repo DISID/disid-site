@@ -1,0 +1,20 @@
+---
+layout: project
+title: SEMINARIO 1. Scrum
+description:
+href: seminario-1
+categories:
+  - agenda
+lang: es
+---
+
+* Marco general de gestión de proyectos
+* Gestión predictiva de proyectos, fortalezas y debilidades
+* El manifiesto ágil: Valores y principios ágiles
+* El escenario de nuestras empresas
+* Gestión de proyectos ágil: objetivos, fortalezas y debilidades
+* Ciclo de desarrollo ágil
+* Criterios de gestión predictiva/ágil
+* El modelo Scrum Manager: product backlog, sprint backlog
+* Medición y estimación
+* Gestión visual: kanban, WIP, Burn-down y Burn-up

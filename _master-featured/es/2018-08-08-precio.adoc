@@ -8,8 +8,14 @@ categories:
   - featured
 lang: es
 ---
-1500 € Pago único
++++
+<strike>
+7.000€
+</strike>
++++
 
-250 € al reservar plaza
+Descuento lanzamiento: 50%
 
-1250 € antes de comenzar
+3.500€
+
+Financiado

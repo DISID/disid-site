@@ -1,0 +1,18 @@
+---
+layout: project
+title: Empleo
+icon: fa-calendar
+icon-delay: 51s
+categories:
+  - es
+  - why
+lang: es
+---
+
+El máster acerca a los
+alumnos/as a las empresas
+con interés real en los perfiles
+del máster, ya que conocen
+los contenidos del máster, y
+se identifican como ofertantes
+en la bolsa de trabajo.

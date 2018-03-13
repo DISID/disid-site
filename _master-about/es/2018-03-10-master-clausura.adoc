@@ -1,0 +1,12 @@
+---
+layout: project
+title: JORNADA DE CLAUSURA
+description:
+href: clausura
+categories:
+  - about
+lang: es
+---
+
+Jornada de clausura con asistencia de empresas colaboradoras y
+entrevistas personales.

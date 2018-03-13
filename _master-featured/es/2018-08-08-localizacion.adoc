@@ -8,8 +8,9 @@ categories:
   - featured
 lang: es
 ---
-Calle
+Valencia
 
-Dirección
-
-Aula
+De lunes a jueves de
+16h a 20h
+Tutorias y refuerzo
+15h a 16h/20h a 21h

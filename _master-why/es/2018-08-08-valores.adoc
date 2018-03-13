@@ -1,0 +1,18 @@
+---
+layout: project
+title: Valores
+icon: fa-calendar
+icon-delay: 51s
+categories:
+  - es
+  - why
+lang: es
+---
+
+Un máster que apuesta por
+maximizar
+valores
+como
+calidad de la docencia, del
+espacio de trabajo, de los
+materiales y de los alumnos.

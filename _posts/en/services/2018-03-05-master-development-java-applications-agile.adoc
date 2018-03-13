@@ -2,18 +2,30 @@
 layout: landing
 hero-img: hero-bg-master.jpg
 img: pic-master.jpg
-title: Master title...
-headline: Master headline ...
+title: Máster profesional en desarrollo de aplicaciones Java con metodologías ágiles
+headline: Master headline/slogan ...
 description: Master description/slogan ...
 url: master-development-java-applications-agile
 ref: java-master
 categories:
 - master
 lang: en
-published: false
+published: true
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet eu turpis ac ornare. Curabitur magna nisl, porttitor in augue non, semper ullamcorper augue. Sed eu vestibulum nisi. Aliquam iaculis nisi vitae sem sodales pellentesque. Quisque vitae suscipit lectus. Integer eleifend fermentum massa non mollis. Aenean vestibulum, est non porttitor dictum, ligula ex varius ante, in suscipit quam lorem eu lacus. Fusce arcu tellus, tempus sit amet posuere ac, laoreet non lacus. Aenean tempor tellus et laoreet laoreet. Ut cursus justo id purus egestas, scelerisque iaculis nulla imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed tempus justo in eros vulputate, sit amet fermentum orci condimentum. Nullam faucibus elit non tortor sagittis, sed volutpat mi sodales. Ut orci tortor, iaculis sed massa ac, interdum blandit odio.
+El *Máster Profesional en Desarrollo de Aplicaciones Java con Metodologías Ágiles* promovido
+por DISID CORPORATION, es un programa formativo diseñado en colaboración con empresas del
+sector TIC y con expertos del ámbito empresarial y profesional, que nace expresamente con el
+objetivo de desarrollar perfiles tecnológicos para dar respuesta a corto plazo a las necesidades del
+mercado laboral TIC-Java.
+Un máster fuertemente marcado por la motivación constante de DISID por acercar el mundo
+académico al mundo profesional y de la empresa, a través de una formación práctica, colaborativa y
+ágil.
+El ser un máster de iniciativa privada, permite una mayor flexibilidad y por tanto, es un programa
+académico más ceñido a la realidad actual de las empresas del sector TIC.
+El programa académico está estructurado en itinerarios y seminarios alineados con las enseñanzas
+TIC regladas más relevantes, lo que permite al alumno/a obtener las certificaciones más
+demandadas del sector.
 
 [.col-sm-6]
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet eu turpis ac ornare. Curabitur magna nisl, porttitor in augue non, semper ullamcorper augue. Sed eu vestibulum nisi. Aliquam iaculis nisi vitae sem sodales pellentesque. Quisque vitae suscipit lectus. Integer eleifend fermentum massa non mollis. Aenean vestibulum, est non porttitor dictum, ligula ex varius ante, in suscipit quam lorem eu lacus. Fusce arcu tellus, tempus sit amet posuere ac, laoreet non lacus. Aenean tempor tellus et laoreet laoreet. Ut cursus justo id purus egestas, scelerisque iaculis nulla imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed tempus justo in eros vulputate, sit amet fermentum orci condimentum. Nullam faucibus elit non tortor sagittis, sed volutpat mi sodales. Ut orci tortor, iaculis sed massa ac, interdum blandit odio.
@@ -23,11 +35,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet eu
 
 [.col-sm-6]
 ## Lorem ipsum dolor sit amet
+## Objetivos
 
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-* Aliquam vel nulla pharetra, faucibus nisi ut, tempor nisl.
-* Integer vel quam quis massa fringilla mattis.
-
+. Abrir las puertas al mercado laboral TIC, mejorar el puesto actual o reconvertir una carrera
+profesional.
+. Adquirir los criterios y estrategias que deben aplicarse para la gestión ágil de organizaciones,
+proyectos y equipos para el desarrollo de software.
+. Comprender la estructura, los elementos clave y fundamentos del marco de gestión de
+servicios de TI en el marco ITIL ©.
+. Conocer en profundidad el lenguaje de programación Java, la plataforma Java y Spring, los
+conocimientos más demandados en el sector TIC español.
+. Aprender los principios y fundamentos de Integración Continua y DevOps, para aplicar
+distintas prácticas y herramientas que ayuden a la organización a mejorar su competitividad a
+través de la entrega pronta de valor y asegurando su calidad.
+. Aportar las herramientas necesarias para que el alumno aprenda a desarrollar una aplicación
+web Java.
+. Obtener los conocimientos necesarios para llevar a cabo el desarrollo de aplicaciones Web
+GIS.
+. Capacitar al alumno/a para formar parte de un equipo de desarrollo Java en cualquier
+empresa del sector TIC y ser productivo/a desde el primer día de trabajo.
 [.col-sm-6]
 ##  Aliquam vel nulla pharetra
 

@@ -1,0 +1,14 @@
+---
+layout: project
+title: FINANCIACIÓN
+description:
+href: financiacion
+categories:
+  - about
+lang: es
+---
+
+El máster ofrece facilidades a la hora de realizar el pago para que
+el alumno/a elija la que más se ajusta a sus necesidades: pago en
+efectivo o a través del servicio de financiación del máster el
+alumno/a puede aplazar el pago en cómodos plazos.

@@ -1,0 +1,20 @@
+---
+layout: project
+title: ITINERARIO 6. Spring
+description:
+href: tema-6
+categories:
+  - agenda
+lang: es
+---
+
+* Introducción a Spring Framework
+* Configuración Java e inyección de dependencias
+* Spring Boot
+* Acceso a datos, JDBC y transacciones
+* JPA con Spring y Spring Data
+* Spring en aplicaciones web
+* Testing
+* Spring Security
+* Spring Cloud
+* Spring 5: programación reactiva

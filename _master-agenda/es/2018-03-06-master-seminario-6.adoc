@@ -1,0 +1,22 @@
+---
+layout: project
+title: SEMINARIO 6. Spring ROO
+description:
+href: seminario-6
+categories:
+  - agenda
+lang: es
+---
+
+* Introducción. La consola de Roo.
+* Arquitectura de las aplicaciones Roo.
+* Spring Boot y configuración.
+* Springlets.
+* JPA: generación de entidades y proyecciones.
+* Spring Data: generación de repositorios.
+* Spring Framework: generación de servicios.
+* Spring MVC: generación de servicios web JSON.
+* Spring MVC: generación de controladores y vistas Thymeleaf.
+* Testing.
+* Desarrollo de addons para Spring Roo.
+* Roo Addon Suites.

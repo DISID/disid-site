@@ -1,0 +1,15 @@
+---
+layout: project
+title: PROFESORES EXPERTOS
+description:
+href: profesorado
+#first tab
+active: true
+categories:
+  - about
+lang: es
+---
+
+Todos nuestros profesores son profesionales en activo y expertos
+en cada una de las disciplinas que imparten. Así conseguimos que
+las clases sean lo más parecidas posible al mundo real.

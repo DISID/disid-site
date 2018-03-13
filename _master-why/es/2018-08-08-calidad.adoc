@@ -1,0 +1,20 @@
+---
+layout: project
+title: Calidad
+icon: fa-calendar
+icon-delay: 51s
+categories:
+  - es
+  - why
+lang: es
+---
+
+Una didáctica única en su tipo
+compuesta por itinerarios,
+seminarios
+y
+mentorias,
+garantizan
+el
+pleno
+aprovechamiento del máster.
