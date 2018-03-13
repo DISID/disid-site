@@ -1,0 +1,896 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Máster profesional en desarrollo de aplicaciones Java con metodologías ágiles - DISID, Be software</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="DISID is a software engineering company specializing in technology, Java platform, Spring IO platform and geomatics.">
+	  <meta name="keywords" content="software, Java,desarrollo, Valencia, GIS, GEO, Spring, Spring Roo, gvNIX, gvSIG" />
+	  <meta name="author" content="DISID Corporation" />
+
+    <link rel="canonical" href="http://www.disid.com/master-development-java-applications-agile">
+
+    <!-- language -->
+    
+		
+		  <link rel="alternate" hreflang="en" href="/master-development-java-applications-agile" />
+		
+		  <link rel="alternate" hreflang="es" href="/master-desarrollo-aplicaciones-java-metodos-agiles" />
+		
+		
+		
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+     <!-- CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,300italic,400italic,500,500italic,600,600italic,700,700italic' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet'>
+
+    <!-- layout with our CSS -->
+    <link rel="stylesheet" href="http://www.disid.com/style.css">
+
+     <!-- CSS -->
+    <link rel="stylesheet" href="http://www.disid.com/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://www.disid.com/css/normalize.min.css">
+    <link rel="stylesheet" href="http://www.disid.com/css/animate.min.css">
+    <link rel="stylesheet" href="http://www.disid.com/css/flickity.min.css">
+
+    <link rel="stylesheet" href="http://www.disid.com/css/styles.css">
+    <link rel="stylesheet" href="http://www.disid.com/css/disid.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Cookies Alert -->
+    <link rel="stylesheet" href="http://www.disid.com/css/cookiecuttr.css" rel="stylesheet" type="text/css">
+
+    <!-- jQuery, needed for toc.js, CookieCuttr,... -->
+    <!-- JS CDNs -->
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+	  <!-- jQuery local fallback -->
+	  <script>
+	  window.jQuery || document.write('<script src="js/min/jquery-1.11.2.min.js"><\/script>')
+	  </script>
+
+    <!-- Jekyll-Asciidoc Quickstart -->
+    <script src="http://www.disid.com/js/vendor/modernizr.js"></script>
+    <script src="http://www.disid.com/js/toc.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    
+
+		<!-- jQuery CookieCuttr -->
+		<script type="text/javascript" src="http://www.disid.com/js/jquery.cookie.js"></script>
+		
+		
+		  <script type="text/javascript" src="http://www.disid.com/js/jquery.cookiecuttr.js"></script>
+		
+
+		<script type="text/javascript">
+		if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
+		  // insert the code you do not want to run UNTIL cookies are accepted here
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-1393802-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		  var s = document. getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		  }
+		</script>
+		
+
+
+</head>
+
+  <body id="page-top" class="project landing-master">
+    
+<!-- Navigation -->
+
+  <div class="container-fluid navbar-fixed-top">
+    <div class="row">
+      <div class="header-nav-wrapper">
+        <div class="logo">
+          <a class="navbar-brand page-scroll" href="http://www.disid.com#page-top">
+           <img src="http://www.disid.com/img/logo-disid-white.png" class="img-responsive">
+          </a>
+
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="primary-nav-wrapper">
+          <nav>
+            <ul class="primary-nav">
+              <li class="hidden"><a href="#page-top"></a></li>
+              
+
+	               
+	                    <li>
+	                      <a class="page-scroll" href="http://www.disid.com#solutions">Solutions</a>
+	                      
+	                    </li>
+	              
+	                    <li>
+	                      <a class="page-scroll" href="http://www.disid.com#projects">Projects</a>
+	                      
+	                    </li>
+	              
+	                    <li>
+	                      <a class="page-scroll" href="http://www.disid.com#technologies">Technologies</a>
+	                      
+	                    </li>
+	              
+	                    <li>
+	                      <a class="page-scroll" href="http://blog.disid.com/">Blog</a>
+	                      
+	                    </li>
+	              
+	                    <li>
+	                      <a class="page-scroll" href="http://www.disid.com#contact">Contact</a>
+	                      
+	                    </li>
+	              
+
+              
+
+            </ul>
+          </nav>
+          <div class="secondary-nav-wrapper">
+            <ul class="secondary-nav">
+               <!-- language variables -->
+                    <!-- for home -->
+                    
+
+                    <!-- for all posts -->
+                    
+
+                    <!-- for landing page -->
+                    
+                      <ul>
+                      
+                      
+                        <li class="lang subscribe">
+                          <a href="/master-development-java-applications-agile" class="en">en</a>
+                        </li>
+                      
+                        <li class="lang subscribe">
+                          <a href="/master-desarrollo-aplicaciones-java-metodos-agiles" class="es">es</a>
+                        </li>
+                      
+
+                      
+                      
+                      </ul>
+                    
+
+              <!-- TODO: seach funcionality -->
+              <!-- <li class="search"><a href="#search" class="show-search"><i class="fa fa-search"></i></a></li> -->
+            </ul>
+          </div>
+            <!-- TODO: seach funcionality -->
+          <!-- <div class="search-wrapper">
+            <ul class="search">
+              <li>
+                <input type="text" id="search-input" placeholder="Start typing then hit enter to search">
+              </li>
+              <li>
+                <a href="#" class="hide-search"><i class="fa fa-close"></i></a>
+              </li>
+            </ul>
+          </div> -->
+        </div>
+        <div class="navicon">
+          <a class="nav-toggle" href="#"><span></span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Header -->
+<header class="hero">
+  <div class="carousel">
+    
+    
+    
+    <div class="carousel-cell" style="background-image: url(http://www.disid.com/assets/img/services/hero-bg-master.jpg);">
+    
+      <div class="hero-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h1 class="wp1">Máster profesional en desarrollo de aplicaciones Java con metodologías ágiles</h1>
+              <p class="wp2">Master description/slogan ...</p>
+              
+              <div class="text-center">
+                <img src="http://www.disid.com/img/logo-disid-white.png" class="">
+              </div>
+              
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+    
+<!-- Navigation -->
+
+<!-- TODO navbar-fixed-top -->
+  <div class="container-fluid navbar-shrink">
+    <div class="row-fluid">
+      <div class="header-nav-wrapper">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="primary-nav-wrapper pull-left">
+          <nav>
+            <ul class="primary-nav ">
+	               
+	                    <li>
+	                      <a class="page-scroll" href="#description">Description</a>
+	                    </li>
+	              
+	                    <li>
+	                      <a class="page-scroll" href="#agenda">Agenda</a>
+	                    </li>
+	              
+	                    <li>
+	                      <a class="page-scroll" href="#teachers">Teachers</a>
+	                    </li>
+	              
+	                    <li>
+	                      <a class="page-scroll" href="#job-works">Employment and internships</a>
+	                    </li>
+	              
+            </ul>
+          </nav>
+        </div>
+        <a class="btn dmbutton btn-xl wow pulse pull-right" data-wow-delay=".6s" class="page-scroll" href="#accordion">
+            Get more info
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+        <!-- ******MASTER INFO ****** -->
+    <section id="master-info" class="alternate-bg text-center">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                
+                
+                <div class="clearfix visible-md"></div>
+
+            </div><!--//row-->
+
+        </div><!--//container-->
+<div class="clearfix"></div>
+    </section><!--//about-->
+
+
+
+
+
+    <section id="description" class="content has-padding" role="main" itemprop="mainContentOfPage">
+        <div class="container">
+            <div class="row">
+                <div class="page-body col-md-10 col-md-offset-1" itemprop="description">
+                    <h2>Master headline/slogan ...</h2>
+                    <div class="paragraph">
+<p>El <strong>Máster Profesional en Desarrollo de Aplicaciones Java con Metodologías Ágiles</strong> promovido
+por DISID CORPORATION, es un programa formativo diseñado en colaboración con empresas del
+sector TIC y con expertos del ámbito empresarial y profesional, que nace expresamente con el
+objetivo de desarrollar perfiles tecnológicos para dar respuesta a corto plazo a las necesidades del
+mercado laboral TIC-Java.
+Un máster fuertemente marcado por la motivación constante de DISID por acercar el mundo
+académico al mundo profesional y de la empresa, a través de una formación práctica, colaborativa y
+ágil.
+El ser un máster de iniciativa privada, permite una mayor flexibilidad y por tanto, es un programa
+académico más ceñido a la realidad actual de las empresas del sector TIC.
+El programa académico está estructurado en itinerarios y seminarios alineados con las enseñanzas
+TIC regladas más relevantes, lo que permite al alumno/a obtener las certificaciones más
+demandadas del sector.</p>
+</div>
+<div class="paragraph col-sm-6">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet eu turpis ac ornare. Curabitur magna nisl, porttitor in augue non, semper ullamcorper augue. Sed eu vestibulum nisi. Aliquam iaculis nisi vitae sem sodales pellentesque. Quisque vitae suscipit lectus. Integer eleifend fermentum massa non mollis. Aenean vestibulum, est non porttitor dictum, ligula ex varius ante, in suscipit quam lorem eu lacus. Fusce arcu tellus, tempus sit amet posuere ac, laoreet non lacus. Aenean tempor tellus et laoreet laoreet. Ut cursus justo id purus egestas, scelerisque iaculis nulla imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed tempus justo in eros vulputate, sit amet fermentum orci condimentum. Nullam faucibus elit non tortor sagittis, sed volutpat mi sodales. Ut orci tortor, iaculis sed massa ac, interdum blandit odio.</p>
+</div>
+<div class="paragraph col-sm-6">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet eu turpis ac ornare. Curabitur magna nisl, porttitor in augue non, semper ullamcorper augue. Sed eu vestibulum nisi. Aliquam iaculis nisi vitae sem sodales pellentesque. Quisque vitae suscipit lectus. Integer eleifend fermentum massa non mollis. Aenean vestibulum, est non porttitor dictum, ligula ex varius ante, in suscipit quam lorem eu lacus. Fusce arcu tellus, tempus sit amet posuere ac, laoreet non lacus. Aenean tempor tellus et laoreet laoreet. Ut cursus justo id purus egestas, scelerisque iaculis nulla imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed tempus justo in eros vulputate, sit amet fermentum orci condimentum. Nullam faucibus elit non tortor sagittis, sed volutpat mi sodales. Ut orci tortor, iaculis sed massa ac, interdum blandit odio.</p>
+</div>
+<div class="sect1 col-sm-6">
+<h2 id="lorem_ipsum_dolor_sit_amet">Lorem ipsum dolor sit amet</h2>
+<div class="sectionbody">
+
+</div>
+</div>
+<div class="sect1">
+<h2 id="objetivos">Objetivos</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Abrir las puertas al mercado laboral TIC, mejorar el puesto actual o reconvertir una carrera
+profesional.</p>
+</li>
+<li>
+<p>Adquirir los criterios y estrategias que deben aplicarse para la gestión ágil de organizaciones,
+proyectos y equipos para el desarrollo de software.</p>
+</li>
+<li>
+<p>Comprender la estructura, los elementos clave y fundamentos del marco de gestión de
+servicios de TI en el marco ITIL ©.</p>
+</li>
+<li>
+<p>Conocer en profundidad el lenguaje de programación Java, la plataforma Java y Spring, los
+conocimientos más demandados en el sector TIC español.</p>
+</li>
+<li>
+<p>Aprender los principios y fundamentos de Integración Continua y DevOps, para aplicar
+distintas prácticas y herramientas que ayuden a la organización a mejorar su competitividad a
+través de la entrega pronta de valor y asegurando su calidad.</p>
+</li>
+<li>
+<p>Aportar las herramientas necesarias para que el alumno aprenda a desarrollar una aplicación
+web Java.</p>
+</li>
+<li>
+<p>Obtener los conocimientos necesarios para llevar a cabo el desarrollo de aplicaciones Web
+GIS.</p>
+</li>
+<li>
+<p>Capacitar al alumno/a para formar parte de un equipo de desarrollo Java en cualquier
+empresa del sector TIC y ser productivo/a desde el primer día de trabajo.</p>
+<div class="paragraph col-sm-6">
+<p>##  Aliquam vel nulla pharetra</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Mauris pellentesque ligula eu molestie lacinia.</p>
+</li>
+<li>
+<p>Curabitur porta dui vitae quam efficitur blandit at eget enim.</p>
+</li>
+<li>
+<p>Vestibulum tempus lorem eu purus eleifend ultrices.</p>
+</li>
+<li>
+<p>Etiam fringilla massa convallis sapien pretium vulputate.</p>
+</li>
+<li>
+<p>Morbi malesuada magna et tellus ullamcorper mollis.</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="agenda" class="content">
+  <div class="container">
+
+  <div class="col-sm-12">
+  
+  
+  
+   
+  
+   
+   </div>
+
+   <div class="col-sm-10 col-sm-offset-1">
+
+      <!-- TABS ACCORDION -->
+      <div class="panel-group" role="tablist" aria-multiselectable="true">
+
+        
+        
+        
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab">
+            <h4 class="panel-title">
+              <a role="button" data-toggle="collapse" href="#collapse">
+                Tema 1
+              </a>
+            </h4>
+          </div>
+          <div id="collapse" class="panel-collapse collapse" role="tabpanel">
+            <div class="panel-body">
+             <div class="row">
+              <div class="col-xs-12">
+                <div class="lead"><div class="paragraph">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet aliquam lacus pharetra sagittis. Praesent condimentum ex at lobortis cursus. Duis in scelerisque lacus. Cras sagittis mauris in eros hendrerit tristique. Sed eu ornare lectus. Aenean eros diam, molestie sit amet molestie in, pretium ac augue. Proin a magna purus. Integer blandit lacus quis neque ultrices euismod. Quisque ac tortor metus.</p>
+</div>
+<div class="paragraph">
+<p>Aliquam faucibus ornare nisl a maximus. Nam luctus dignissim venenatis. Proin ut lobortis risus, at finibus sem. Duis pharetra quam eu hendrerit pretium. Nam a orci ultrices, semper purus vitae, efficitur nulla. Aliquam id sem a metus viverra dictum ut quis nibh. Integer id gravida tellus. Donec ac est ac augue eleifend sodales. Aliquam erat volutpat. Etiam arcu orci, sollicitudin id vulputate ut, lacinia ut enim. Vestibulum lacus metus, consectetur eu ligula in, venenatis porttitor nulla. Fusce eget lorem blandit, imperdiet velit at, convallis sem. Sed imperdiet interdum lectus, scelerisque porttitor enim porta quis. Nam molestie elit ac dolor consequat, iaculis efficitur sem euismod.</p>
+</div></div>
+              </div>
+              <div class="col-xs-12">
+                <img class="img-responsive" src="http://www.disid.com/assets/img/how/" alt="">
+              </div>
+             </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab">
+            <h4 class="panel-title">
+              <a role="button" data-toggle="collapse" href="#collapse">
+                Tema 2
+              </a>
+            </h4>
+          </div>
+          <div id="collapse" class="panel-collapse collapse" role="tabpanel">
+            <div class="panel-body">
+             <div class="row">
+              <div class="col-xs-12">
+                <div class="lead"><div class="paragraph">
+<p>Nullam ultrices vestibulum maximus. Nam venenatis nulla sit amet risus suscipit commodo. Proin feugiat mi eu arcu consequat, eu auctor magna commodo. Proin vulputate ipsum in justo lobortis pellentesque. Vivamus sed dolor ac arcu venenatis varius vitae pulvinar sapien. Maecenas a ipsum tellus. Vestibulum dictum at nisl ac volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In tincidunt ut metus at imperdiet. Pellentesque in lectus auctor, ornare elit ut, luctus eros.</p>
+</div>
+<div class="paragraph">
+<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec in lectus tristique, faucibus neque sit amet, scelerisque metus. Nam suscipit quam vitae est posuere, vel elementum felis fermentum. Morbi iaculis neque at quam ornare egestas. Mauris interdum, purus at elementum fringilla, velit purus sagittis ligula, vel venenatis nibh lorem vitae ipsum. Donec molestie nulla euismod, auctor nisl in, vehicula neque. Ut volutpat odio eu diam consequat, nec posuere mauris auctor.</p>
+</div></div>
+              </div>
+              <div class="col-xs-12">
+                <img class="img-responsive" src="http://www.disid.com/assets/img/how/" alt="">
+              </div>
+             </div>
+            </div>
+          </div>
+        </div>
+        
+        
+    </div><!-- panel group -->
+
+   </div>
+
+    </div><!-- container -->
+</section>
+
+    <section class="has-padding" id="teachers">
+    <div class="container">
+	      <div class="row">
+	        <div class="col-md-4 col-sm-4">
+	          <h4>Teachers <br></h4>
+	        </div>
+	        <div class="col-md-8 col-sm-8">
+	            <p class="text-muted">Heading sobre los profesores del master dónde se explique su calidad profesional y experiencia laboral</p>
+	        </div>
+	      </div>
+	      <div class="row">
+            
+                <div class="col-xs-6 col-sm-3 text-center">
+                   <h5>Profesor 1</h5>
+                   <p>Profesor 1</p>
+                   <a href="{ teacher.url }}" target="_blank" title="{ teacher.title }}">
+                    <img src="http://www.disid.com/assets/img/teachers/perfil.jpg" class="col-sm-10 img-circle img-responsive">
+                   </a>
+                </div>
+            
+                <div class="col-xs-6 col-sm-3 text-center">
+                   <h5>Profesor 2</h5>
+                   <p>Profesor 2</p>
+                   <a href="{ teacher.url }}" target="_blank" title="{ teacher.title }}">
+                    <img src="http://www.disid.com/assets/img/teachers/perfil.jpg" class="col-sm-10 img-circle img-responsive">
+                   </a>
+                </div>
+            
+                <div class="col-xs-6 col-sm-3 text-center">
+                   <h5>Profesor 3</h5>
+                   <p>Profesor 3</p>
+                   <a href="{ teacher.url }}" target="_blank" title="{ teacher.title }}">
+                    <img src="http://www.disid.com/assets/img/teachers/perfil.jpg" class="col-sm-10 img-circle img-responsive">
+                   </a>
+                </div>
+            
+                <div class="col-xs-6 col-sm-3 text-center">
+                   <h5>Profesor 4</h5>
+                   <p>Profesor 4</p>
+                   <a href="{ teacher.url }}" target="_blank" title="{ teacher.title }}">
+                    <img src="http://www.disid.com/assets/img/teachers/perfil.jpg" class="col-sm-10 img-circle img-responsive">
+                   </a>
+                </div>
+            
+        </div>
+        <div class="row">
+            
+                <div class="col-xs-6 col-sm-3 text-center">
+                   <h5>Profesor 5</h5>
+                   <p>Profesor 5</p>
+                   <a href="{ teacher.url }}" target="_blank" title="{ teacher.title }}">
+                    <img src="http://www.disid.com/assets/img/teachers/perfil.jpg" class="col-sm-10 img-circle img-responsive">
+                   </a>
+                </div>
+            
+                <div class="col-xs-6 col-sm-3 text-center">
+                   <h5>Profesor 6</h5>
+                   <p>Profesor 6</p>
+                   <a href="{ teacher.url }}" target="_blank" title="{ teacher.title }}">
+                    <img src="http://www.disid.com/assets/img/teachers/perfil.jpg" class="col-sm-10 img-circle img-responsive">
+                   </a>
+                </div>
+            
+        </div>
+        <div class="row">
+            
+        </div>
+        <div class="row">
+            
+        </div>
+    </div><!--/container -->
+</section>
+
+    <section id="job-works" class="">
+ <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4">
+            <h4>Employment and Internships <br></h4>
+          </div>
+          <div class="col-md-8 col-sm-8">
+              <p class="text-muted">Heading sobre la salida laboral el máster</p>
+          </div>
+        </div>
+ </div>
+ <div class="container tall">
+  <!-- SELECTOR TABS  -->
+  <ul class="nav nav-tabs" role="tablist">
+    
+        
+  </ul>
+
+   <!-- Tab panes -->
+  <div class="tab-content">
+  
+        
+  </div>
+
+</div>
+</section>
+
+    <section id="about" class="">
+ <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4">
+            <h4> <br></h4>
+          </div>
+          <div class="col-md-8 col-sm-8">
+              <p class="text-muted"></p>
+          </div>
+        </div>
+ </div>
+ <div class="container tall">
+  <!-- SELECTOR TABS  -->
+  <ul class="nav nav-tabs" role="tablist">
+    
+        
+  </ul>
+
+   <!-- Tab panes -->
+  <div class="tab-content">
+  
+        
+  </div>
+
+</div>
+</section>
+
+        <!-- ******WHY ****** -->
+    <section id="why" class="">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-4">
+              <h4 class=""> <br></h4>
+            </div>
+            <div class="col-md-8 col-sm-8">
+                <p class="text-muted"></p>
+            </div>
+          </div>
+
+            <div class="row">
+                
+                
+                <div class="clearfix visible-md"></div>
+
+            </div><!--//row-->
+
+        </div><!--//container-->
+<div class="clearfix"></div>
+    </section><!--//about-->
+
+
+
+
+   <section class="alternate-bg text-center contact-wrap has-padding" id="contact">
+  <a href="#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h4 class="arrow">Contact with us</h4>
+      </div>
+    </div>
+    <div class="row contact-details">
+      <div class="col-md-4">
+        <div class="light-box box-hover">
+          <i class="fa fa-map-marker fa-3x"></i>
+          <span>Address</span>
+          <p>
+                Avinguda de Menéndez y Pelayo, 5 <br>
+            
+                46010 Valencia, Spain <br>
+            </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="light-box box-hover">
+          <i class="fa fa-phone fa-3x"></i>
+          <span>Phone</span>
+          <p><br> (+34) 963 516 309</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="light-box box-hover">
+          <i class="fa fa-envelope-o fa-3x"></i>
+          <span>Email</span>
+          <p><br> <a class="email" href="mailto:info@disid.com">info@disid.com</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    
+    
+        <!-- BANNER -->
+<div id="banner">
+  <div class="banner" id="accordion">
+    <!-- TEXT&LINK -->
+    <div class="container text-center">
+      <div class="row-fluid call-to-action text-center">
+          <h2 class="section-heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          <p>
+              <a class="btn dmbutton btn-xl wow pulse" data-wow-delay=".6s" data-toggle="collapse" data-parent="#accordion" href="#collapseContact">
+              Let's talk?
+          </a>
+          </p>
+      </div>
+    </div>
+    <!-- COLLAPSE -->
+    <div id="collapseContact" class="panel-collapse collapse noCrossRef">
+      <div class="panel-body">
+        
+
+        
+        <!-- Begin MailChimp Signup Form -->
+        <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+        <div id="mc_embed_signup">
+        <form action="//disid.us11.list-manage.com/subscribe/post?u=6c8ebdf66f7cedc23b4c8e986&amp;id=a1d9c5b9f7&SIGNUP=ContactIVACEProject" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+              <div class="col-md-6 form-line">
+                <div class="mc-field-group form-group">
+                  <label for="mce-EMAIL">Email Address </label>
+                  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                </div>
+                <div class="mc-field-group form-group form-group">
+                  <label for="mce-FNAME">First Name </label>
+                  <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                </div>
+                <div class="mc-field-group form-group">
+                  <label for="mce-LNAME">Last Name </label>
+                  <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+                </div>
+                <div class="mc-field-group form-group size1of2">
+                  <label for="mce-MMERGE3">Phone </label>
+                  <input type="text" name="MMERGE3" class="" value="" id="mce-MMERGE3">
+                </div>
+              </div>
+              <div class="col-md-6 form-line">
+                <div class="mc-field-group form-group">
+                  <label for="mce-MMERGE4">Company </label>
+                  <input type="text" value="" name="MMERGE4" class="" id="mce-MMERGE4">
+                </div>
+                <div class="mc-field-group form-group">
+                  <label for="mce-MMERGE5">Website </label>
+                  <input type="url" value="" name="MMERGE5" class=" url" id="mce-MMERGE5">
+                </div>
+                <div class="mc-field-group form-group">
+                  <label for="mce-MMERGE6">What are you interested in: </label>
+                  <select name="MMERGE6" class="" id="mce-MMERGE6">
+                  <option value=""></option>
+                  <option value="Java project">Java project</option>
+                <option value="GIS &amp; geomatic projects">GIS &amp; geomatic projects</option>
+                <option value="Location System">Location System</option>
+                <option value="Mobility Solutions">Mobility Solutions</option>
+                  </select>
+                </div>
+                <div class="mc-field-group form-group">
+                  <label for="mce-MMERGE7">Your objectives: </label>
+                  <input type="text" value="" name="MMERGE7" class="" id="mce-MMERGE7">
+                </div>
+              </div>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_6c8ebdf66f7cedc23b4c8e986_a1d9c5b9f7" tabindex="-1" value=""></div>
+              <div class="clear">
+              <input type="submit" value="Send" name="subscribe" id="mc-embedded-subscribe" class="btn dmbutton btn-xl wow pulse" data-wow-delay=".6s">
+              </div>
+            </div>
+        </form>
+        </div>
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='phone';fnames[4]='MMERGE4';ftypes[4]='text';fnames[5]='MMERGE5';ftypes[5]='url';fnames[6]='MMERGE6';ftypes[6]='dropdown';fnames[7]='MMERGE7';ftypes[7]='text';fnames[8]='SIGNUP';ftypes[8]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+        <!--End mc_embed_signup-->
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /.banner -->
+    
+
+    <!-- SECTION: Footer -->
+  <footer class="has-padding footer-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 footer-branding">
+          <img src="http://www.disid.com/img/logo-disid-white.png"
+          class="img-responsive footer-branding-logo" alt="DISID Corporation">
+          <p>DISID is a software engineering company specializing in technology, Java platform, Spring IO platform and geomatics.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 footer-nav">
+          <ul class="footer-primary-nav">
+            
+                    <li>
+                      
+                      <a class="page-scroll" href="/jobs">Jobs</a>
+                      
+                    </li>
+            
+                    <li>
+                      
+                      <a class="page-scroll" href="/legal-notice">Legal notice</a>
+                      
+                    </li>
+            
+                    <li>
+                      
+                      <a class="page-scroll" href="/cookies-policy">Cookies</a>
+                      
+                    </li>
+            
+                    <li>
+                      
+                      <a class="page-scroll" href="/privacy-policy">Privacy policy</a>
+                      
+                    </li>
+            
+            
+              <li>
+                  <i class="fa fa-envelope"></i>
+                  <span>info@disid.com</span>
+              </li>
+            
+            
+              <li>
+                  <i class="fa fa-phone"></i>
+                  <span>(+34) 963 516 309</span>
+              </li>
+            
+
+          </ul>
+          <ul class="footer-share">
+            
+              <li><a href="http://twitter.com/disid_corp">
+              <i class="fa fa-twitter"></i>
+              <span></span>
+              </a></li>
+            
+              <li><a href="https://www.facebook.com/DISIDCorp/">
+              <i class="fa fa-facebook"></i>
+              <span></span>
+              </a></li>
+            
+              <li><a href="https://github.com/DISID">
+              <i class="fa fa-github"></i>
+              <span></span>
+              </a></li>
+            
+              <li><a href="https://www.linkedin.com/company/disid">
+              <i class="fa fa-linkedin"></i>
+              <span></span>
+              </a></li>
+            
+          </ul>
+
+          <ul class="footer-secondary-nav">
+            <li>&copy; DISID Corporation 2016.</li>
+            <li><small>Sociedad Limitada 2013 CC BY-NC-SA 3.0 ES | Developed with Jekyll & Bootstrap</small></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END SECTION: Footer -->
+
+
+    
+  <!-- Bootstrap Core JavaScript -->
+  <script src="http://www.disid.com/js/min/bootstrap.min.js"></script>
+
+  <!-- JS CDNs -->
+  <script src="http://vjs.zencdn.net/5.4.6/video.min.js"></script>
+
+  <!-- JS Locals -->
+  <script src="http://www.disid.com/js/min/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  <script src="http://www.disid.com/js/min/retina.min.js"></script>
+  <script src="http://www.disid.com/js/min/jquery.waypoints.min.js"></script>
+  <script src="http://www.disid.com/js/min/flickity.pkgd.min.js"></script>
+
+  <!-- Menu on scroll -->
+  <script src="http://www.disid.com/js/cbpAnimatedHeader.js"></script>
+
+  <!-- Animation scripts -->
+  <script src="http://www.disid.com/js/typewriter.js"></script>
+
+  <!-- JS init -->
+  <script src="http://www.disid.com/js/scripts.js"></script>
+
+  <!-- Cookies consent -->
+	
+	<script>
+	    $(document).ready(function () {
+	      console.log("Cookies consent loaded");
+	      $.cookieCuttr();
+	    });
+	</script>
+	
+
+
+  </body>
+</html>
+
