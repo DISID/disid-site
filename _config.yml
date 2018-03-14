@@ -6,7 +6,10 @@ email: info@disid.com
 google_analytics: UA-1393802-1 #Google analytics code in the format XX-nnnnnnnn-n
 ASSET_PATH: /assets
 logo: logo-disid-white.png
+
+#Images
 master-logo: logo-master-white.png
+master-worktool: worktools.png
 
 # Color settings (hex-codes without the leading hash-tag)
 # primary_rgb: "59,139,186" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
@@ -357,6 +360,12 @@ master-links:
 #    employment:
 #      title: Empleo y prácticas
 #      url: "#job-works"
+    about:
+      title: Qué nos diferencia
+      url: "#about"
+    why:
+      title: Por qué elegirnos
+      url: "#why"
 
 # Teachers information. Shown on Master page.
 teachers:
