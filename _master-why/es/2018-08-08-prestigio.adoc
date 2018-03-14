@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Prestigio
-icon: fa-calendar
+icon: fa-star
 icon-delay: 51s
 categories:
   - es

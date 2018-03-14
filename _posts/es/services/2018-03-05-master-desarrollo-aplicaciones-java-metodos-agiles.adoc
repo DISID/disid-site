@@ -1,10 +1,10 @@
 ---
 layout: landing
 hero-img: hero-bg-master.jpg
-img: pic-master.jpg
+img: hero-bg-master-board.jpg
 title: Máster profesional en desarrollo de aplicaciones Java con metodologías ágiles
-headline: Master headline/slogan ...
-description: 1ª edición
+headline: Programa formativo diseñado en colaboración con empresas del sector TIC y con expertos del ámbito empresarial y profesional
+description: I edición
 url: master-desarrollo-aplicaciones-java-metodos-agiles
 ref: java-master
 categories:

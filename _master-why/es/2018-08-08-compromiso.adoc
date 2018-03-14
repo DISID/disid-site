@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Compromiso
-icon: fa-calendar
+icon: fa-check-circle-o
 icon-delay: 51s
 categories:
   - es

@@ -14,8 +14,6 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center">
-              <h1 class="wp1">{% if page.wrap_title %}{{ page.wrap_title }}{% else %}{{ page.title }}{% endif %}</h1>
-              {% if page.description %}<p class="wp2">{{ page.description }}</p>{% endif %}
               {% if page.layout == 'landing' %}
               <div class="text-center">
                 <img src="{{ site.url | prepend: site.baseurl }}/img/{{ site.master-logo }}" class="">

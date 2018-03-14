@@ -6,7 +6,7 @@ email: info@disid.com
 google_analytics: UA-1393802-1 #Google analytics code in the format XX-nnnnnnnn-n
 ASSET_PATH: /assets
 logo: logo-disid-white.png
-master-logo: logo-disid-white.png
+master-logo: logo-master-white.png
 
 # Color settings (hex-codes without the leading hash-tag)
 # primary_rgb: "59,139,186" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
@@ -189,10 +189,14 @@ t:
       contact: Contact with us
     master-teachers:
       section-heading: "Teachers"
-      description: Heading sobre los profesores del master dónde se explique su calidad profesional y experiencia laboral
+      description: TODO Heading sobre los profesores del master dónde se explique su calidad profesional y experiencia laboral
     master-jobs:
-      section-heading: "Employment and Internships"
-      description: Heading sobre la salida laboral el máster
+      section-heading: "Salidas profesionales"
+      description: Una vez terminado el máster, los alumnos saldrán suficientemente preparados para ejercer como analista programador, programador, Scrum Manager, responsable técnico, líder de proyecto de desarrollo o gestor de la demanda entre otros puestos.
+    master-why:
+      section-heading: "¿Por qué estudiar este Máster?"
+      description:
+
   es:
     title: "DISID, Be Software"
     description: "DISID es una empresa de ingeniería de software especializada en tecnología, plataforma Java, plataforma Spring IO y geomática."
@@ -226,18 +230,21 @@ t:
       description: "Envíanos tu CV con los proyectos en los que has trabajado"
       call-to-action: "¿Hablamos?"
     banner-master:
-      title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      call-to-action: "¿Hablamos?"
+      title: "¿Te apuntas?"
+      description: "Formáte con nostros y mejora tu carrera profesional"
+      call-to-action: "Recibir más información"
     master:
       button-info: Quiero más información
       contact: Contacta con nosotros
     master-teachers:
       section-heading: "Profesores"
-      description: Heading sobre los profesores del master dónde se explique su calidad profesional y experiencia laboral
+      description: TODO Heading sobre los profesores del master dónde se explique su calidad profesional y experiencia laboral
     master-jobs:
-      section-heading: "Empleo y prácticas"
-      description: Heading sobre la salida laboral el máster
+      section-heading: "Salidas profesionales"
+      description: Una vez terminado el máster, los alumnos saldrán suficientemente preparados para ejercer como analista programador, programador, Scrum Manager, responsable técnico, líder de proyecto de desarrollo o gestor de la demanda entre otros puestos.
+    master-why:
+      section-heading: "¿Por qué estudiar este Máster?"
+      description:
 
 
 # To include variable in liquid: {{ site.t[page.lang].labs.section-heading }}
@@ -253,9 +260,9 @@ links:
     projects:
       title: Projects
       url: "http://www.disid.com#projects"
-    #master:
-    #  title: Master
-    #  url: "http://www.disid.com#master"
+#    master:
+#      title: Master
+#      url: "http://www.disid.com#master"
     technologies:
       title: Technologies
       url: "http://www.disid.com#technologies"
@@ -273,9 +280,9 @@ links:
     projects:
       title: Proyectos
       url: "http://www.disid.com#projects"
-    #master:
-    #  title: Master
-    #  url: "http://www.disid.com#master"
+    master:
+      title: Máster
+      url: "http://www.disid.com#master"
     technologies:
       title: Tecnologías
       url: "http://www.disid.com#technologies"
@@ -344,12 +351,12 @@ master-links:
     agenda:
       title: Temario
       url: "#agenda"
-    teachers:
-      title: Profesores
-      url: "#teachers"
-    employment:
-      title: Empleo y prácticas
-      url: "#job-works"
+#    teachers:
+#      title: Profesores
+#      url: "#teachers"
+#    employment:
+#      title: Empleo y prácticas
+#      url: "#job-works"
 
 # Teachers information. Shown on Master page.
 teachers:
@@ -414,6 +421,12 @@ collections:
     output: false
     #permalink: /agenda/:path/
   master-job:
+    output: false
+    #permalink: /agenda/:path/
+  master-why:
+    output: false
+    #permalink: /agenda/:path/
+  master-about:
     output: false
     #permalink: /agenda/:path/
 

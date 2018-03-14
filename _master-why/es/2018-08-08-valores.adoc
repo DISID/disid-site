@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Valores
-icon: fa-calendar
+icon: fa-book
 icon-delay: 51s
 categories:
   - es

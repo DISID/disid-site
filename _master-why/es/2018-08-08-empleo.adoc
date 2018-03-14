@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Empleo
-icon: fa-calendar
+icon: fa-suitcase
 icon-delay: 51s
 categories:
   - es

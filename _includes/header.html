@@ -28,14 +28,10 @@
       <div class="hero-bg">
         <div class="container">
           <div class="row">
-            <div class="col-md-12 text-center">
-              <h1 class="{% if post.typed %}typed{% else %}wp1{% endif %}">{{ post.title }}</h1>
-              {% if post.typed %}<span class="typed-cursor">|</span>{% endif %}<br>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2 hero-intro-text wp3">
-              <p>{{ post.headline }}</p>
+            <div class="col-md-8 col-md-offset-2 hero-intro-text hero-intro-image wp3">
+              <div class="text-center">
+                <img src="{{ site.url | prepend: site.baseurl }}/img/{{ site.master-logo }}" class="">
+              </div>
                <a href="#master" class="btn primary wp2">{{site.t[page.lang].learn-more}}</a>
             </div>
           </div>

@@ -11,7 +11,7 @@
         </div>
         {% assign collection=site.posts | where:"lang", page.lang %}
         <div class="row">
-            {% for post in collection limit: 6 %}
+            {% for post in collection limit: 7 %}
             {% if post.categories contains 'project' %}
             <div class="col-md-4">
                 <article class="article-post">

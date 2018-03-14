@@ -505,7 +505,9 @@ Modal
 Landing master
 ========================================================================== */
 
-body.landing-master{}
+body.landing-master div.paragraph p{
+  text-align: justify;
+}
 
 body.landing-master .navbar-shrink a.btn{
     margin: 1.5em 1.5em 0;
@@ -533,7 +535,7 @@ body.landing-master section#master-info .item p{
     font-size: 0.9em;
 }
 body.landing-master section#master-info .item .icon-holder{
-  margin: 1em 1em 2em;
+  margin: 1em 1em 4em;
 }
 body.landing-master h4.panel-title a::after,
 body.landing-master h3.panel-title a::after {
@@ -551,6 +553,37 @@ body.landing-master h3.panel-title a.collapsed::after{
 }
 body.landing-master #teachers .row + .row{
   margin-top: 1em;
+}
+body.landing-master li p{
+    margin: 0;
+    padding: 0;
+}
+
+body.landing-master section.master h2{
+    font-weight: 600;
+    margin: 7px 0 65px 0px;
+    text-transform: uppercase;
+    color: initial;
+}
+
+
+
+/* Home */
+header.hero .hero-bg .hero-intro-text.hero-intro-image{
+      border-top: none;
+}
+.freebies#master h2{
+  font-size: 2em;
+  line-height: 1em;
+}
+.freebies#master .overlay{
+  opacity: 1;
+}
+.freebies#master figure figcaption .freebie-content .date{
+  font-size: 1.5em;
+}
+.freebies#master p{
+  color: #fff;
 }
 
 /*section#job-works*/
