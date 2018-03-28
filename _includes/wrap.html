@@ -18,8 +18,10 @@
               <div class="text-center">
                 <img src="{{ site.url | prepend: site.baseurl }}/img/{{ site.master-logo }}" class="">
               </div>
+              {% else %}
+              <h1 class="wp1">{% if page.wrap_title %}{{ page.wrap_title }}{% else %}{{ page.title }}{% endif %}</h1>
+              {% if page.description %}<p class="wp2">{{ page.description }}</p>{% endif %}
               {% endif %}
-
             </div>
           </div>
         </div>
