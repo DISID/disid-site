@@ -3,7 +3,7 @@ layout: page
 hero-img: hero.jpg
 title: Términos y Condiciones de Uso
 description: Condiciones de acceso y uso de la plataforma
-permalink: /mpja-condiciones-uso/
+permalink: mpja-condiciones-uso/
 ref: mpja-condiciones-uso
 category:
     -landingpage
