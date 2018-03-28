@@ -1,0 +1,52 @@
+---
+layout: page
+hero-img: hero.jpg
+title: Aviso Legal
+description: Condiciones de uso de la información contenida en este portal
+permalink: /mpja-aviso-legal/
+ref: mpja-aviso-legal
+category:
+    -landingpage
+    - es
+lang: es
+---
+
+## Aviso Legal
+
+DISID CORPORATION, S.L. (en lo sucesivo DISID), es la sociedad titular de la marca DISID ®, de los dominios
+www.masterjava.es, www.disid.es y www.disid.com, así como de las webs publicadas y alojadas bajo dichos
+dominios (en adelante la web), puesta a disposición de sus usuarios con el fin de informar sobre su identidad
+corporativa, actividades, productos y servicios, en especial sobre el *Máster Profesional en Desarrollo de
+Aplicaciones Java con Metodologías Ágiles (MPJA)*.
+
+De conformidad con lo exigido por la legislación nacional vigente sobre Sociedad de la Información y Comercio
+Electrónico, se informa a los usuarios de los datos sociales, fiscales y registrales de la entidad:
+
+*Domicilio Social*
+
+Avda. Menéndez y Pelayo, 5 - bajo 3. CP 46010 Valencia (Spain)
+
+*Datos Registrales*
+
+Inscrita en el Registro Mercantil de Valencia, Tomo 9806, Libro 7088, Folio 188, Sección 8, Hoja V159976
+
+*Número de Identificación Fiscal (NIF)*
+
+B98639347
+
+*Identificación Proveedor Intracomunitario*
+
+ESB98639347
+
+*Dirección Postal*
+
+Avda. Menéndez y Pelayo, 5 - bajo 3. CP 46010 Valencia (Spain)
+
+*Dirección Electrónica (Contacto)*
+
+info@disid.com
+
+*Teléfono*
+
+(+34) 963 516 309
+

@@ -1,0 +1,60 @@
+---
+layout: page
+hero-img: hero.jpg
+title: Política de cookies
+description:
+permalink: /mpja-politica-cookies/
+ref: mpja-politica-cookies
+category:
+    -landingpage
+    - es
+lang: es
+---
+
+## ¿Qué son las cookies?
+
+Una cookie es un fichero o pequeña pieza de información que se descarga en su equipo o dispositivo al
+acceder a determinadas páginas web. Las cookies permiten a una página web, entre otras cosas,
+almacenar y recuperar información sobre los hábitos de navegación del usuario o de su equipo y,
+dependiendo de la información que contengan y de la forma en que se utilice su equipo, pueden utilizarse
+para reconocer al usuario.
+
+## ¿Qué cookies utiliza esta página web?
+
+*Cookies de análisis*:
+
+Son aquéllas que bien tratadas por nosotros o por terceros, nos permiten cuantificar
+el número de usuarios y así realizar la medición y análisis estadístico de la utilización que hacen los
+usuarios del servicio ofertado. Para ello se analiza su navegación en nuestra página web con el fin de
+mejorar la oferta de productos o servicios que le ofrecemos.
+
+Esta página web utiliza Google Analytics, un servicio analítico de web prestado por Google, Inc., una
+compañía de Delaware cuya oficina principal está en 1600 Amphitheatre Parkway, Mountain View
+(California), CA 94043, Estados Unidos (“Google”).
+
+Usted puede rechazar el tratamiento de los datos o la
+información rechazando el uso de cookies mediante la selección de la configuración apropiada de su
+navegador, sin embargo, debe ser conocedor que la plena funcionabilidad de esta página web puede
+verse afectada. También puede rechazar el uso de las cookies y el uso de los datos relacionados con el
+sitio (incluyendo su dirección IP) a Google así como impedir el tratamiento de estos datos por Google
+mediante la descarga e instalación de un plug-in en el siguiente https://tools.google.com/dlpage/gaoptout?hl=es[enlace].
+
+Al utilizar esta página web, consideramos que consiente
+el tratamiento de información acerca de Usted por parte de Google en la forma y para los fines arriba
+indicados.
+
+## ¿Cómo puede permitir, bloquear o eliminar las cookies?
+
+La mayoría de los navegadores están configurados de forma predeterminada para aceptar
+cookies. Usted puede permitir, bloquear o eliminar las cookies instaladas en su equipo mediante la
+configuración de las opciones del navegador instalado en su equipo o dispositivo. Si Usted
+bloquea las cookies puede afectar al funcionamiento y optimización de las páginas web que visite.
+Para más información sobre cada navegador, utilice las siguientes opciones:
+
+* Para más información sobre Navegador Mozilla Firefox pulse https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias?redirectlocale=es&redirectslug=habilitar-y-deshabilitar-cookies-que-los-sitios-we[aquí]
+* Para más información sobre Navegador Chrome pulse https://support.google.com/chrome/answer/95647?hl=es[aquí]
+* Para más información sobre Navegador Internet Explorer pulse https://support.microsoft.com/es-es/help/17442/windows-internet-explorer-delete-manage-cookies#ie=ie-10[aquí]
+* Para más información sobre Navegador Opera pulse http://help.opera.com/Windows/11.50/es-ES/cookies.html[aquí]
+* Para más información sobre Navegador iOS pulse https://support.apple.com/es-es/HT201265[aquí]
+* Para más información sobre Navegador Android pulse https://support.google.com/accounts/answer/61416?hl=es[aquí]
+

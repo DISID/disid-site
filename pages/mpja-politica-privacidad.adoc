@@ -1,0 +1,114 @@
+---
+layout: page
+hero-img: hero.jpg
+title: Política de privacidad
+description:
+permalink: /mpja-politica-privacidad/
+ref: mpja-politica-privacidad
+category:
+    -landingpage
+    - es
+lang: es
+---
+
+Estimado Usuario,
+
+La privacidad de sus datos personales constituye un objetivo prioritario de nuestra política corporativa. A través de
+esta Política de Privacidad se informa a los usuarios de la web acerca de su política de protección de datos de
+carácter personal recogidos de los mismos, para que éstos determinen libre y voluntariamente si desean facilitar los
+datos personales que se les puedan requerir o que se puedan obtener sobre los mismos con ocasión de su acceso y
+uso de esta web.
+
+DISID CORPORATION, S.L. (en lo sucesivo “DISID”) le informa de la existencia de un fichero de operaciones de
+tratamiento de datos donde constan los datos de los usuarios de esta web y de sus distintas opciones y
+herramientas, creado con la finalidad de gestionar la relación y mantener el contacto con los mismos, cuya
+titularidad y responsabilidad sobre su tratamiento la ostenta DISID. Igualmente, le informamos que, de conformidad
+con lo previsto en la legislación vigente, los datos personales que nos proporcione durante la navegación y uso de
+las herramientas, utilidades y opciones de contacto o registro habilitadas al efecto en esta plataforma podrán ser
+tratados e incorporados al precitado fichero con la finalidad de atender sus peticiones y posibilitar la gestión de
+relación y contacto con Usted. Entendemos que contamos ya con su consentimiento para ello desde el momento en
+que nos proporcione sus datos personales vía telefónica, electrónica o postal, así como para el registro y tratamiento
+de los mismos y el envío/recepción de comunicaciones informativas, promocionales o comerciales por parte de
+DISID, en relación con sus actividades, ofertas, productos y/o servicios.
+
+El usuario dispone de información detallada sobre el tratamiento, finalidad y uso de sus datos y, en general, de
+todas las menciones preceptivas requeridas por la legislación aplicable en materia de protección de datos de
+carácter personal, en los distintos formularios puestos a su disposición en esta plataforma web en los que se
+recaben datos de carácter personal. Las respuestas a las preguntas sobre datos personales que pueda encontrarse
+en dichos documentos y que se hallen señaladas con un asterisco (*) son obligatorias y su falta de contestación
+supondrá la imposibilidad de continuar y acceder a la opción de registro, inscripción o servicio ofrecido.
+
+Los datos personales que facilite al cumplimentar formularios de contacto, asistencia en línea, suscripción o registro
+son necesarios para atender su solicitud, suministrar una información o servicio solicitado y mantener el contacto
+con los usuarios. Los formularios habilitados en la plataforma se hallan restringidos a las personas físicas mayores
+de edad y jurídicas que deseen obtener más información sobre las actividades, productos y servicios de DISID o
+contactar con la misma. Los datos facilitados a través de los mismos serán tratados y podrán incorporarse a los
+ficheros cuya titularidad y responsabilidad sobre su tratamiento la ostenta DISID con la finalidad de gestionar su
+organización y actividad. La cumplimentación de los formularios, su aceptación y envío, confirma su consentimiento
+y autorización para el registro y tratamiento de sus datos, su inclusión en el fichero precitado y el envío/recepción de
+comunicaciones electrónicas o postales por parte de DISID de contenido informativo y comercial relacionados con
+las información, productos o servicios solicitados.
+
+El usuario autoriza el tratamiento automatizado de los datos personales que suministre voluntariamente, a través de
+formularios y correo electrónico, para la gestión de cualquier solicitud de información enviada por correo electrónico,
+el envío de información sobre cursos, eventos y servicios propios de DISID, para la remisión de publicidad vía
+electrónica de los mismos y el envío de información sobre cualquier aspecto académico, empresarial, comercial o
+social de DISID y de las actividades que organice o participe, así como la realización de encuestas y estudios
+estadísticos.
+
+Los datos personales suministrados son absolutamente confidenciales y sólo serán compartidos con terceras
+empresas o entidades cuando la gestión de su solicitud, el suministro de cualquier producto o contenido o la
+prestación de cualquier servicio solicitado por el usuario lo requiera. Los datos serán comunicados al profesorado
+participante en el Máster para su organización y control de la actividad.
+
+El consentimiento otorgado por el usuario para el tratamiento de sus datos personales es revocable. En cualquier
+momento, el usuario podrá ejercer sus derechos respecto de sus datos, en especial, los derechos de acceso,
+rectificación, limitación del tratamiento, supresión o, en caso, oposición mediante el envío de su solicitud escrita
+junto con una fotocopia de su D.N.I. o cualquier otro documento equivalente que acredite su identidad, a la
+dirección: Avda. Menéndez y Pelayo, 5 CP 46010 Valencia (Spain). Si desea más información al respecto o no
+desea recibir nuevos correos electrónicos puede comunicarlo en la siguiente dirección: «info@disid.com». DISID no
+podrá suprimir aquellos datos que la legislación vigente obligue a conservar. Sin embargo, se aplicarán las
+correspondientes medidas de bloqueo de los datos para evitar su aplicación a finalidades distintas de las
+establecidas en la normativa que exige su conservación.
+
+Los datos facilitados por el usuario podrán ser comunicados y/o tratados por terceros para posibilitar el suministro de
+las informaciones, contenidos, productos y/o servicios solicitados así como para posibilitar la gestión administrativa,
+operativa, informática, comercial, económica y fiscal de la plataforma y su titular. Asimismo, le informamos que los
+servicios de descargas y comunicaciones telefónicas/electrónicas conllevan, inevitablemente, operaciones y
+procedimientos técnicos automatizados de interconexión, tránsito y almacenamiento, así como comunicaciones,
+transferencias e interconexiones con terceros, especialmente con plataformas, redes y operadores, por lo que si no
+está conforme con todo ello, le rogamos que no use esta plataforma y que se abstenga de utilizar los servicios
+asociados a la misma.
+
+DISID se compromete al cumplimiento de su obligación de confidencialidad y secreto de los datos de carácter
+personal y de su deber de guardarlos, y adoptará las medidas de seguridad exigidas por la legislación vigente en
+cada momento que permitan razonablemente asegurar su protección y evitar su alteración, pérdida, tratamiento o
+acceso no autorizado, habida cuenta en todo momento del estado de la tecnología. No obstante, DISID no puede
+garantizar plenamente la invulnerabilidad absoluta de sus sistemas de seguridad o de terceros, puesto que ninguna
+medida de seguridad que se instale en la actualidad es absolutamente inquebrantable, por lo que DISID no será
+responsable en ningún caso de las incidencias que puedan surgir en torno a los datos personales cuando se deriven
+de un ataque o acceso no autorizado a sus sistemas de tal forma que sea imposible detectarlo por los sistemas de
+seguridad implantados, sin perjuicio de la posible obligación de comunicación del evento sufrido a las autoridades
+competentes.
+
+Los usuarios se comprometen a mantener los datos proporcionados a DISID debidamente actualizados, siendo
+responsables de los daños y perjuicios que DISID y/o terceros pudieran sufrir como consecuencia de la falta de
+veracidad, inexactitud, falta de vigencia y autenticidad de los datos facilitados. DISID quedará exonerado de
+cualquier tipo de responsabilidad derivada de la falta de veracidad y actualidad de la información proporcionada, así
+como de cualquier daño o perjuicio que pudiera sufrir el usuario como consecuencia de todo ello. DISID se reserva
+la facultad de eliminar o destruir la información facilitada por el usuario que pudiera obrar en sus ficheros sin previo
+aviso, especialmente si detecta la falta de veracidad, exactitud o actualidad de los mismos.
+
+La plataforma puede contener enlaces o referencias a otros sitios web que no están bajo nuestro control y en las
+que, por lo tanto, no es aplicable la presente política de protección de datos. Le aconsejamos leer las indicaciones
+que al respecto contenga cada página web que visite. Usted pasará a ser el único responsable de sus conexiones
+con tales páginas.
+
+La presente política de privacidad podrá ser modificada en cualquier momento por DISID, especialmente para
+adecuarla a la legislación vigente en cada momento, códigos corporativos o de conducta a los que se halle adherida
+e instrucciones de la Agencia Española de Protección de Datos u otras autoridades en materia de privacidad, por lo
+que DISID recomienda a los usuarios la consulta periódica de la misma al objeto de conocer las modificaciones que
+puedan afectar a la misma, sin perjuicio de la inclusión de nota informativa de todo ello en esta plataforma.
+
+*IMPORTANTE*: En caso de que existieren diferencias o contradicciones entre las versiones de la plataforma
+publicadas en otros idiomas, prevalecerá en todo caso la versión española.
