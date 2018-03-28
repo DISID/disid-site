@@ -548,6 +548,50 @@
   
     
       <url>
+        <loc>/mpja-aviso-legal/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/mpja-aviso-legal/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/mpja-condiciones-uso/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/mpja-condiciones-uso/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/mpja-politica-cookies/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/mpja-politica-cookies/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/mpja-politica-privacidad/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/mpja-politica-privacidad/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
         <loc>/politica-de-privacidad/</loc>
         
         
