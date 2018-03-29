@@ -61,6 +61,10 @@
     <link rel="stylesheet" href="http://www.disid.com/css/animate.min.css">
     <link rel="stylesheet" href="http://www.disid.com/css/flickity.min.css">
 
+    <!-- CSS master -->
+    <link rel="stylesheet" href="http://www.disid.com/css/JiSlider.css">
+    <link rel="stylesheet" href="http://www.disid.com/css/flexslider.css">
+
     <link rel="stylesheet" href="http://www.disid.com/css/styles.css">
     <link rel="stylesheet" href="http://www.disid.com/css/disid.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -1464,6 +1468,35 @@ an open source tool for rapid application development with which you can create 
 
   <!-- Animation scripts -->
   <script src="http://www.disid.com/js/typewriter.js"></script>
+
+  <!-- Js master -->
+    <!-- start-smoth-scrolling -->
+    <script src="http://www.disid.com/js/JiSlider.js"></script>
+    <script>
+        $(window).load(function () {
+          //$('#JiSlider').JiSlider({color: '#fff', start: 3, reverse: true}).addClass('ff')
+        })
+      </script>
+    <!-- stats -->
+    <!-- <script src="js/jquery.waypoints.min.js"></script> -->
+    <script src="http://www.disid.com/js/jquery.countup.js"></script>
+      <script>
+        $('.counter').countUp();
+      </script>
+    <!-- //stats -->
+    <!-- flexSlider -->
+    <script src="http://www.disid.com/js/jquery.flexslider.js"></script>
+    <script type="text/javascript">
+      $(window).load(function(){
+        $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+        });
+      });
+    </script>
+  <!-- //flexSlider -->
 
   <!-- JS init -->
   <script src="http://www.disid.com/js/scripts.js"></script>
