@@ -514,11 +514,38 @@ Modal
     margin: 1em 45%;
 }
 
+/* ====================
+Landing master Home
+======================= */
 
+header.hero .hero-bg .hero-intro-text.hero-intro-image{
+      border-top: none;
+}
+.freebies#master h2{
+  font-size: 2em;
+  line-height: 1em;
+}
+.freebies#master .overlay{
+  opacity: 1;
+}
+.freebies#master figure figcaption .freebie-content .date{
+  font-size: 1.5em;
+}
+.freebies#master p{
+  color: #fff;
+}
 
 /* ==========================================================================
 Landing master
 ========================================================================== */
+.up-btn-master { width: 50px; height: 50px; border-radius: 50%; -moz-border-radius: 50%;
+ -webkit-border-radius: 50%; -o-border-radius: 50%; background: rgba(113,213,210,0.5);
+ display: block; margin: 0 auto; color: #fff; font-size: 18px; line-height: 46px;
+ text-align: center; position: absolute; top: -26px; left: 0; right: 0;
+ margin-left: auto; margin-right: auto; }
+
+ .up-btn-master.master:hover,
+.up-btn-master:focus { color: #fff; background: rgba(113,213,210,1); }
 
 body.landing-master .navbar-shrink a.btn{
     margin: 1.5em 1.5em 0;
@@ -582,30 +609,57 @@ body.landing-master h2 {
 }
 
 /* ====================
-Landing master Home
+ master Students
 ======================= */
 
-header.hero .hero-bg .hero-intro-text.hero-intro-image{
-      border-top: none;
+section#students{
 }
-.freebies#master h2{
-  font-size: 2em;
-  line-height: 1em;
+
+.w3_agileits_banner_bottom_left, .w3_agileits_banner_bottom_right {
+    padding: 0;
 }
-.freebies#master .overlay{
-  opacity: 1;
+.w3_agileits_banner_bottom_right {
+    background: #7AE2DE;
+    min-height: 443px !important;
+    position: relative;
 }
-.freebies#master figure figcaption .freebie-content .date{
-  font-size: 1.5em;
+.w3_agileits_banner_bottom_right_pos {
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    width: 100%;
 }
-.freebies#master p{
+body.landing-master .content .w3_agileits_banner_bottom_right_pos h3{
+  margin: 0;
   color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 140px;
+  font-weight: bold;
+}
+body.landing-master .content .w3_agileits_banner_bottom_right_pos h2{
+  margin: 0;
+}
+body.landing-master .content .w3_agileits_banner_bottom_right_pos p {
+    text-align: right;
+    position: relative;
+    padding-bottom: 4em;
 }
 
 /* ====================
-Landing master About
+ master Agenda
 ======================= */
 
+img.section-image-bg{
+  margin-bottom: -10px;
+}
+
+
+/* ====================
+Landing master About /training
+======================= */
+
+section#training h3,
 section#about h3{
   font-weight: 600;
   margin: 15px 0px 35px;
@@ -613,6 +667,7 @@ section#about h3{
   color: initial;
 }
 
+section#training h3:after,
 section#about h3:after {
     display: block;
     width: 120px;
@@ -627,7 +682,7 @@ Landing master Teachers
 ======================= */
 
 body.landing-master section#teachers{
-  margin-top: 3em;
+  /* margin-top: 3em; */ /*if not image bg*/
 }
 body.landing-master section#teachers .row + .row{
   margin-top: 3em;
@@ -733,4 +788,153 @@ Landing master Jobs (tabs)
 }
 
 
+/* ====================
+stats MASTER w3layouts.com
+======================= */
 
+.w3layouts_stats_left{
+       padding: 5em 0 4em 0;
+  text-align:center;
+}
+.w3layouts_stats_left p{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+    margin: 0.5em 0;
+}
+.w3layouts_stats_left h3 {
+       font-size: 1em;
+       color: #7AE2DE;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+
+}
+.w3layouts_stats_left i {
+    font-size: 2.5em;
+    color: #fff;
+}
+.w3l_stats_bottom_grid_left img{
+  margin:0 auto;
+}
+.statsMaster{
+   background: url(../img/master/testimonials-banner.jpg) no-repeat 0px -212px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    min-height: 300px;
+    text-align: center;
+}
+/*-- //stats --*/
+
+
+/* ====================
+ Testimonials Master w3layouts.com
+======================= */
+
+.w3layouts_event_left{
+  padding:0;
+}
+.w3layouts_event_right{
+  padding:5em;
+}
+.w3layouts_event_right h3{
+  font-size: 1.8em;
+      color: #262c38;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.w3layouts_event_right_para{
+  position: relative;
+    z-index: 1;
+    margin: 1em 0;
+}
+.w3layouts_event_right_para p{
+  font-size: 1.1em;
+      color: #545454;
+    width: 80%;
+    line-height: 2em;
+}
+.w3layouts_event_right_para_pos{
+  position:absolute;
+  top:0%;
+  left:0%;
+  z-index: -1;
+}
+.w3layouts_event_right_para_pos i{
+  font-size: 3em;
+    color: #7AE2DE;
+}
+.w3_agile_event_right_grid_left img{
+  border:5px solid #ff464f;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+  box-shadow: 0 0px 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+    -webkit-box-shadow: 0 0px 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+    -moz-box-shadow: 0 0px 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+    -o-box-shadow: 0 0px 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+    border: 1px solid #ddd;
+  margin:0 auto;
+}
+.w3_agile_event_right_grid_right h4{
+    font-size: 1.2em;
+    color: #494c52;
+    letter-spacing: 2px;
+    margin: 2em 0 .5em;
+    color: #262c38;
+    font-weight: 800;
+}
+.w3_agile_event_right_grid_right p{
+    color: #7AE2DE;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 1440px){
+  .w3layouts_event_right {
+      padding: 3em 5em 2em 5em;
+  }
+}
+
+/** custom  **/
+
+.w3layouts_event_right{
+  max-height: 430px;
+  overflow: hidden;
+}
+
+.w3layouts_event_right .flex-direction-nav{
+  display: none;
+}
+
+.flex-control-paging li a.flex-active {
+    background: #000;
+    background: rgba(113,213,210,1);
+    cursor: default;
+}
+
+/*-- //testimonials --*/
+
+
+
+/* ====================
+ Banner Master
+======================= */
+
+.banner-text h3 {
+    font-size: 2.5em;
+    letter-spacing: 5px;
+    color: #fff;
+    text-align: center;
+    line-height: 1.5em;
+    text-transform: capitalize;
+    padding-top: 2em;
+}

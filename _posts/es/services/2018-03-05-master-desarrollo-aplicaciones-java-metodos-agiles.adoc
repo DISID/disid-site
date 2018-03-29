@@ -48,12 +48,3 @@ GIS.
 . Capacitar al alumno/a para formar parte de un equipo de desarrollo Java en cualquier
 empresa del sector TIC y ser productivo/a desde el primer día de trabajo.
 
-
-##  Perfil de alumno
-
-El máster está dirigido a gran variedad de perfiles, es un máster tecnológico que puede ser seguido
-por cualquier perfil, tanto si es un profesional con formación en informática como si carece de
-conocimientos técnicos.
-
-El alumno/a sólo debe tener conocimientos en programación, saber leer textos técnicos en inglés y
-disponer de 12 horas semanales fuera del tiempo lectivo

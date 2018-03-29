@@ -17,6 +17,35 @@
   <!-- Animation scripts -->
   <script src="{{"/js/typewriter.js" | prepend: site.baseurl | prepend: site.url }}"></script>
 
+  <!-- Js master -->
+    <!-- start-smoth-scrolling -->
+    <script src="{{"/js/JiSlider.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+    <script>
+        $(window).load(function () {
+          //$('#JiSlider').JiSlider({color: '#fff', start: 3, reverse: true}).addClass('ff')
+        })
+      </script>
+    <!-- stats -->
+    <!-- <script src="js/jquery.waypoints.min.js"></script> -->
+    <script src="{{"/js/jquery.countup.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+      <script>
+        $('.counter').countUp();
+      </script>
+    <!-- //stats -->
+    <!-- flexSlider -->
+    <script src="{{"/js/jquery.flexslider.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+    <script type="text/javascript">
+      $(window).load(function(){
+        $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+        });
+      });
+    </script>
+  <!-- //flexSlider -->
+
   <!-- JS init -->
   <script src="{{"/js/scripts.js" | prepend: site.baseurl | prepend: site.url }}"></script>
 
