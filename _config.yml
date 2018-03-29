@@ -391,19 +391,27 @@ teachers:
       #url:
     - name: Juan Carlos García
       img: jgarcia.png
-      title: Software Architect en DISID
+      title: Profesor Seminario Spring Roo
+      job: Software Architect en DISID
+      #url:
+    - name: Luis Mahiques
+      img: lmahiques.jpeg
+      title: Profesor Java, Spring y DevOps
       #url:
     - name: Carlos Cabanes
       img: ccabanes.png
-      title: Director de proyectos en DISID
+      title: Profesor Seminario GIS
+      job: Director de proyectos en DISID
       #url:
     - name: Jorge Sánchez
       img: jsanchez.png
-      title: Trainer Oficial Scrum Manager
+      title: Profesor seminario Scrum
+      job: Trainer Oficial Scrum Manager
       #url:
     - name: Jorge Edo
       img: jedo.png
-      title: Trainer Oficial Axelos ITIL
+      title: Profesor seminario ITIL
+      job: Trainer Oficial Axelos ITIL
       #url:
 
 # Companies information. Shown on Master page.

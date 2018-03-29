@@ -20,12 +20,13 @@
                   {% endif %}
                    <h5>{{ teacher.name }}</h5>
                    <p>{{ teacher.title }}</p>
+                   <p>{{ teacher.job }}</p>
                 </div>
             {% endfor %}
         </div>
         <div class="row">
-            {% for teacher in site.teachers[page.lang] limit: 3 offset: 3 %}
-                <div class="col-xs-6 col-sm-4 text-center">
+            {% for teacher in site.teachers[page.lang] limit: 4 offset: 3 %}
+                <div class="col-xs-6 col-sm-3 text-center">
                   {% if teacher.url %}
                    <a href="{{ teacher.url }}" target="_blank" title="{{ teacher.title }}">
                     <img src="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/teachers/{{ teacher.img }}" class="img-circle">
@@ -35,39 +36,12 @@
                   {% endif %}
                    <h5>{{ teacher.name }}</h5>
                    <p>{{ teacher.title }}</p>
+                   <p>{{ teacher.job }}</p>
                 </div>
             {% endfor %}
         </div>
-        <div class="row">
-            {% for teacher in site.teachers[page.lang] limit: 3 offset: 6 %}
-                <div class="col-xs-6 col-sm-4 text-center">
-                  {% if teacher.url %}
-                   <a href="{{ teacher.url }}" target="_blank" title="{{ teacher.title }}">
-                    <img src="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/teachers/{{ teacher.img }}" class="img-circle">
-                   </a>
-                  {% else %}
-                   <img src="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/teachers/{{ teacher.img }}" class="img-circle">
-                  {% endif %}
-                   <h5>{{ teacher.name }}</h5>
-                   <p>{{ teacher.title }}</p>
-                </div>
-            {% endfor %}
-        </div>
-        <div class="row">
-            {% for teacher in site.teachers[page.lang] limit: 3 offset: 9 %}
-                <div class="col-xs-6 col-sm-4 text-center">
-                  {% if teacher.url %}
-                   <a href="{{ teacher.url }}" target="_blank" title="{{ teacher.title }}">
-                    <img src="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/teachers/{{ teacher.img }}" class="img-circle">
-                   </a>
-                  {% else %}
-                   <img src="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/teachers/{{ teacher.img }}" class="img-circle">
-                  {% endif %}
-                   <h5>{{ teacher.name }}</h5>
-                   <p>{{ teacher.title }}</p>
-                </div>
-            {% endfor %}
-        </div>
+
+
 
 <!--         <div class="row">
           <div class="text-center">
