@@ -1,0 +1,48 @@
+<section class="has-padding" id="training">
+    <div class="container">
+
+        <div class="row">
+          <div class="col-md-4 col-sm-4">
+            <h4>{{ site.t[page.lang].master-jobs.section-heading }} <br></h4>
+          </div>
+          <div class="col-md-8 col-sm-8">
+              <p class="text-muted">{{ site.t[page.lang].master-jobs.description }}</p>
+          </div>
+        </div>
+
+        {% assign collection=site.master-job | where:"lang", page.lang %}
+              {% for post in collection %}
+              {% if post.categories contains 'job' limit:include.limit %}
+            <div class="row">
+              <div class="col-md-4 col-sm-4">
+                <h4>{{ post.description }}<br></h4>
+              </div>
+              <div class="col-md-8 col-sm-8">
+                  <p class="text-muted">{{ post.content }}</p>
+              </div>
+            </div>
+           {% endif %}
+           {% endfor %}
+
+	      <div class="row">
+	        <div class="col-md-4 col-sm-4">
+	          <h4>{{ site.t[page.lang].master-companies.section-heading }} <br></h4>
+	        </div>
+	       <!--  <div class="col-md-8 col-sm-8">
+	            <p class="text-muted">{{ site.t[page.lang].master-companies.description }}</p>
+	        </div> -->
+	      </div>
+
+        <div class="page-body col-md-10 col-md-offset-1">
+	      <div class="row">
+            {% for company in site.companies %}
+                <div class="col-xs-4 col-sm-4">
+                   <a href="{{company.url}}" target="_blank" title="{{company.title}}">
+                    <img src="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/companies/{{ company.img }}" class="img-responsive">
+                   </a>
+                </div>
+            {% endfor %}
+        </div>
+        </div>
+    </div><!--/container -->
+</section>
