@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Próxima Edición
+title:
 icon: fa-calendar
 icon-delay: 51s
 categories:
@@ -8,6 +8,10 @@ categories:
   - featured
 lang: es
 ---
-16 de abril 2017
-a
-febrero de 2018
+Próxima
+
+edición
+
+de mayo 2018 a
+
+febrero de 2019

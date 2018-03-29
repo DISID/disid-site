@@ -5,6 +5,21 @@
  */
 
 
+/* ==========================================================================
+General
+========================================================================== */
+div.paragraph p{
+  text-align: justify;
+}
+div.paragraph.text-left p{
+  text-align: left;
+}
+div.paragraph.text-right p{
+  text-align: right;
+}
+div.paragraph.text-center p{
+  text-align: center;
+}
 
 /* ==========================================================================
 Navbar
@@ -505,12 +520,12 @@ Modal
 Landing master
 ========================================================================== */
 
-body.landing-master div.paragraph p{
-  text-align: justify;
-}
-
 body.landing-master .navbar-shrink a.btn{
     margin: 1.5em 1.5em 0;
+}
+
+body.landing-master .header-nav-wrapper nav ul li {
+    padding: 10px 10px;
 }
 body.landing-master .banner {
   background: url(../img/keyboard-bg.jpg) no-repeat center center;
@@ -551,9 +566,6 @@ body.landing-master h4.panel-title a.collapsed::after,
 body.landing-master h3.panel-title a.collapsed::after{
   float: right;
 }
-body.landing-master #teachers .row + .row{
-  margin-top: 1em;
-}
 body.landing-master li p{
     margin: 0;
     padding: 0;
@@ -565,10 +577,14 @@ body.landing-master section.master h2{
     text-transform: uppercase;
     color: initial;
 }
+body.landing-master h2 {
+    margin: 65px 0 65px 0px;
+}
 
+/* ====================
+Landing master Home
+======================= */
 
-
-/* Home */
 header.hero .hero-bg .hero-intro-text.hero-intro-image{
       border-top: none;
 }
@@ -586,7 +602,52 @@ header.hero .hero-bg .hero-intro-text.hero-intro-image{
   color: #fff;
 }
 
-/*section#job-works*/
+/* ====================
+Landing master About
+======================= */
+
+section#about h3{
+  font-weight: 600;
+  margin: 15px 0px 35px;
+  text-transform: uppercase;
+  color: initial;
+}
+
+section#about h3:after {
+    display: block;
+    width: 120px;
+    height: 2px;
+    margin-top: 15px;
+    content: '';
+    background-color: #7AE2DE;
+}
+
+/* ====================
+Landing master Teachers
+======================= */
+
+body.landing-master section#teachers{
+  margin-top: 3em;
+}
+body.landing-master section#teachers .row + .row{
+  margin-top: 3em;
+}
+body.landing-master section#teachers .row:last-child{
+  margin-bottom: 5em;
+}
+body.landing-master section#teachers .text-center h5{
+  margin-top: 1em;
+  clear: both;
+  width: 100%;
+}
+body.landing-master section#teachers .text-center .img-circle{
+  max-width: 70%;
+}
+
+
+/* ====================
+Landing master Jobs (tabs)
+======================= */
 
 .tall .nav-tabs>li>a, .tall .nav-tabs>li>a:focus, .tall .nav-tabs>li>a:hover,
 .tall .nav-tabs>li.active>a, .tall .nav-tabs>li.active>a:focus, .tall .nav-tabs>li.active>a:hover{

@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Duración
+title:
 icon: fa-clock-o
 icon-delay: 19s
 categories:
@@ -8,7 +8,11 @@ categories:
   - featured
 lang: es
 ---
-Más de 500 horas
 
-Equivalente a 60
-créditos ECTS
+De lunes a jueves
+
+16h a 20h
+
+Tutorias y refuerzo
+
+15h a 16h/20h a 21h

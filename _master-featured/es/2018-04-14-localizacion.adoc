@@ -1,0 +1,19 @@
+---
+layout: project
+title:
+icon: fa-map-marker
+icon-delay: 3s
+categories:
+  - es
+  - featured
+lang: es
+---
+
+Clases
+
+impartidas
+
+en la ciudad de
+
+Valencia
+

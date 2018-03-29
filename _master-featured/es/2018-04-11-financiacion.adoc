@@ -1,0 +1,13 @@
+---
+layout: project
+title:
+icon: fa-euro
+icon-delay: 35s
+categories:
+  - es
+  - featured
+lang: es
+---
+
+Facilidades de pago a la elección del alumno.
+Opciones de financiación.

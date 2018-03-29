@@ -158,7 +158,7 @@ t:
     intro-heading: "We are your best choice"
     learn-more: Learn more
     close: Close
-    footer-text: Sociedad Limitada 2013 CC BY-NC-SA 3.0 ES | Developed with Jekyll & Bootstrap
+    footer-text: Sociedad Limitada 2018 CC BY-NC-SA 3.0 ES | Developed with Jekyll & Bootstrap
     suscribe: Subscribe to stay in the loop
     suscribe-button: Subscribe me!
     contact: Drop us a line
@@ -190,9 +190,15 @@ t:
     master:
       button-info: Get more info
       contact: Contact with us
+      download-pdf: Download all info
+      name-pdf: mpja-programa-informativo.pdf
+      email: masterjava@disid.com
     master-teachers:
       section-heading: "Teachers"
-      description: TODO Heading sobre los profesores del master dónde se explique su calidad profesional y experiencia laboral
+      description:
+    master-companies:
+      section-heading: "Companies"
+      description:
     master-jobs:
       section-heading: "Salidas profesionales"
       description: Una vez terminado el máster, los alumnos saldrán suficientemente preparados para ejercer como analista programador, programador, Scrum Manager, responsable técnico, líder de proyecto de desarrollo o gestor de la demanda entre otros puestos.
@@ -239,9 +245,15 @@ t:
     master:
       button-info: Quiero más información
       contact: Contacta con nosotros
+      download-pdf: Descarga toda la información
+      name-pdf: mpja-programa-informativo.pdf
+      email: masterjava@disid.com
     master-teachers:
       section-heading: "Profesores"
-      description: TODO Heading sobre los profesores del master dónde se explique su calidad profesional y experiencia laboral
+      description:
+    master-companies:
+      section-heading: "Empresas que forman la bolsa de empleo"
+      description:
     master-jobs:
       section-heading: "Salidas profesionales"
       description: Una vez terminado el máster, los alumnos saldrán suficientemente preparados para ejercer como analista programador, programador, Scrum Manager, responsable técnico, líder de proyecto de desarrollo o gestor de la demanda entre otros puestos.
@@ -354,12 +366,12 @@ master-links:
     agenda:
       title: Temario
       url: "#agenda"
-#    teachers:
-#      title: Profesores
-#      url: "#teachers"
-#    employment:
-#      title: Empleo y prácticas
-#      url: "#job-works"
+    teachers:
+      title: Profesores
+      url: "#teachers"
+    employment:
+      title: Empleo y prácticas
+      url: "#training"
     about:
       title: Qué nos diferencia
       url: "#about"
@@ -369,57 +381,45 @@ master-links:
 
 # Teachers information. Shown on Master page.
 teachers:
-  en:
-    - name: Profesor 1
-      img: perfil.jpg
-      title: Profesor 1
-      url: https://linkedin.com/
-    - name: Profesor 2
-      img: perfil.jpg
-      title: Profesor 2
-      url: https://linkedin.com/
-    - name: Profesor 3
-      img: perfil.jpg
-      title: Profesor 3
-      url: https://linkedin.com/
-    - name: Profesor 4
-      img: perfil.jpg
-      title: Profesor 4
-      url: https://linkedin.com/
-    - name: Profesor 5
-      img: perfil.jpg
-      title: Profesor 5
-      url: https://linkedin.com/
-    - name: Profesor 6
-      img: perfil.jpg
-      title: Profesor 6
-      url: https://linkedin.com/
-
   es:
-    - name: Profesor 1
-      img: perfil.jpg
-      title: Profesor 1
-      url: https://linkedin.com/
-    - name: Profesor 2
-      img: perfil.jpg
-      title: Profesor 2
-      url: https://linkedin.com/
-    - name: Profesor 3
-      img: perfil.jpg
-      title: Profesor 3
-      url: https://linkedin.com/
-    - name: Profesor 4
-      img: perfil.jpg
-      title: Profesor 4
-      url: https://linkedin.com/
-    - name: Profesor 5
-      img: perfil.jpg
-      title: Profesor 5
-      url: https://linkedin.com/
-    - name: Profesor 6
-      img: perfil.jpg
-      title: Profesor 6
-      url: https://linkedin.com/
+    - name: David Peña
+      img: dpena.png
+      title: Director, coordinador y profesor del máster
+    - name: Enrique Ruiz
+      img: eruiz.png
+      title: Subdirector del máster
+      #url:
+    - name: Juan Carlos García
+      img: jgarcia.png
+      title: Software Architect en DISID
+      #url:
+    - name: Carlos Cabanes
+      img: ccabanes.png
+      title: Director de proyectos en DISID
+      #url:
+    - name: Jorge Sánchez
+      img: jsanchez.png
+      title: Trainer Oficial Scrum Manager
+      #url:
+    - name: Jorge Edo
+      img: jedo.png
+      title: Trainer Oficial Axelos ITIL
+      #url:
+
+# Companies information. Shown on Master page.
+companies:
+    - name: Alfatec
+      img: alfatec.png
+      title:
+      url: http://www.alfatecsistemas.es
+    - name: Pentec
+      img: pentec.png
+      title:
+      url: http://www.pentec.es
+    - name: DISID
+      img: disid.png
+      title:
+      url: http://www.disid.com
 
 #Collection
 collections:

@@ -1,7 +1,7 @@
 ---
 layout: project
-title: Precio
-icon: fa-euro
+title:
+icon: fa-bar-chart
 icon-delay: 35s
 categories:
   - es
@@ -17,5 +17,3 @@ lang: es
 Descuento lanzamiento: 50%
 
 3.500€
-
-Financiado
