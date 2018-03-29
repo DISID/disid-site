@@ -9,6 +9,7 @@ categories:
 lang: es
 ---
 
+[.text-left]
 El máster acerca a los
 alumnos/as a las empresas
 con interés real en los perfiles

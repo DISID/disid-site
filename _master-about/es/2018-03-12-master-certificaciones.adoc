@@ -11,6 +11,6 @@ lang: es
 El temario del máster está alineado con los temarios de las
 principales certificaciones TIC, lo que permitirá al alumno/a
 presentarse a exámenes oficiales y obtener hasta 7 certificaciones:
-Java SE Associate Level, Java SE Professional Level, Spring
-Professional, ITIL Foundation, SCRUM Manager, Spring Roo
-Associate, GIS Web Application Developer
+_Java SE Associate Level_, _Java SE Professional Level_, _Spring
+Professional_, _ITIL Foundation_, _SCRUM Manager_, _Spring Roo
+Associate_, _GIS Web Application Developer_.

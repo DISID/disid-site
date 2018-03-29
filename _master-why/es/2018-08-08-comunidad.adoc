@@ -9,6 +9,7 @@ categories:
 lang: es
 ---
 
+[.text-left]
 El máster conecta a los
 alumnos/as con la comunidad
 de desarrolladores de la

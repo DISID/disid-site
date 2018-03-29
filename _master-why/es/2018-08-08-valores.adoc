@@ -9,6 +9,7 @@ categories:
 lang: es
 ---
 
+[.text-left]
 Un máster que apuesta por
 maximizar
 valores

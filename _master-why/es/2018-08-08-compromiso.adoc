@@ -9,12 +9,11 @@ categories:
 lang: es
 ---
 
+[.text-left]
 El máster ha sido diseñado
 para que los alumnos puedan
-superarlo, ningún alumno/a se
+superarlo. Ningún alumno/a se
 quedará atrás y siempre
-asumiendo
-que
-cada
-alumno/a tiene su propio ritmo
-de aprendizaje
+asumiendo que
+cada alumno/a tiene su propio ritmo
+de aprendizaje.

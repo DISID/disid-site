@@ -9,16 +9,10 @@ categories:
 lang: es
 ---
 
+[.text-left]
 Las principales empresas del
 sector se han interesado por
 el máster: este máster abre
-puertas. El máster acerca a los
-alumnos/as a las empresas
-con interés real en los perfiles
-del máster, ya que conocen
-los contenidos del máster, y
-se identifican como ofertantes
-en la bolsa de trabajo.
-Los alumnos/as del máster
+puertas. Los alumnos/as del máster
 son los mejor preparados, y
 las empresas lo saben.

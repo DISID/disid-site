@@ -11,39 +11,26 @@ lang: es
 [.col-sm-3]
 ### ITINERARIOS
 
-Los itinerarios son conjuntos de lecciones con una temática concreta. Cada lección tiene sus propios
+[.text-left]
+Lecciones de temática concreta. Cada lección tiene sus propios
 objetivos, material de referencia, práctica, práctica opcional y evaluación de conocimientos.
-
-* DevTools
-* Java básico
-* Java avanzado
-* Javascript
-* Datos persistentes
-* Spring
-* Buenas prácticas
 
 [.col-sm-3]
 ### SEMINARIOS
 
-Cada seminario formará al alumno/a en conocimientos específicos en una tecnología o metodología:
-
-* Scrum
-* ITIL
-* Front-end
-* DevOps
-* GIS
-* Spring Roo
+[.text-left]
+Cada seminario formará al alumno/a en conocimientos específicos en una tecnología o metodología.
 
 [.col-sm-3]
 ### MENTORIAS
 
-Las mentorias son sesiones destinadas al seguimiento de la progresión individual de cada alumno/a,
+[.text-left]
+Sesiones destinadas al seguimiento de la progresión individual de cada alumno/a,
 un tiempo dedicado en exclusiva para sus dudas y analizar el desempeño en el itinerario.
 
 [.col-sm-3]
 ### DESCANSOS
 
-Los descansos son semanas puntuales a lo largo del máster donde no habrá clase. Las vacaciones
-no son propiamente una oportunidad para retomar rutinas cotidianas, por lo que los descansos
-ofrecen al alumno/a una oportunidad de retomar durante una semana su ritmo habitual o aprovechar
-para poder estudiar o completar las tareas pendientes.
+[.text-left]
+Semanas puntuales sin clase que ofrecen al alumno/a una oportunidad de retomar su
+ritmo habitual y aprovechar para poder estudiar o completar las tareas pendientes.
