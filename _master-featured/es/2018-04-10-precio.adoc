@@ -10,10 +10,10 @@ lang: es
 ---
 +++
 <strike>
-7.000€
+7.400€
 </strike>
 +++
 
 Descuento lanzamiento: 50%
 
-3.500€
+3.700€
