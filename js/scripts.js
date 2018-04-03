@@ -272,3 +272,11 @@ $(document).ready(function(){
         });
     }
 });
+
+
+/***************** Open master form ******************/
+
+$('a.openForm').on('click', function() {
+  $("#collapseContact").addClass('in');
+})
+
