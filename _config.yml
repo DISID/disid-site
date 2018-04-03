@@ -191,7 +191,7 @@ t:
       button-info: Get more info
       contact: Contact with us
       download-pdf: Download all info
-      name-pdf: mpja-programa-informativo.pdf
+      name-pdf:
       email: masterjava@disid.com
     master-teachers:
       section-heading: "Teachers"
@@ -246,7 +246,7 @@ t:
       button-info: Quiero más información
       contact: Contacta con nosotros
       download-pdf: Descarga toda la información
-      name-pdf: mpja-programa-informativo.pdf
+      name-pdf:
       email: masterjava@disid.com
     master-teachers:
       section-heading: "Profesores"
