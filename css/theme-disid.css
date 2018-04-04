@@ -134,17 +134,12 @@ Navbar
   padding: 0 15px;
 }
 
-.header-nav-wrapper {
-    background-color: transparent;
+@media screen and (min-width: 480px){
+  .header-nav-wrapper {
+      background-color: transparent;
+  }
 }
-.header-nav-wrapper .logo {
-    display: inline-block;
-    width: 200px;
-    padding: 30px 0;
-    text-align: center;
-    border-bottom: none;
-    background-color: transparent;
-}
+
 .secondary-nav-wrapper ul.secondary-nav li.subscribe a,
 .header-nav-wrapper nav ul li a {
     color: #fff;
@@ -551,8 +546,6 @@ Portfolio Modal
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
-
-
 
 
 

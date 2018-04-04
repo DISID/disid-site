@@ -5,7 +5,7 @@
                 {% assign collection=site.master-featured | where:"lang", page.lang %}
                 {% for post in collection %}
                   {% if post.categories contains 'featured' limit:include.limit %}
-                  <div class="item col-xs-4 col-sm-4 col-md-2">
+                  <div class="item col-xs-12 col-sm-4 col-md-2">
                     <div class="content">
                       <div class="icon-holder pull-left">
                           <span class="wow bounceIn fa-3x fa {{ post.icon }}" data-wow-delay=".{{ post.icon-delay }}"></span>

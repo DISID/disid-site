@@ -10,7 +10,7 @@
 
 	      <div class="row">
             {% for teacher in site.teachers[page.lang] limit: 3 %}
-                <div class="col-xs-6 col-sm-4 text-center">
+                <div class="col-xs-12 col-sm-4 text-center">
                   {% if teacher.url %}
                    <a href="{{ teacher.url }}" target="_blank" title="{{ teacher.title }}">
                     <img src="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/teachers/{{ teacher.img }}" class="img-circle">
@@ -26,7 +26,7 @@
         </div>
         <div class="row">
             {% for teacher in site.teachers[page.lang] limit: 4 offset: 3 %}
-                <div class="col-xs-6 col-sm-3 text-center">
+                <div class="col-xs-12 col-sm-3 text-center">
                   {% if teacher.url %}
                    <a href="{{ teacher.url }}" target="_blank" title="{{ teacher.title }}">
                     <img src="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/teachers/{{ teacher.img }}" class="img-circle">

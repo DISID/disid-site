@@ -36,7 +36,7 @@
         <div class="page-body col-md-10 col-md-offset-1">
 	      <div class="row">
             {% for company in site.companies %}
-                <div class="col-xs-4 col-sm-4">
+                <div class="col-xs-12 col-sm-4">
                    <a href="{{company.url}}" target="_blank" title="{{company.title}}">
                     <img src="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/companies/{{ company.img }}" class="img-responsive">
                    </a>
