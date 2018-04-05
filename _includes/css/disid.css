@@ -626,26 +626,27 @@ section#students{
     position: relative;
 }
 .w3_agileits_banner_bottom_right_pos {
-    position: absolute;
-    top: 5%;
-    left: 40%;
-    width: 100%;
+    /* position: absolute; */
+    /* top: 5%; */
+    /* left: 40%; */
+    width: 70%;
+    margin-left: 25%;
 }
 body.landing-master .content .w3_agileits_banner_bottom_right_pos h3{
-  margin: 0;
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
-  width: 140px;
   font-weight: bold;
+  margin: 2em 0 0;
 }
 body.landing-master .content .w3_agileits_banner_bottom_right_pos h2{
-  margin: 0;
+  margin: 0 0 1em;
 }
 body.landing-master .content .w3_agileits_banner_bottom_right_pos p {
     text-align: right;
     position: relative;
     padding-bottom: 4em;
+    color:  white;
 }
 
 /* ====================
@@ -984,7 +985,7 @@ Media queries
 @media screen and (max-width: 1020px){
 
   body.landing-master .header-nav-wrapper{
-    display: table; 
+    display: table;
     width: 100%;
   }
   body.landing-master .w3_agileits_banner_bottom_right_pos{
@@ -1007,7 +1008,7 @@ Media queries
     max-height: 100%;
     overflow: hidden;
   }
-  
+
 }
 
 @media (min-width: 1020px) and (max-width: 1200px){
@@ -1033,6 +1034,9 @@ Media queries
     margin: 0;
   }
 }
+
+
+
 
 
 

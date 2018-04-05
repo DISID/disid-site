@@ -420,10 +420,22 @@ companies:
       img: alfatec.png
       title:
       url: http://www.alfatecsistemas.es
+    - name: EDICOM
+      img: edicom.png
+      title:
+      url: http://www.edicomgroup.com
+    - name: ODEC
+      img: odec.png
+      title:
+      url: http://www.odec.es
     - name: Pentec
       img: pentec.png
       title:
       url: http://www.pentec.es
+    - name: S2 Grupo
+      img: s2grupo.png
+      title:
+      url: http://www.s2grupo.es
     - name: DISID
       img: disid.png
       title:
