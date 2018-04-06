@@ -193,6 +193,8 @@ t:
       download-pdf: Download all info
       name-pdf:
       email: masterjava@disid.com
+      socialmedia: Redes sociales
+      twitter: MasterJava_es
     master-teachers:
       section-heading: "Teachers"
       description:
@@ -248,6 +250,8 @@ t:
       download-pdf: Descarga toda la información
       name-pdf:
       email: masterjava@disid.com
+      socialmedia: Redes sociales
+      twitter: MasterJava_es
     master-teachers:
       section-heading: "Profesores"
       description:

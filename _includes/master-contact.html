@@ -6,7 +6,7 @@
       </div>
     </div>
     <div class="row contact-details">
-      <div class="col-md-4">
+      <div class="col-md-3">
         <div class="light-box box-hover">
           <i class="fa fa-map-marker fa-3x"></i>
           <span>{{ site.t[page.lang].adress }}</span>
@@ -15,18 +15,27 @@
             {% endfor %}</p>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-3">
         <div class="light-box box-hover">
           <i class="fa fa-phone fa-3x"></i>
           <span>{{ site.t[page.lang].phone }}</span>
           <p><br> {{ site.tel }}</p>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-3">
         <div class="light-box box-hover">
           <i class="fa fa-envelope-o fa-3x"></i>
           <span>Email</span>
           <p><br> <a class="email" href="mailto:{{ site.t[page.lang].master.email }}">{{ site.t[page.lang].master.email }}</a></p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="light-box box-hover">
+          <i class="fa fa-twitter fa-3x"></i>
+          <span>{{ site.t[page.lang].master.socialmedia }}</span>
+          <p><br>
+          <a href="https://twitter.com/{{ site.t[page.lang].master.twitter }}" title="Ir al perfil en twitter" target="_blank">
+              @{{ site.t[page.lang].master.twitter }}</a></p>
         </div>
       </div>
     </div>
