@@ -11,7 +11,3 @@ lang: es
 Más de
 
 500 horas
-
-equivalente a
-
-60 créditos ECTS
