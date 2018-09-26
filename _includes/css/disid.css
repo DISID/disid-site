@@ -343,6 +343,21 @@ Customized by DISID
   padding-bottom: 0;
 }
 
+@media (min-width: 768px){
+  .tab-pane .dl-horizontal dt {
+      width: 500px;
+  }
+  .tab-pane .dl-horizontal dd {
+    margin-left: 520px;
+    margin-bottom: 10px;
+  }
+}
+.tab-pane .dl-horizontal dt {
+  font-weight: bold;
+}
+
+
+
 /* ==========================================================================
 Panel accordion
 ========================================================================== */

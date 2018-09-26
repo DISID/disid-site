@@ -41,8 +41,9 @@ y la directiva europea 2007/2/CE para la creación de una Infraestructura de Dat
 <div class="tabbable-panel">
     <div class="tabbable-line">
         <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="#general" aria-controls="general" role="tab" data-toggle="tab">Objetivo general de la empresa en el proyecto en cooperación</a></li>
-            <li role="presentation"><a href="#especificos" aria-controls="especificos" role="tab" data-toggle="tab">Objetivos técnicos específicos de empresa en el proyecto</a></li>
+            <li role="presentation" class="active col-sm-4"><a href="#general" aria-controls="general" role="tab" data-toggle="tab">Objetivo general de la empresa en el proyecto en cooperación</a></li>
+            <li role="presentation" class="col-sm-4"><a href="#especificos" aria-controls="especificos" role="tab" data-toggle="tab">Objetivos técnicos específicos de empresa en el proyecto</a></li>
+            <li role="presentation" class="col-sm-4"><a href="#detalles" aria-controls="detalles" role="tab" data-toggle="tab">Desarrollo <br>del proyecto</a></li>
         </ul>
         <div class="tab-content">
             <div role="tabpanel" class="tab-pane active" id="general">
@@ -63,6 +64,16 @@ de la siguiente forma:</p>
 <li>Reutilización: se interconectará la plataforma con otras fuentes de datos geoespaciales existentes y que sean relevantes para los procesos administrativos seleccionados. El objetivo será no duplicar la información y mantenerla correctamente actualizada.</li>
 </ol>
 </div>
+<div role="tabpanel" class="tab-pane" id="detalles">
+                <dl class="dl-horizontal">
+                <dt>Lugar de ejecución del proyecto:</dt>
+                <dd>Valencia</dd>
+                <dt>Plazo de ejecución del proyecto:</dt>
+                <dd>Del 01/01/2017 al 30/06/2018</dd>
+                <dt>Presupuesto del proyecto:</dt>
+                <dd>229.256€</dd>
+                </dl>
+            </div>
         </div>
     </div>
 </div>
@@ -75,12 +86,16 @@ de la siguiente forma:</p>
         <!-- Card Projects -->
         <div class="col-md-8 col-md-offset-2">
             <div class="">
+            <div class="card-content">
+                 <p class="text-center">Este proyecto cuenta con la cofinanciación a cargo del Fondo Europeo de Desarrollo Regional (FEDER) y del Centro para el Desarrollo Tecnológico Industrial dentro del Programa Operativo de Crecimiento Inteligente</p>
+                </div>
                 <div class="card-image">
                     <img class="img-responsive" style="margin: 1em auto 2em" alt="Logotipo conjunto CDTI-Ministerio de Economía, Industria y Competitividad"
                     src="http://www.disid.com/assets/img/projects/logo-cdti.jpg">
                 </div>
-                <div class="card-content">
-                 <p class="text-center">Este proyecto cuenta con la financiación a cargo del Programa Operativo de Crecimiento Inteligente - FEDER</p>
+                <div class="card-action text-right">
+                    <a href="https://www.cdti.es/index.asp" target="new_blank"> Toda la información sobre CDTI
+                    <i class="fa fa-chevron-right"></i></a>
                 </div>
                 <div class="card-image">
                     <img class="img-responsive" style="margin: 1em auto 3em" alt="Logotipo FEDER"
